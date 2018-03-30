@@ -2,18 +2,18 @@ import React, {Component} from 'react';
 import {connect} from 'react-redux';
 import PropTypes from 'prop-types';
 import {addNavigationHelpers, StackNavigator} from 'react-navigation';
-import {addListener} from "../utils/redux";
-import Main from '../scenes/Main';
-import Login from '../scenes/Login';
+import {addListener} from '../utils/redux';
+import Login from '../containers/Login';
+import MainTabNavigator from './MainTabNavigator';
 
 export const AppNavigator = StackNavigator({
     Main: {
-        screen: Main,
-        path: 'mt/main'
+        screen: MainTabNavigator,
+        path: 'jd/main'
     },
     Login: {
         screen: Login,
-        path: 'mt/login'
+        path: 'jd/login'
     }
 });
 
@@ -30,7 +30,7 @@ class AppWithNavigationState extends Component {
                 dispatch: this.props.dispatch,
                 state: this.props.nav,
                 addListener,
-            })} />
+            })}/>
         );
     }
 }

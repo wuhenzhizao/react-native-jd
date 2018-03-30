@@ -1,9 +1,9 @@
 import {AppNavigator} from '../navigators/AppNavigator';
 import {NavigationActions} from 'react-navigation';
 
-// const mainAction = AppNavigator.router.getActionForPathAndParams('main');
+// const mainAction = AppNavigator.router.getActionForPathAndParams('jd/main');
 // const tempNavState = AppNavigator.router.getStateForAction(mainAction);
-// const loginAction = AppNavigator.router.getActionForPathAndParams('login');
+// const loginAction = AppNavigator.router.getActionForPathAndParams('jd/login');
 // const initialNavState = AppNavigator.router.getStateForAction(
 //     loginAction,
 //     tempNavState

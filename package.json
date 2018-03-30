@@ -1,5 +1,5 @@
 {
-  "name": "com.wuhenzhizao.meituan",
+  "name": "com.wuhenzhizao.jd",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -28,13 +28,13 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wuhenzhizao/react-native-meituan.git"
+    "url": "git+https://github.com/wuhenzhizao/react-native-jd.git"
   },
   "author": "wuhenzhizao",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/wuhenzhizao/react-native-meituan/issues"
+    "url": "https://github.com/wuhenzhizao/react-native-jd/issues"
   },
-  "homepage": "https://github.com/wuhenzhizao/react-native-meituan#readme",
+  "homepage": "https://github.com/wuhenzhizao/react-native-jd#readme",
   "description": ""
 }
