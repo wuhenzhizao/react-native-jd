@@ -4,6 +4,9 @@ import AppWithNavigationState from './app/navigators/AppNavigator';
 import configureStore from "./app/store/Store";
 
 let store = configureStore();
+store.subscribe(() => {
+   console.log(store.getState());
+});
 
 export default class App extends Component {
     render() {

@@ -1,3 +1,4 @@
+import {PixelRatio} from 'react-native';
 import Colors from './Colors';
 
 export default {
@@ -5,6 +6,8 @@ export default {
         backgroundColor: Colors.white,
         height: 45,
         elevation: 0,
+        borderBottomColor: '#cbcbcb',
+        borderBottomWidth: 1 / PixelRatio.get()
     },
     titleStyle: {
         color: Colors.text_gray_dark,
