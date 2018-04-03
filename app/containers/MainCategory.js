@@ -18,6 +18,7 @@ class MainCategory extends Component {
     });
 
     render() {
+        console.log(this.props);
         return <View style={styles.container}>
             <StatusBar
                 translucent={false}
@@ -55,7 +56,9 @@ class MainCategory extends Component {
         let type = item.type;
         switch (type) {
             case 'promotion':
-                return <CategoryPromotionCell item={item}/>;
+                return <CategoryPromotionCell
+                    item={item.item}
+                    {...this.props}/>;
             case 'header':
             case 'headerWithRanking':
             case 'normalUI':

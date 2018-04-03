@@ -62,9 +62,9 @@ class LoadingImage extends Component {
                             }
                             <Image
                                 style={placeholderStyle ? placeholderStyle : [styles.imagePlaceholderStyles, customImagePlaceholderDefaultStyle]}
-                                source={source ? source : require('../images/icon_default.png')}
-                                borderRadius={borderRadius}
+                                source={placeholderSource ? placeholderSource : require('../images/icon_default.png')}
                                 resizeMode={resizeMode}
+                                borderRadius={borderRadius}
                             >
                             </Image>
                         </View>

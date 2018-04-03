@@ -12,6 +12,7 @@
     "react-native": "0.54.3",
     "react-native-image-zoom-viewer": "^2.1.0",
     "react-native-vector-icons": "^4.6.0",
+    "react-native-webp-support": "TGPSKI/react-native-webp-support",
     "react-navigation": "^1.5.8",
     "react-navigation-redux-helpers": "^1.0.3",
     "react-redux": "^5.0.7",

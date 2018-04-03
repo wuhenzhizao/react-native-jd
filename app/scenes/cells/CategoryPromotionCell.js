@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
-import {View, StyleSheet} from 'react-native';
-import LoadingImage from '../../components/LoadingImage';
+import {Image, StyleSheet, View} from 'react-native';
 
 export default class CategoryPromotionCell extends Component {
 
@@ -11,12 +10,12 @@ export default class CategoryPromotionCell extends Component {
     };
 
     render() {
+        console.log(this.props.item.imageUrl);
         return <View>
-            <LoadingImage
+            <Image
                 style={styles.promotion}
-                placeholder={require('../../images/banner_default.png')}
                 resizeMode={'cover'}
-                source={{uri: this.props.item.imageUrl}}/>
+                source={{uri: 'https://m.360buyimg.com/mobilecms/s530x180_jfs/t5803/108/2354279071/106333/90538df2/592fbeefN2adb55ce.JPG'}}/>
         </View>;
     }
 }
@@ -28,6 +27,7 @@ const styles = StyleSheet.create({
         marginLeft: 10,
         marginRight: 10,
         marginTop: 15,
-        marginBottom: 10
+        marginBottom: 10,
+        backgroundColor: '#FF0000'
     }
 });

@@ -26,3 +26,11 @@ export const parseCategory = (index) => {
     categoryMap.set(index, detail);
     return detail;
 };
+
+export const parseWebp = (url: string) => {
+    let newUrl = `${url}`;
+    if (url.indexOf('.webp') >= 0) {
+        url.replace('.webp', '');
+    }
+    return url;
+};
