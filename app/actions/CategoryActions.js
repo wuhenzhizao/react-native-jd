@@ -21,19 +21,6 @@ export const loadRootCategoryList = () => {
             });
         }, 1000);
     };
-
-    return dispatch => {
-        // 模拟网络请求
-        setTimeout(() => {
-            ...
-            dispatch({
-                type: ActionTypes.GET_CATEGORY_LIST,
-                payload: {
-                    categoryList
-                }
-            });
-        }, 1000);
-    };
 };
 
 
