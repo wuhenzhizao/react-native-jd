@@ -1,4 +1,5 @@
 import ActionTypes from '../constants/ActionTypes';
+import {categoryMap, parseCategory} from '../utils/DataParser';
 
 /**
  * 请求一级分类数据
@@ -22,16 +23,15 @@ export const loadRootCategoryList = () => {
     };
 };
 
-const categoryMap = new Map();
 
-export const loadCategoryDetail = (categoryName) => {
-    if (categoryMap.has(categoryName)) {
+export const loadCategoryDetail = (index) => {
+    if (categoryMap.has(index)) {
         return dispatch => {
             // 模拟网络请求
             dispatch({
                 type: ActionTypes.GET_CATEGORY_DETAIL,
                 payload: {
-                    detail: categoryMap.get(categoryName)
+                    detail: categoryMap.get(index)
                 }
             });
         };
@@ -39,11 +39,11 @@ export const loadCategoryDetail = (categoryName) => {
         return dispatch => {
             // 模拟网络请求
             setTimeout(() => {
-                let detail = require(`../../data/category_detail_${categoryName}.json`);
+                // 组装数据
                 dispatch({
                     type: ActionTypes.GET_CATEGORY_DETAIL,
                     payload: {
-                        detail
+                        detail: parseCategory(index)
                     }
                 });
             }, 1000);
@@ -51,11 +51,38 @@ export const loadCategoryDetail = (categoryName) => {
     }
 };
 
-export const changeCategory = (index) => {
+export const onRootCategoryClick = (index) => {
     return {
         type: ActionTypes.CHANGE_CATEGORY,
         payload: {
             index
+        }
+    };
+};
+
+export const onPromotionClick = (item) => {
+    return {
+        type: ActionTypes.DISPATCH_PROMOTION,
+        payload: {
+            item
+        }
+    };
+};
+
+export const onRankingClick = (item) => {
+    return {
+        type: ActionTypes.DISPATCH_RANKING,
+        payload: {
+            item
+        }
+    };
+};
+
+export const onCategoryClick = (item) => {
+    return {
+        type: ActionTypes.DISPATCH_PRODUCT_LIST,
+        payload: {
+            item
         }
     };
 };

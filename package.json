@@ -7,14 +7,16 @@
     "test": "jest"
   },
   "dependencies": {
+    "prop-types": "latest",
     "react": "^16.3.0-alpha.1",
     "react-native": "0.54.3",
+    "react-native-image-zoom-viewer": "^2.1.0",
+    "react-native-vector-icons": "^4.6.0",
     "react-navigation": "^1.5.8",
     "react-navigation-redux-helpers": "^1.0.3",
     "react-redux": "^5.0.7",
     "redux": "^3.7.2",
-    "redux-thunk": "^2.2.0",
-    "prop-types": "latest"
+    "redux-thunk": "^2.2.0"
   },
   "devDependencies": {
     "babel-jest": "22.4.3",

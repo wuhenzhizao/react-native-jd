@@ -1,37 +1,19 @@
 import React, {Component} from 'react';
-import {FlatList, Image, PixelRatio, Platform, StatusBar, StyleSheet, View} from 'react-native';
+import {FlatList, PixelRatio, StatusBar, StyleSheet, View} from 'react-native';
 import Styles from '../constants/Styles';
-import CategoryRootCell from '../components/CategoryRootCell';
+import CategoryRootCell from '../scenes/cells/CategoryRootCell';
 import Colors from '../constants/Colors';
-import {changeCategory, loadRootCategoryList} from '../actions/CategoryActions';
+import * as categoryActions from '../actions/CategoryActions';
 import {connect} from 'react-redux';
+import CategoryHeader from '../scenes/CategoryHeader';
+import {bindActionCreators} from 'redux';
+import CategoryPromotionCell from '../scenes/cells/CategoryPromotionCell';
 
 class MainCategory extends Component {
 
     static navigationOptions = ({navigation}) => ({
         headerStyle: Styles.titleBarStyle,
-        header: <View style={[Styles.titleBarStyle, {
-            height: 65,
-            flexDirection: 'row',
-            alignItems: 'center',
-            justifyContent: 'space-between',
-            paddingTop: Platform.OS === 'ios' ? 20 : 0
-        }]}>
-            <Image
-                style={styles.titleLeft}
-                source={require('../images/category_camera_7_gray.png')}/>
-            <View style={styles.titleSearchContainer}>
-                <Image
-                    style={{marginLeft: 10, marginRight: 10}}
-                    source={require('../images/category_search_bar_icon.png')}/>
-                <Image
-                    style={{marginLeft: 10, marginRight: 10, width: 17, height: 17}}
-                    source={{uri: 'https://m.360buyimg.com/mobilecms/jfs/t5410/348/1865705786/7246/2c7b98cf/59152012Na4a00f6d.png'}}/>
-            </View>
-            <Image
-                style={styles.titleRight}
-                source={require('../images/category_message_btn_n.png')}/>
-        </View>,
+        header: <CategoryHeader/>,
         gesturesEnabled: true
     });
 
@@ -42,14 +24,21 @@ class MainCategory extends Component {
                 barStyle={'dark-content'}
                 networkActivityIndicatorVisible={true}/>
             <View style={styles.categoryContainer}>
-                <FlatList
-                    style={styles.rootCategoryList}
-                    data={this.props.categoryList}
-                    horizontal={false}
-                    keyExtractor={(item: any, index: number) => `key${index}`}
-                    renderItem={this.renderRootCategoryItem}
-                    ItemSeparatorComponent={this.renderRootCategoryDivider}/>
+                <View style={styles.rootCategoryList}>
+                    <FlatList
+                        style={styles.rootCategoryList}
+                        data={this.props.categoryList}
+                        horizontal={false}
+                        keyExtractor={(item: any, index: number) => `key${index}`}
+                        renderItem={this.renderRootCategoryItem}
+                        ItemSeparatorComponent={this.renderRootCategoryDivider}/>
+                </View>
                 <View style={styles.secondCategoryList}>
+                    <FlatList
+                        data={this.props.items}
+                        horizontal={false}
+                        keyExtractor={(item: any, index: number) => `key${index}`}
+                        renderItem={this.renderSecondCategoryItem}/>
                 </View>
             </View>
         </View>;
@@ -58,9 +47,24 @@ class MainCategory extends Component {
     renderRootCategoryItem = ({item, index}) => {
         return <CategoryRootCell
             item={item}
-            onItemClicked={() => {
-                this.props.dispatch(changeCategory(index));
-            }}/>;
+            index={index}
+            {...this.props} />;
+    };
+
+    renderSecondCategoryItem = ({item, index}) => {
+        let type = item.type;
+        switch (type) {
+            case 'promotion':
+                return <CategoryPromotionCell item={item}/>;
+            case 'header':
+            case 'headerWithRanking':
+            case 'normalUI':
+            case 'specialUI':
+        }
+        return <CategoryRootCell
+            item={item}
+            index={index}
+            {...this.props} />;
     };
 
     renderRootCategoryDivider = () => {
@@ -68,53 +72,45 @@ class MainCategory extends Component {
     };
 
     componentDidMount() {
-        this.props.dispatch(loadRootCategoryList());
+        let {loadRootCategoryList, loadCategoryDetail} = this.props;
+        loadRootCategoryList();
+        loadCategoryDetail(0);
     }
 }
 
 const mapStateToProps = (state) => {
     return {
-        categoryList: state.category.categoryList
+        categoryList: state.category.categoryList,
+        items: state.category.items,
     };
 };
 
-export default connect(mapStateToProps)(MainCategory);
+const mapDispatchToProps = (dispatch) => {
+    return bindActionCreators(categoryActions, dispatch);
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(MainCategory);
 
 const styles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: '#f3f5f7'
     },
-    titleLeft: {
-        marginLeft: 15,
-    },
-    titleRight: {
-        marginRight: 15,
-    },
-    titleSearchContainer: {
-        flex: 1,
-        flexDirection: 'row',
-        alignItems: 'center',
-        justifyContent: 'space-between',
-        height: 30,
-        marginLeft: 15,
-        marginRight: 15,
-        backgroundColor: '#f0f2f5',
-        borderRadius: 20,
-    },
-    titleSearch: {},
     categoryContainer: {
+        flex: 1,
         flexDirection: 'row',
         alignItems: 'stretch'
     },
     rootCategoryList: {
-        flex: 1
+        flex: 1,
+        flexDirection: 'column',
     },
     rootCategoryListDivider: {
         height: 1 / PixelRatio.get(),
         backgroundColor: Colors.divider
     },
     secondCategoryList: {
-        flex: 3
+        flex: 3,
+        flexDirection: 'column',
     }
 });

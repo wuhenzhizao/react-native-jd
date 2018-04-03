@@ -1,24 +1,24 @@
 import React, {Component} from 'react';
 import {StyleSheet, Text, TouchableOpacity, PixelRatio} from 'react-native';
 import PropTypes from 'prop-types';
-import Colors from '../constants/Colors';
+import Colors from '../../constants/Colors';
 
 export default class CategoryRootCell extends Component {
 
     static propTypes: {
         item: PropTypes.object.isRequired,
-        onItemClicked: PropTypes.func.isRequired
+        onRootCategoryClick: PropTypes.func.isRequired
     };
 
     render() {
-        let {item, onItemClicked} = this.props;
+        let {item, index, onRootCategoryClick} = this.props;
         return <TouchableOpacity
             activeOpacity={1.0}
             style={[styles.container, {
                 backgroundColor: item.isSelected ? '#f3f5f7' : Colors.white,
                 borderRightWidth: item.isSelected ? 0 : 1 / PixelRatio.get()
             }]}
-            onPress={onItemClicked}>
+            onPress={() => onRootCategoryClick(index)}>
             <Text
                 style={[styles.categoryName, {
                     color: item.isSelected ? '#f23030' : Colors.text_gray
