@@ -1,0 +1,754 @@
+{
+  "data": [
+    {
+      "icon": "",
+      "special_ui": false,
+      "name": "热门分类",
+      "categoryList": [
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t15172/265/2583185652/7222/2d4c92c7/5aa8f702N25b742a3.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "男鞋新品",
+          "name": "新品推荐",
+          "isMerger": false,
+          "path": "300014671_300014672_300015934",
+          "virtualFlag": 1,
+          "cid": 300015934
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t15217/100/2580365500/6940/8b51544b/5aa8f6f2N95f5a94b.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "男鞋",
+          "name": "男鞋",
+          "isMerger": false,
+          "path": "300014671_300014672_300015935",
+          "virtualFlag": 1,
+          "cid": 300015935
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t17773/70/792581813/8377/3df95e3f/5aa8f6e5N7838a057.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "休闲皮鞋 男",
+          "name": "休闲皮鞋",
+          "isMerger": false,
+          "path": "300014671_300014672_100002691",
+          "virtualFlag": 1,
+          "cid": 100002691
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t15277/284/2562863036/8660/1d5ddc22/5aa8f6cfNccd962be.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "商务休闲鞋",
+          "name": "商务休闲鞋",
+          "isMerger": false,
+          "path": "300014671_300014672_300015936",
+          "virtualFlag": 1,
+          "cid": 300015936
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t18367/23/781883705/5326/fb6e904e/5aa8f6c2Nf943753f.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "板鞋 男",
+          "name": "板鞋",
+          "isMerger": false,
+          "path": "300014671_300014672_300015736",
+          "virtualFlag": 1,
+          "cid": 300015736
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t16612/229/802475597/6236/5aa874bd/5aa8f6aeN4648dd92.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "帆布鞋 男",
+          "name": "帆布鞋",
+          "isMerger": false,
+          "path": "300014671_300014672_300014938",
+          "virtualFlag": 1,
+          "cid": 300014938
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t19363/223/846069631/7286/678e6a6/5aa8f696Na065462f.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "运动休闲鞋 男",
+          "name": "运动休闲鞋",
+          "isMerger": false,
+          "path": "300014671_300014672_300015937",
+          "virtualFlag": 1,
+          "cid": 300015937
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t19318/96/805895594/3811/abc8dc77/5aa8f683Ne19b1e15.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "豆豆鞋 男",
+          "name": "豆豆鞋",
+          "isMerger": false,
+          "path": "300014671_300014672_300015938",
+          "virtualFlag": 1,
+          "cid": 300015938
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t16333/276/2209776513/3541/1ef22860/5aa8f672Ne27924b7.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "凉鞋 男",
+          "name": "凉鞋",
+          "isMerger": false,
+          "path": "300014671_300014672_300014937",
+          "virtualFlag": 1,
+          "cid": 300014937
+        }
+      ],
+      "columNum": 3,
+      "cid": 300014672,
+      "isBook": false,
+      "rankingFlag": false
+    },
+    {
+      "icon": "https://m.360buyimg.com/mobile/s130x130_g15/M01/1B/13/rBEhWlKm7XoIAAAAAAAcb17GXrkAAGmOQOwjCUAAByH050.png",
+      "special_ui": false,
+      "name": "流行男鞋",
+      "categoryList": [
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t18547/186/708168153/35569/266d3e43/5aa146d4N5c59874b.png.webp",
+          "isIndividual": false,
+          "name": "休闲鞋",
+          "isMerger": false,
+          "path": "300014671_11730_6908",
+          "virtualFlag": 0,
+          "cid": 6908
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t16348/361/2260417590/6913/df644213/5aa146c3Nb0531c07.jpg.webp",
+          "isIndividual": false,
+          "name": "商务休闲鞋",
+          "isMerger": false,
+          "path": "300014671_11730_6907",
+          "virtualFlag": 0,
+          "cid": 6907
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t19579/207/687609376/6872/5005a117/5aa146b5N30bbf1e9.jpg.webp",
+          "isIndividual": false,
+          "name": "正装鞋",
+          "isMerger": false,
+          "path": "300014671_11730_6906",
+          "virtualFlag": 0,
+          "cid": 6906
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t15781/353/2368667429/4218/671dba6f/5aa146a5Nbc1b3ed7.jpg.webp",
+          "isIndividual": false,
+          "name": "凉鞋",
+          "isMerger": false,
+          "path": "300014671_11730_6909",
+          "virtualFlag": 0,
+          "cid": 6909
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t17974/169/686275123/18435/8946c05b/5aa14697Nd69d42ab.jpg.webp",
+          "isIndividual": false,
+          "name": "帆布鞋",
+          "isMerger": false,
+          "path": "300014671_11730_9783",
+          "virtualFlag": 0,
+          "cid": 9783
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t18727/120/727319628/5021/2337fb6e/5aa14680Nb7ff2dc9.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "豆豆鞋男",
+          "name": "豆豆鞋",
+          "isMerger": false,
+          "path": "300014671_11730_100002607",
+          "virtualFlag": 1,
+          "cid": 100002607
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t17443/63/712640746/3954/178c2b99/5aa14669N6f3ec7b0.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "小白鞋男",
+          "name": "小白鞋",
+          "isMerger": false,
+          "path": "300014671_11730_300015876",
+          "virtualFlag": 1,
+          "cid": 300015876
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t19555/224/725073208/6297/6b1c776/5aa1465fN5c36dd3a.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "拖鞋男",
+          "name": "拖鞋",
+          "isMerger": false,
+          "path": "300014671_11730_300000004",
+          "virtualFlag": 1,
+          "cid": 300000004
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t15751/82/2352162411/8877/cc31d9b8/5aa14644N9623f162.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "布洛克男",
+          "name": "布洛克",
+          "isMerger": false,
+          "path": "300014671_11730_300015877",
+          "virtualFlag": 1,
+          "cid": 300015877
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t19468/299/717676702/25018/4fb3fa25/5aa14632N1576764c.jpg.webp",
+          "isIndividual": false,
+          "name": "增高鞋",
+          "isMerger": false,
+          "path": "300014671_11730_12066",
+          "virtualFlag": 0,
+          "cid": 12066
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t16729/189/705662621/26278/d6aaab2/5aa14609N2b0755cb.jpg.webp",
+          "isIndividual": false,
+          "name": "功能鞋",
+          "isMerger": false,
+          "path": "300014671_11730_9781",
+          "virtualFlag": 0,
+          "cid": 9781
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t14869/237/2452724312/17542/7ea44c50/5aa145f3Nddb6eff8.jpg.webp",
+          "isIndividual": false,
+          "name": "传统布鞋",
+          "isMerger": false,
+          "path": "300014671_11730_6910",
+          "virtualFlag": 0,
+          "cid": 6910
+        }
+      ],
+      "rankCids": [
+        11730,
+        6908,
+        6907,
+        6906,
+        6909,
+        9783,
+        12066,
+        9781,
+        6910
+      ],
+      "columNum": 3,
+      "cid": 11730,
+      "isBook": false,
+      "rankingFlag": true
+    },
+    {
+      "icon": "",
+      "special_ui": true,
+      "name": "国际大牌",
+      "categoryList": [
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t14509/155/2430240932/4225/4485815a/5aa148efN077587e0.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "ECCO爱步男鞋旗舰店",
+          "name": "ECCO",
+          "isMerger": false,
+          "path": "300014671_300014673_100008378",
+          "virtualFlag": 1,
+          "cid": 100008378
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t14536/344/2447405813/3843/29f94d89/5aa148e0N953a5fa8.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "Clarks官方旗舰店",
+          "name": "Clarks",
+          "isMerger": false,
+          "path": "300014671_300014673_100008380",
+          "virtualFlag": 1,
+          "cid": 100008380
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t14281/316/2510803225/3079/35126882/5aa148d0N5540e266.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "GEOX健乐士旗舰店",
+          "name": "GEOX",
+          "isMerger": false,
+          "path": "300014671_300014673_300014939",
+          "virtualFlag": 1,
+          "cid": 300014939
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t14680/127/2451562279/2630/79a772a1/5aa148c2N5ee9d0a9.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "SKECHERS男鞋旗舰店",
+          "name": "skechers",
+          "isMerger": false,
+          "path": "300014671_300014673_300014940",
+          "virtualFlag": 1,
+          "cid": 300014940
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t16411/99/2335699430/3073/c4cc2370/5aa148b1Na771c676.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "ROCKPORT旗舰店",
+          "name": "rockport",
+          "isMerger": false,
+          "path": "300014671_300014673_300014941",
+          "virtualFlag": 1,
+          "cid": 300014941
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t14779/336/2418612507/3489/3a8cb10b/5aa148a1Nf3343024.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "SKAP旗舰店",
+          "name": "SKAP",
+          "isMerger": false,
+          "path": "300014671_300014673_300014942",
+          "virtualFlag": 1,
+          "cid": 300014942
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t5437/58/1022758164/7307/1ec6ef55/590a9c92N0f721269.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "暇步士官方旗舰店",
+          "name": "Hush Puppies",
+          "isMerger": false,
+          "path": "300014671_300014673_300014943",
+          "virtualFlag": 1,
+          "cid": 300014943
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t17557/186/701491812/8770/1748a6ab/5aa14817Ne6f685e6.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "PALLADIUM旗舰店",
+          "name": "pallardium",
+          "isMerger": false,
+          "path": "300014671_300014673_300014944",
+          "virtualFlag": 1,
+          "cid": 300014944
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t16423/121/2285114708/10546/ba3802ca/5aa14807Na97f34e5.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "CAT官方旗舰店",
+          "name": "CAT",
+          "isMerger": false,
+          "path": "300014671_300014673_300014945",
+          "virtualFlag": 1,
+          "cid": 300014945
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t14848/196/2500456548/9565/6932027b/5aa147f5N6df7bdbb.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "Dickies男鞋旗舰店",
+          "name": "Dickies",
+          "isMerger": false,
+          "path": "300014671_300014673_300014946",
+          "virtualFlag": 1,
+          "cid": 300014946
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t17434/136/699067040/4742/1db73b18/5aa147e4N00d31bf3.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "沙驰官方旗舰店",
+          "name": "沙驰",
+          "isMerger": false,
+          "path": "300014671_300014673_300014947",
+          "virtualFlag": 1,
+          "cid": 300014947
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t17368/96/685510227/3929/154aacd4/5aa147d3N1cec75d6.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "REGAL丽格旗舰店 ",
+          "name": "REGAL",
+          "isMerger": false,
+          "path": "300014671_300014673_300014948",
+          "virtualFlag": 1,
+          "cid": 300014948
+        }
+      ],
+      "columNum": 3,
+      "cid": 300014673,
+      "isBook": false,
+      "rankingFlag": false
+    },
+    {
+      "icon": "",
+      "special_ui": true,
+      "name": "专柜大牌",
+      "categoryList": [
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t15448/211/2479355508/10008/92e8aa8/5aa14c67Nc88d32c2.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "奥康鞋业旗舰店",
+          "name": "奥康",
+          "isMerger": false,
+          "path": "300014671_300014949_300014950",
+          "virtualFlag": 1,
+          "cid": 300014950
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t16591/200/2338834781/13527/510996ed/5aa14c5aN9bc51470.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "意尔康官方旗舰店",
+          "name": "意尔康",
+          "isMerger": false,
+          "path": "300014671_300014949_300014952",
+          "virtualFlag": 1,
+          "cid": 300014952
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t19090/37/697872909/4924/e0c77375/5aa14c4aN03905545.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "红蜻蜓官方旗舰店",
+          "name": "红蜻蜓",
+          "isMerger": false,
+          "path": "300014671_300014949_300014953",
+          "virtualFlag": 1,
+          "cid": 300014953
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t16900/111/718188711/3858/468804f3/5aa14c3bNa957b3d9.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "百丽集团男鞋旗舰店",
+          "name": "百丽",
+          "isMerger": false,
+          "path": "300014671_300014949_300014955",
+          "virtualFlag": 1,
+          "cid": 300014955
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t16915/362/691672480/8616/5b549a6f/5aa14c2bN7b834f70.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "康奈旗舰店",
+          "name": "康奈",
+          "isMerger": false,
+          "path": "300014671_300014949_300014954",
+          "virtualFlag": 1,
+          "cid": 300014954
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t16975/89/722679320/7086/b9a78b16/5aa14c1aNbdabeb06.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "Zero意大利零度旗舰店",
+          "name": "零度",
+          "isMerger": false,
+          "path": "300014671_300014949_300014958",
+          "virtualFlag": 1,
+          "cid": 300014958
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t14371/132/2458870465/5543/59dd0363/5aa14c0aN4f7d2bf9.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "富贵鸟男鞋旗舰店",
+          "name": "富贵鸟",
+          "isMerger": false,
+          "path": "300014671_300014949_300014956",
+          "virtualFlag": 1,
+          "cid": 300014956
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t14866/281/2457126445/16518/5238127c/5aa14bf4N96c99163.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "足力健旗舰店",
+          "name": "足力健",
+          "isMerger": false,
+          "path": "300014671_300014949_300015878",
+          "virtualFlag": 1,
+          "cid": 300015878
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t14458/284/2450932317/13448/330ec917/5aa14be8N5d7bbc6e.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "热风男鞋旗舰店",
+          "name": "热风",
+          "isMerger": false,
+          "path": "300014671_300014949_300014959",
+          "virtualFlag": 1,
+          "cid": 300014959
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t16468/250/2344533532/4363/157f8373/5aa14bd6Nb10bf83e.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "回力男鞋旗舰店",
+          "name": "回力",
+          "isMerger": false,
+          "path": "300014671_300014949_300014961",
+          "virtualFlag": 1,
+          "cid": 300014961
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t19057/76/723208900/27009/face84b5/5aa14bc3N12a90017.jpg.webp",
+          "isIndividual": false,
+          "name": "男鞋馆",
+          "isMerger": false,
+          "path": "300014671_300014949_300015777",
+          "action": "https://pro.m.jd.com/mall/active/hzYbQneNBFS8AtjBj9VoH61j2mZ/index.html",
+          "virtualFlag": 3,
+          "cid": 300015777,
+          "destination": "car_to"
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t17920/361/708740532/23509/3af83ab3/5aa14b59N1970e604.jpg.webp",
+          "isIndividual": false,
+          "name": "国际馆",
+          "isMerger": false,
+          "path": "300014671_300014949_300015778",
+          "action": "https://pro.m.jd.com/mall/active/37oxuoLAbw4EvHkmD9RiQxhFt2hL/index.html",
+          "virtualFlag": 3,
+          "cid": 300015778,
+          "destination": "car_to"
+        }
+      ],
+      "columNum": 3,
+      "cid": 300014949,
+      "isBook": false,
+      "rankingFlag": false
+    },
+    {
+      "icon": "",
+      "special_ui": true,
+      "name": "网络潮牌",
+      "categoryList": [
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t18256/130/722266593/4585/f9792436/5aa14f0dNc8575eb7.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "PLAYBOY花花公子品牌旗舰店",
+          "name": "",
+          "isMerger": false,
+          "path": "300014671_300015879_300015881",
+          "virtualFlag": 1,
+          "cid": 300015881
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t14911/311/2453243321/10972/b3f9c024/5aa14efcNb6559952.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "森马男鞋旗舰店",
+          "name": "",
+          "isMerger": false,
+          "path": "300014671_300015879_300015882",
+          "virtualFlag": 1,
+          "cid": 300015882
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t15676/10/2336640331/8448/ce081fe7/5aa14eebN7d6e4833.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "卡帝乐鞋靴旗舰店",
+          "name": "",
+          "isMerger": false,
+          "path": "300014671_300015879_300015883",
+          "virtualFlag": 1,
+          "cid": 300015883
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t15817/303/2297336107/7590/18d63c20/5aa14ed0N130550f7.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "安尚芬官方旗舰店",
+          "name": "",
+          "isMerger": false,
+          "path": "300014671_300015879_300015884",
+          "virtualFlag": 1,
+          "cid": 300015884
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t15469/173/2459368550/6493/3718780f/5aa14ebdN5a29d8b4.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "强人旗舰店",
+          "name": "",
+          "isMerger": false,
+          "path": "300014671_300015879_300015885",
+          "virtualFlag": 1,
+          "cid": 300015885
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t16441/209/2304330536/7797/90f77b7/5aa14eaeNe949ab02.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "hautton皓顿男鞋官方旗舰店",
+          "name": "",
+          "isMerger": false,
+          "path": "300014671_300015879_300015886",
+          "virtualFlag": 1,
+          "cid": 300015886
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t15166/181/2468462835/13153/2dcbd561/5aa14e9eN60d37d28.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "何金昌旗舰店",
+          "name": "",
+          "isMerger": false,
+          "path": "300014671_300015879_300015887",
+          "virtualFlag": 1,
+          "cid": 300015887
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t17218/83/716212125/5540/d6aecfef/5aa14e8cN03e3879f.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "CCE鞋靴旗舰店",
+          "name": "",
+          "isMerger": false,
+          "path": "300014671_300015879_300015888",
+          "virtualFlag": 1,
+          "cid": 300015888
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t17158/323/748668567/24074/c52c76ea/5aa14e76N780e1dd5.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "VERNON SABIN旗舰店",
+          "name": "",
+          "isMerger": false,
+          "path": "300014671_300015879_300015889",
+          "virtualFlag": 1,
+          "cid": 300015889
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t15889/279/2345328607/17437/de0dc0d/5aa14e62N2c422ee9.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "tenmiro旗舰店",
+          "name": "",
+          "isMerger": false,
+          "path": "300014671_300015879_300015890",
+          "virtualFlag": 1,
+          "cid": 300015890
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t19135/249/711110247/25949/dcdc247e/5aa14e4fN563299d0.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "WATCHJADY男鞋旗舰店",
+          "name": "",
+          "isMerger": false,
+          "path": "300014671_300015879_300015891",
+          "virtualFlag": 1,
+          "cid": 300015891
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t18301/8/703143431/5690/47d42290/5aa14e3dN1414026c.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "OPP旗舰店",
+          "name": "",
+          "isMerger": false,
+          "path": "300014671_300015879_300015892",
+          "virtualFlag": 1,
+          "cid": 300015892
+        }
+      ],
+      "columNum": 3,
+      "cid": 300015879,
+      "isBook": false,
+      "rankingFlag": false
+    },
+    {
+      "icon": "",
+      "special_ui": true,
+      "name": "自营男鞋",
+      "categoryList": [
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t16783/259/707349268/9288/11198002/5aa15222N075f424d.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "木林森自营旗舰店",
+          "name": "",
+          "isMerger": false,
+          "path": "300014671_300015880_300015893",
+          "virtualFlag": 1,
+          "cid": 300015893
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t18247/70/667714454/7086/b9a78b16/5aa1520fNfe2becb5.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "零度尚品京东自营旗舰店",
+          "name": "",
+          "isMerger": false,
+          "path": "300014671_300015880_300015894",
+          "virtualFlag": 1,
+          "cid": 300015894
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t15667/91/2285768144/8054/be0446ad/5aa15200N1d6c001d.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "骆驼牌京东自营旗舰店",
+          "name": "",
+          "isMerger": false,
+          "path": "300014671_300015880_300015895",
+          "virtualFlag": 1,
+          "cid": 300015895
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t16444/325/2349112418/4585/f9792436/5aa151ecN962bc364.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "花花公子京东自营旗舰店",
+          "name": "",
+          "isMerger": false,
+          "path": "300014671_300015880_300015896",
+          "virtualFlag": 1,
+          "cid": 300015896
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t15559/132/2339981052/7588/37ca11a3/5aa15151N98a6ac6d.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "意尔康男鞋京东自营旗舰店",
+          "name": "",
+          "isMerger": false,
+          "path": "300014671_300015880_300015897",
+          "virtualFlag": 1,
+          "cid": 300015897
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t18493/356/649329404/10374/2f5a7fd0/5aa15140Nfc415df5.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "奥康（Aokang）京东自营旗舰店",
+          "name": "",
+          "isMerger": false,
+          "path": "300014671_300015880_300015898",
+          "virtualFlag": 1,
+          "cid": 300015898
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t14320/326/2463732986/6548/84ef13ff/5aa15131N607d6403.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "红蜻蜓京东自营旗舰店 ",
+          "name": "",
+          "isMerger": false,
+          "path": "300014671_300015880_300015899",
+          "virtualFlag": 1,
+          "cid": 300015899
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t18358/17/700531147/5422/7ad2b38e/5aa1511aNac37cdfe.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "金利来鞋类京东自营旗舰店",
+          "name": "",
+          "isMerger": false,
+          "path": "300014671_300015880_300015900",
+          "virtualFlag": 1,
+          "cid": 300015900
+        },
+        {
+          "icon": "https://m.360buyimg.com/mobile/s130x130_jfs/t16567/135/2237566185/6885/7bde9a7a/5aa15104Nd4125d3c.jpg.webp",
+          "isIndividual": false,
+          "searchKey": "七匹狼男鞋京东自营旗舰店",
+          "name": "",
+          "isMerger": false,
+          "path": "300014671_300015880_300015901",
+          "virtualFlag": 1,
+          "cid": 300015901
+        }
+      ],
+      "columNum": 3,
+      "cid": 300015880,
+      "isBook": false,
+      "rankingFlag": false
+    }
+  ],
+  "code": "0",
+  "promotions": {
+    "cmsPromotionsList": [
+      {
+        "promotion_id": 1,
+        "catelogyId": 300014671,
+        "imageUrl": "https://m.360buyimg.com/mobilecms/s530x180_jfs/t16114/248/2166814874/80895/d7f6303b/5a96afc8N920a40fa.jpg.webp",
+        "imageUrl_wap": "",
+        "mPageAddress": "https://sale.jd.com/m/act/PNte0Rv65wGqh.html",
+        "target": "",
+        "promotionLogUrl": "http://ccc.x.jd.local/dsp/nc?ext=aHR0cHM6Ly9zYWxlLmpkLmNvbS9tL2FjdC9QTnRlMFJ2NjV3R3FoLmh0bWw&log=ei7nKo9M1GKoHf5pSWXc-bOWBfBGVCqoqRYUgXAVoBxpf4S61RsxPJx2zDoHkg2da7DYwsLGbwphSU70MpKAFEKzVb6uU5VZpxzrUbqFWaITiTzaEDH2R3GN0ItVxs9aS6PmosPW5rUAEhE6W8XumtqTpkzx_1jZWjSlLsuHcKv2pC4rqq-NGeVyUqLs9mycOCqQwkLR7FWH0eOpx47igMRvTCsPUDFRiGY3cQ1tTYgn4Irh2Vt1mY8J-J3kIAXgRRm8pFdQyM-aiJJCZ4wLEuMv1tiNorbL0YwIi3-UPVYcbAIkXPaqA2rXcL9VYcrlFOksIHTxFVSiUAWj3BAd6J5BP4CYSMmCkut187FVW8NNeXS8FfJJNBm_ExDNcSdmNx_RMVMk-mND71QU6LSkfbZw5zqOv4vlEcXqfp5VFKCGtgHmIxOs_cbmNDclxHON&v=404&clicktype=1&&clicktype=1&",
+        "destination": "",
+        "jumpFlag": "0",
+        "abt": "1"
+      }
+    ],
+    "bannerSource": "ads",
+    "code": "0"
+  }
+}
