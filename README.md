@@ -1,11 +1,11 @@
 # 京东React Native App
-接触React Native一段时间了，算入门了吧，准备实践一下Redux架构，模仿一下京东客户端（ps: 开始准备仿美团来着，发现美团和阿里系的数据都不是那么好抓了），三月份开始的两三个月，会利用业余时间完善，此项目长期维护，欢迎大家star，fork
+本项目基于Redux架构，模仿京东客户端的主要页面，对于学习React Native, Redux有比较好的借鉴。此项目长期维护，会利用业余时间完善，欢迎大家star，fork（ps: 开始准备仿美团来着，发现美团和阿里系的数据都不是那么好抓了），
 
 截图预览  
 ======
 |启动页|分类页|
 |:---:|:---:|
-|<img src="screenshots/screenshort_jd_launch.png" alt="启动页"  width="300">|<img src="screenshots/screenshort_jd_category.png" alt="分类页"  width="300">|
+|<img src="screenshots/screenshots_jd_launch.png" alt="启动页"  width="300">|<img src="screenshots/screenshots_jd_category.png" alt="分类页"  width="300">|
 
 页面完成进度  
 ==========    
@@ -24,7 +24,7 @@
 ======
 |QQ交流群|
 |:---:|
-|<img src="screenshots/qq_group.jpeg" alt="screenshot"  width="200">|
+|<img src="screenshots/qq_group.jpeg" alt="screenshots"  width="200">|
 
 License
 =======
