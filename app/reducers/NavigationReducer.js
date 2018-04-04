@@ -10,7 +10,6 @@ import {NavigationActions} from 'react-navigation';
 // );
 
 export default nav = (state, action) => {
-    console.log(`state: ${state}, action: ${action.routeName}`);
     let nextState;
     switch (action.type) {
         case 'Login':

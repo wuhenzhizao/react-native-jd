@@ -8,18 +8,16 @@ import {categoryMap, parseCategory} from '../utils/DataParser';
 export const loadRootCategoryList = () => {
     return dispatch => {
         // 模拟网络请求
-        setTimeout(() => {
-            let categoryList = require('../../data/category_list.json').categoryList;
-            categoryList.forEach((item, index) => {
-                item.isSelected = index === 0;
-            });
-            dispatch({
-                type: ActionTypes.GET_CATEGORY_LIST,
-                payload: {
-                    categoryList
-                }
-            });
-        }, 1000);
+        let categoryList = require('../../data/category_list.json').categoryList;
+        categoryList.forEach((item, index) => {
+            item.isSelected = index === 0;
+        });
+        dispatch({
+            type: ActionTypes.GET_CATEGORY_LIST,
+            payload: {
+                categoryList
+            }
+        });
     };
 };
 
@@ -43,11 +41,12 @@ export const loadCategoryDetail = (index) => {
         return dispatch => {
             // 模拟网络请求
             setTimeout(() => {
+                let detail = parseCategory(index);
                 // 组装数据
                 dispatch({
                     type: ActionTypes.GET_CATEGORY_DETAIL,
                     payload: {
-                        detail: parseCategory(index)
+                        detail
                     }
                 });
             }, 500);
@@ -55,7 +54,7 @@ export const loadCategoryDetail = (index) => {
     }
 };
 
-export const onRootCategoryClick = (index) => {
+export const changeRootCategory = (index) => {
     return {
         type: ActionTypes.UPDATE_CATEGORY,
         payload: {

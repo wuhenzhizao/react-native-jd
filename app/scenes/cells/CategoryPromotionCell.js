@@ -1,21 +1,22 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
-import {Image, StyleSheet, TouchableOpacity} from 'react-native';
-import {parseWebp} from '../../utils/DataParser';
+import {StyleSheet, TouchableOpacity} from 'react-native';
+import LoadingImage from '../../components/LoadingImage';
 
 export default class CategoryPromotionCell extends Component {
 
-    static propTypes: {
-        item: PropTypes.object.isRequired,
-        onPromotionClick: PropTypes.func.isRequired
-    };
+    // static propTypes: {
+    //     item: PropTypes.object.isRequired,
+    //     onPromotionClick: PropTypes.func.isRequired
+    // };
 
     render() {
         return <TouchableOpacity>
-            <Image
+            <LoadingImage
                 onPress={this.props.onPromotionClick}
                 style={styles.promotion}
-                source={{uri: parseWebp(this.props.item.imageUrl)}}/>
+                source={{uri: this.props.item.imageUrl}}
+                placeholderSource={require('../../images/img_placeholder.png')}/>
         </TouchableOpacity>;
     }
 }
@@ -27,6 +28,5 @@ const styles = StyleSheet.create({
         marginLeft: 10,
         marginRight: 10,
         marginTop: 15,
-        marginBottom: 10
     }
 });

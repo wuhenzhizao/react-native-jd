@@ -29,25 +29,25 @@ const handleChangeCategory = (state, action) => {
     categoryList.forEach((item, i) => {
         item.isSelected = index === i;
     });
-    return Object.assign({}, state, {categoryList: categoryList});
+    return Object.assign({}, state, {categoryList});
 };
 
 const handleGetCategoryDetail = (state, action) => {
     let detail = action.payload.detail;
-    let items = [];
-    items.push({
+    let secondCategoryList = [];
+    secondCategoryList.push({
         type: 'promotion',
         item: detail.promotions.cmsPromotionsList[0]
     });
     detail.data.forEach((value) => {
         let rankingFlag = value.rankingFlag;
         if (rankingFlag) {
-            items.push({
+            secondCategoryList.push({
                 type: 'headerWithRanking',
                 name: value.name
             });
         } else {
-            items.push({
+            secondCategoryList.push({
                 type: 'header',
                 name: value.name
             });
@@ -61,22 +61,24 @@ const handleGetCategoryDetail = (state, action) => {
                 let index = i * 3 + j;
                 if (index < categoryList.length) {
                     tempItems.push(categoryList[index]);
+                } else {
+                    tempItems.push(undefined);
                 }
             }
             if (value.special_ui) {
-                items.push({
+                secondCategoryList.push({
                     type: 'specialUI',
                     rowIndex: i,
                     items: tempItems
                 });
             } else
-                items.push({
+                secondCategoryList.push({
                     type: 'normalUI',
                     items: tempItems
                 });
         }
     });
-    return Object.assign({}, state, {items});
+    return Object.assign({}, state, {secondCategoryList});
 };
 
 const handleRemoveCategory = (state, action) => {

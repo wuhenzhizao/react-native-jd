@@ -22,7 +22,9 @@ const categoryDetails = [
 ];
 
 export const parseCategory = (index) => {
+    console.log('开始读取文件');
     const detail = categoryDetails[index];
+    console.log('文件读取完成');
     categoryMap.set(index, detail);
     return detail;
 };

@@ -16,9 +16,8 @@ export default class CategoryNormalHeaderCell extends Component {
 const styles = StyleSheet.create({
     title: {
         marginLeft: 10,
-        marginTop: 5,
+        marginTop: 15,
         marginBottom: 10,
-        fontWeight: 'bold',
-        fontSize: 15
+        fontSize: 13
     }
 });

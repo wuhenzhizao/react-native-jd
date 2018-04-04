@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
-import {Dimensions, Image, StyleSheet, Text, View} from 'react-native';
+import {Dimensions, StyleSheet, Text, View} from 'react-native';
 import PropTypes from 'prop-types';
 import Colors from '../../constants/Colors';
-import {parseWebp} from '../../utils/DataParser';
+import LoadingImage from '../../components/LoadingImage';
+
 const width = Dimensions.get('window').width;
 const containerWidth = width * 3 / 4 - 20;
-console.log('containerWidth' + containerWidth);
 
 export default class CategoryNormalUiCell extends Component {
 
@@ -17,7 +17,9 @@ export default class CategoryNormalUiCell extends Component {
     render() {
         return <View style={styles.container}>
             {
-                this.props.item.map((item, index) => {
+                this.props.items.filter((item) => {
+                    return item !== undefined;
+                }).map((item, index) => {
                     return this.renderItem(item, index);
                 })
             }
@@ -28,11 +30,12 @@ export default class CategoryNormalUiCell extends Component {
         return <View
             key={`key${index}`}
             style={[styles.innerContainer, {marginLeft: index > 0 ? 10 : 0}]}>
-            <Image
+            <LoadingImage
                 onPress={this.props.onCategoryClick(item)}
                 style={styles.image}
                 resizeMode={'contain'}
-                source={{uri: parseWebp(item.icon)}}/>
+                source={{uri: item.icon}}
+                placeholderSource={require('../../images/img_placeholder.png')}/>
             <Text
                 style={styles.name}
                 textAlign={'center'}
@@ -63,8 +66,8 @@ const styles = StyleSheet.create({
         marginBottom: 5,
     },
     image: {
-        width: (containerWidth - 40) / 3,
-        height: (containerWidth - 40) / 3,
+        width: (containerWidth - 40) / 3 - 20,
+        height: (containerWidth - 40) / 3 - 20,
     },
     name: {
         marginTop: 10,

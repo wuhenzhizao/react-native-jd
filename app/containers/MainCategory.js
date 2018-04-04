@@ -22,6 +22,7 @@ class MainCategory extends Component {
     });
 
     render() {
+        console.log('MainCategory render');
         return <View style={styles.container}>
             <StatusBar
                 translucent={false}
@@ -39,7 +40,8 @@ class MainCategory extends Component {
                 </View>
                 <View style={styles.secondCategoryList}>
                     <FlatList
-                        data={this.props.items}
+                        ref={ref => this.secondCategoryList = ref}
+                        data={this.props.secondCategoryList}
                         horizontal={false}
                         keyExtractor={(item: any, index: number) => `key${index}`}
                         renderItem={this.renderSecondCategoryItem}/>
@@ -52,10 +54,12 @@ class MainCategory extends Component {
         return <CategoryRootCell
             item={item}
             index={index}
+            onRootCategoryItemClick={this.onRootCategoryItemClick}
             {...this.props} />;
     };
 
     renderSecondCategoryItem = ({item, index}) => {
+        console.log(item);
         let type = item.type;
         switch (type) {
             case 'promotion':
@@ -72,11 +76,11 @@ class MainCategory extends Component {
                     {...this.props}/>;
             case 'normalUI':
                 return <CategoryNormalUiCell
-                    item={item.items}
+                    items={item.items}
                     {...this.props}/>;
             case 'specialUI':
                 return <CategorySpecialUiCell
-                    item={item.items}
+                    items={item.items}
                     rowIndex={item.rowIndex}
                     {...this.props}/>;
         }
@@ -91,12 +95,27 @@ class MainCategory extends Component {
         loadRootCategoryList();
         loadCategoryDetail(0);
     }
+
+    onRootCategoryItemClick = (index) => {
+        // 更改一级分类
+        let {changeRootCategory, clearCategoryDetail, loadCategoryDetail} = this.props;
+        changeRootCategory(index);
+        // 二级分类，滑动到最顶端
+        this.secondCategoryList.scrollToIndex({
+            animated: true,
+            index: 0,
+        });
+        setTimeout(() => {
+            clearCategoryDetail();
+            loadCategoryDetail(index);
+        }, 100);
+    };
 }
 
 const mapStateToProps = (state) => {
     return {
         categoryList: state.category.categoryList,
-        items: state.category.items,
+        secondCategoryList: state.category.secondCategoryList,
     };
 };
 

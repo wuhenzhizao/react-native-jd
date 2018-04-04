@@ -7,11 +7,11 @@ export default class CategoryRootCell extends Component {
 
     static propTypes: {
         item: PropTypes.object.isRequired,
-        onRootCategoryClick: PropTypes.func.isRequired
+        onRootCategoryItemClick: PropTypes.func.isRequired
     };
 
     render() {
-        let {item, index, onRootCategoryClick, loadCategoryDetail, clearCategoryDetail} = this.props;
+        let {item, index, onRootCategoryItemClick} = this.props;
         return <TouchableOpacity
             activeOpacity={1.0}
             style={[styles.container, {
@@ -19,11 +19,7 @@ export default class CategoryRootCell extends Component {
                 borderRightWidth: item.isSelected ? 0 : 1 / PixelRatio.get()
             }]}
             onPress={() => {
-                onRootCategoryClick(index);
-                clearCategoryDetail();
-                setTimeout(() => {
-                    loadCategoryDetail(index);
-                }, 200);
+                onRootCategoryItemClick(index);
             }}>
             <Text
                 style={[styles.categoryName, {
@@ -45,6 +41,6 @@ const styles = StyleSheet.create({
     categoryName: {
         marginTop: 20,
         marginBottom: 20,
-        fontSize: 15
+        fontSize: 14
     }
 });

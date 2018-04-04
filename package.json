@@ -8,12 +8,13 @@
   },
   "dependencies": {
     "prop-types": "latest",
-    "react": "^16.3.0-alpha.1",
+    "react": "^16.3.1",
     "react-native": "0.54.3",
     "react-native-image-zoom-viewer": "^2.1.0",
+    "react-native-splash-screen": "^3.0.6",
     "react-native-vector-icons": "^4.6.0",
-    "react-native-webp-support": "TGPSKI/react-native-webp-support",
-    "react-navigation": "^1.5.8",
+    "react-native-webp": "^0.3.1",
+    "react-navigation": "^1.5.9",
     "react-navigation-redux-helpers": "^1.0.3",
     "react-redux": "^5.0.7",
     "redux": "^3.7.2",
@@ -23,7 +24,7 @@
     "babel-jest": "22.4.3",
     "babel-preset-react-native": "4.0.0",
     "jest": "22.4.3",
-    "react-test-renderer": "^16.3.0-alpha.1"
+    "react-test-renderer": "^16.3.1"
   },
   "jest": {
     "preset": "react-native"
