@@ -22,11 +22,11 @@ Installation
 ============
 
 ```
-1. npm install
+$ npm install
 ```
 
 ```
-2. react-native run-ios/run-android
+$ react-native run-ios/run-android
 ```
 
 
