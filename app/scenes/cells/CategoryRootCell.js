@@ -11,19 +11,26 @@ export default class CategoryRootCell extends Component {
     };
 
     render() {
-        let {item, index, onRootCategoryClick} = this.props;
+        let {item, index, onRootCategoryClick, loadCategoryDetail, clearCategoryDetail} = this.props;
         return <TouchableOpacity
             activeOpacity={1.0}
             style={[styles.container, {
                 backgroundColor: item.isSelected ? '#f3f5f7' : Colors.white,
                 borderRightWidth: item.isSelected ? 0 : 1 / PixelRatio.get()
             }]}
-            onPress={() => onRootCategoryClick(index)}>
+            onPress={() => {
+                onRootCategoryClick(index);
+                clearCategoryDetail();
+                setTimeout(() => {
+                    loadCategoryDetail(index);
+                }, 200);
+            }}>
             <Text
                 style={[styles.categoryName, {
                     color: item.isSelected ? '#f23030' : Colors.text_gray
                 }]}>{item.name}</Text>
-        </TouchableOpacity>;
+        </TouchableOpacity>
+            ;
     }
 }
 

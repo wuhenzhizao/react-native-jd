@@ -29,8 +29,8 @@ export const parseCategory = (index) => {
 
 export const parseWebp = (url: string) => {
     let newUrl = `${url}`;
-    if (url.indexOf('.webp') >= 0) {
-        url.replace('.webp', '');
+    if (url && url.indexOf('.webp') >= 0) {
+        newUrl = url.replace('.webp', "");
     }
-    return url;
+    return newUrl;
 };

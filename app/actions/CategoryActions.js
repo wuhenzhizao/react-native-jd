@@ -23,11 +23,15 @@ export const loadRootCategoryList = () => {
     };
 };
 
+export const clearCategoryDetail = () => {
+    return {
+        type: ActionTypes.REMOVE_CATEGORY,
+    };
+};
 
 export const loadCategoryDetail = (index) => {
     if (categoryMap.has(index)) {
         return dispatch => {
-            // 模拟网络请求
             dispatch({
                 type: ActionTypes.GET_CATEGORY_DETAIL,
                 payload: {
@@ -46,14 +50,14 @@ export const loadCategoryDetail = (index) => {
                         detail: parseCategory(index)
                     }
                 });
-            }, 1000);
+            }, 500);
         };
     }
 };
 
 export const onRootCategoryClick = (index) => {
     return {
-        type: ActionTypes.CHANGE_CATEGORY,
+        type: ActionTypes.UPDATE_CATEGORY,
         payload: {
             index
         }

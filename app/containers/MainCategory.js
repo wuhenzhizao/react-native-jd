@@ -8,6 +8,10 @@ import {connect} from 'react-redux';
 import CategoryHeader from '../scenes/CategoryHeader';
 import {bindActionCreators} from 'redux';
 import CategoryPromotionCell from '../scenes/cells/CategoryPromotionCell';
+import CategoryNormalHeaderCell from '../scenes/cells/CategoryNormalHeaderCell';
+import CategoryRankingHeaderCell from '../scenes/cells/CategoryRankingHeaderCell';
+import CategoryNormalUiCell from '../scenes/cells/CategoryNormalUiCell';
+import CategorySpecialUiCell from '../scenes/cells/CategorySpecialUiCell';
 
 class MainCategory extends Component {
 
@@ -18,7 +22,6 @@ class MainCategory extends Component {
     });
 
     render() {
-        console.log(this.props);
         return <View style={styles.container}>
             <StatusBar
                 translucent={false}
@@ -60,14 +63,23 @@ class MainCategory extends Component {
                     item={item.item}
                     {...this.props}/>;
             case 'header':
+                return <CategoryNormalHeaderCell
+                    item={item.name}
+                    {...this.props}/>;
             case 'headerWithRanking':
+                return <CategoryRankingHeaderCell
+                    item={item.name}
+                    {...this.props}/>;
             case 'normalUI':
+                return <CategoryNormalUiCell
+                    item={item.items}
+                    {...this.props}/>;
             case 'specialUI':
+                return <CategorySpecialUiCell
+                    item={item.items}
+                    rowIndex={item.rowIndex}
+                    {...this.props}/>;
         }
-        return <CategoryRootCell
-            item={item}
-            index={index}
-            {...this.props} />;
     };
 
     renderRootCategoryDivider = () => {
