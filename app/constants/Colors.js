@@ -1,7 +1,7 @@
 export default {
-    colorPrimary: '#0BB5A5',
-    colorPrimaryDark: '#0BB5A5',
-    colorAccent: '#0BB5A5',
+    colorPrimary: '#f02b2b',
+    colorPrimaryDark: '#f02b2b',
+    colorAccent: '#f02b2b',
 
     white: '#FFFFFF',
     black: '#000000',

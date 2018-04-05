@@ -16,7 +16,6 @@ import CategorySpecialUiCell from '../scenes/cells/CategorySpecialUiCell';
 class MainCategory extends Component {
 
     static navigationOptions = ({navigation}) => ({
-        headerStyle: Styles.titleBarStyle,
         header: <CategoryHeader/>,
         gesturesEnabled: true
     });

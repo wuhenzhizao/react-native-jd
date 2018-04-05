@@ -97,7 +97,7 @@ class RefreshFlatList extends PureComponent {
                 refreshing={this.props.refreshState === RefreshState.HeaderRefreshing}
                 ListFooterComponent={this.renderFooter}
                 onEndReachedThreshold={0.1}
-                keyExtractor={(item: any, index: number) => index}
+                keyExtractor={(item: any, index: number) => `key${index}`}
                 tintColor={'#0BB5A5'}
             />
         )
