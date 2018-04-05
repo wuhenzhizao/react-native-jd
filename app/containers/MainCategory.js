@@ -53,8 +53,7 @@ class MainCategory extends Component {
         return <CategoryRootCell
             item={item}
             index={index}
-            onRootCategoryItemClick={this.onRootCategoryItemClick}
-            {...this.props} />;
+            onRootCategoryItemClick={this.onRootCategoryItemClick}/>;
     };
 
     renderSecondCategoryItem = ({item, index}) => {

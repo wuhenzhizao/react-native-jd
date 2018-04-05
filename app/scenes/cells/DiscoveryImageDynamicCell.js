@@ -163,7 +163,7 @@ export default class DiscoveryImageDynamicCell extends Component {
                         require('../../images/jshop_dynamic_liked.png') :
                         require('../../images/jshop_dynamic_like.png')}/>
                 <Text style={{
-                    fontSize: 12,
+                    fontSize: 13,
                     marginLeft: 3,
                     color: item.hasLiked ? '#fd9d2e' : Colors.text_gray_light
                 }}>{item.likeNumStr}</Text>
@@ -188,11 +188,10 @@ const styles = StyleSheet.create({
         alignItems: 'center',
     },
     authorAvatar: {
-        width: 36,
-        height: 36,
-        borderRadius: 18,
-        borderWidth: 1 / PixelRatio.get(),
-        borderColor: '#e5e5e5',
+        width: 30,
+        height: 30,
+        borderRadius: 15,
+        borderWidth: 0
     },
     authorInfoContainer: {
         flex: 1,
@@ -220,7 +219,7 @@ const styles = StyleSheet.create({
         paddingRight: 3,
     },
     bigImage: {
-        height: 200,
+        height: 180,
         flex: 1,
     },
     imageContainer: {
@@ -238,7 +237,7 @@ const styles = StyleSheet.create({
         color: Colors.text_gray_light,
     },
     comment: {
-        fontSize: 12,
+        fontSize: 13,
         marginLeft: 3,
         color: Colors.text_gray_light
     }

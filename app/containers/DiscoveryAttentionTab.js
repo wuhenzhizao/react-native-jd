@@ -25,20 +25,11 @@ export class DiscoveryAttentionTab extends Component {
     renderItemComponent = ({item, index}) => {
         switch (item.type) {
             case 'follow':
-                return <DiscoveryMineFollowCell
-                    item={item.item}
-                    {...this.props}
-                />;
+                return <DiscoveryMineFollowCell item={item.item}/>;
             case 'videoDynamic':
-                return <DiscoveryVideoDynamicCell
-                    item={item.item}
-                    {...this.props}
-                />;
+                return <DiscoveryVideoDynamicCell item={item.item}/>;
             case 'imageDynamic':
-                return <DiscoveryImageDynamicCell
-                    item={item.item}
-                    {...this.props}
-                />;
+                return <DiscoveryImageDynamicCell item={item.item}/>;
         }
     };
 

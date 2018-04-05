@@ -6,11 +6,24 @@ const initialState = {
 
     attentionCurrentPage: 1,
     attentionRefreshState: RefreshState.Idle,
-    attentionHasMore: true
+    attentionHasMore: true,
+
+    choiceCurrentPage: 1,
+    choiceRefreshState: RefreshState.Idle,
+    choiceHasMore: true,
+
+    videoCurrentPage: 1,
+    videoRefreshState: RefreshState.Idle,
+    videoHasMore: true,
+
+    liveCurrentPage: 1,
+    liveRefreshState: RefreshState.Idle,
+    liveHasMore: true,
 };
 
 export default discovery = (state = initialState, action) => {
     let type = action.type;
+    console.log(`DiscoveryReducer: ${type}`);
     switch (type) {
         case ActionTypes.GET_DISCOVERY_ATTENTION_REFRESH_START:
             return handleLoadAttentionRefreshStart(state, action);
@@ -24,10 +37,57 @@ export default discovery = (state = initialState, action) => {
             return handleLoadAttentionMoreFailed(state, action);
         case ActionTypes.GET_DISCOVERY_ATTENTION_MORE_SUCCEED:
             return handleLoadAttentionMoreSucceed(state, action);
+
+        case ActionTypes.GET_DISCOVERY_CHOICE_REFRESH_START:
+            return handleLoadChoiceRefreshStart(state, action);
+        case ActionTypes.GET_DISCOVERY_CHOICE_REFRESH_Failed:
+            return handleLoadChoiceRefreshFailed(state, action);
+        case ActionTypes.GET_DISCOVERY_CHOICE_REFRESH_SUCCEED:
+            return handleLoadChoiceRefreshSucceed(state, action);
+        case ActionTypes.GET_DISCOVERY_CHOICE_MORE_START:
+            return handleLoadChoiceMoreStart(state, action);
+        case ActionTypes.GET_DISCOVERY_CHOICE_MORE_Failed:
+            return handleLoadChoiceMoreFailed(state, action);
+        case ActionTypes.GET_DISCOVERY_CHOICE_MORE_SUCCEED:
+            return handleLoadChoiceMoreSucceed(state, action);
+
+        case ActionTypes.GET_DISCOVERY_VIDEO_REFRESH_START:
+            return handleLoadVideoRefreshStart(state, action);
+        case ActionTypes.GET_DISCOVERY_VIDEO_REFRESH_Failed:
+            return handleLoadVideoRefreshFailed(state, action);
+        case ActionTypes.GET_DISCOVERY_VIDEO_REFRESH_SUCCEED:
+            return handleLoadVideoRefreshSucceed(state, action);
+        case ActionTypes.GET_DISCOVERY_VIDEO_MORE_START:
+            return handleLoadVideoMoreStart(state, action);
+        case ActionTypes.GET_DISCOVERY_VIDEO_MORE_Failed:
+            return handleLoadVideoMoreFailed(state, action);
+        case ActionTypes.GET_DISCOVERY_VIDEO_MORE_SUCCEED:
+            return handleLoadVideoMoreSucceed(state, action);
+
+        case ActionTypes.GET_DISCOVERY_LIVE_REFRESH_START:
+            return handleLoadLiveRefreshStart(state, action);
+        case ActionTypes.GET_DISCOVERY_LIVE_REFRESH_Failed:
+            return handleLoadLiveRefreshFailed(state, action);
+        case ActionTypes.GET_DISCOVERY_LIVE_REFRESH_SUCCEED:
+            return handleLoadLiveRefreshSucceed(state, action);
+        case ActionTypes.GET_DISCOVERY_LIVE_MORE_START:
+            return handleLoadLiveMoreStart(state, action);
+        case ActionTypes.GET_DISCOVERY_LIVE_MORE_Failed:
+            return handleLoadLiveMoreFailed(state, action);
+        case ActionTypes.GET_DISCOVERY_LIVE_MORE_SUCCEED:
+            return handleLoadLiveMoreSucceed(state, action);
         default:
             return state;
     }
 };
+
+
+/**
+ * 关注
+ * @param state
+ * @param action
+ * @returns {*}
+ */
 
 const handleLoadAttentionRefreshStart = (state, action) => {
     return Object.assign({}, state, {attentionRefreshState: RefreshState.HeaderRefreshing});
@@ -53,7 +113,6 @@ const handleLoadAttentionRefreshSucceed = (state, action) => {
     return Object.assign({}, state, {
         attentionCurrentPage: 1,
         attentionRefreshState: RefreshState.Idle,
-        attentionHasMore: true,    // 根据实际情况处理
         attentionList
     });
 };
@@ -81,4 +140,106 @@ const handleLoadAttentionMoreSucceed = (state, action) => {
         attentionRefreshState: attentionCurrentPage === 3 ? RefreshState.NoMoreData : RefreshState.Idle,
         attentionList: [...state.attentionList, ...attentionList]
     });
+};
+
+/**
+ * 精选
+ * @param state
+ * @param action
+ * @returns {*}
+ */
+const handleLoadChoiceRefreshStart = (state, action) => {
+    return Object.assign({}, state, {choiceRefreshState: RefreshState.HeaderRefreshing});
+};
+
+const handleLoadChoiceRefreshFailed = (state, action) => {
+    return Object.assign({}, state, {choiceRefreshState: RefreshState.Idle});
+};
+
+const handleLoadChoiceRefreshSucceed = (state, action) => {
+    return Object.assign({}, state, {});
+};
+
+const handleLoadChoiceMoreStart = (state, action) => {
+    return Object.assign({}, state, {choiceRefreshState: RefreshState.FooterRefreshing});
+};
+
+const handleLoadChoiceMoreFailed = (state, action) => {
+    return Object.assign({}, state, {choiceRefreshState: RefreshState.Idle});
+};
+
+const handleLoadChoiceMoreSucceed = (state, action) => {
+    return Object.assign({}, state, {});
+};
+
+
+/**
+ * 视频
+ * @param state
+ * @param action
+ * @returns {*}
+ */
+const handleLoadVideoRefreshStart = (state, action) => {
+    return Object.assign({}, state, {videoRefreshState: RefreshState.HeaderRefreshing});
+};
+
+const handleLoadVideoRefreshFailed = (state, action) => {
+    return Object.assign({}, state, {videoRefreshState: RefreshState.Idle});
+};
+
+const handleLoadVideoRefreshSucceed = (state, action) => {
+    let {list} = action.payload;
+    return Object.assign({}, state, {
+        videoCurrentPage: 1,
+        videoRefreshState: RefreshState.Idle,
+        videoList: [...list]
+    });
+};
+
+const handleLoadVideoMoreStart = (state, action) => {
+    return Object.assign({}, state, {videoRefreshState: RefreshState.FooterRefreshing});
+};
+
+const handleLoadVideoMoreFailed = (state, action) => {
+    return Object.assign({}, state, {videoRefreshState: RefreshState.Idle});
+};
+
+const handleLoadVideoMoreSucceed = (state, action) => {
+    let {list, videoCurrentPage} = action.payload;
+    return Object.assign({}, state, {
+        videoCurrentPage,
+        videoRefreshState: videoCurrentPage === 3 ? RefreshState.NoMoreData : RefreshState.Idle,
+        videoList: [...state.videoList, ...list]
+    });
+};
+
+
+/**
+ * 直播
+ * @param state
+ * @param action
+ * @returns {*}
+ */
+const handleLoadLiveRefreshStart = (state, action) => {
+    return Object.assign({}, state, {liveRefreshState: RefreshState.HeaderRefreshing});
+};
+
+const handleLoadLiveRefreshFailed = (state, action) => {
+    return Object.assign({}, state, {liveRefreshState: RefreshState.Idle});
+};
+
+const handleLoadLiveRefreshSucceed = (state, action) => {
+    return Object.assign({}, state, {});
+};
+
+const handleLoadLiveMoreStart = (state, action) => {
+    return Object.assign({}, state, {liveRefreshState: RefreshState.FooterRefreshing});
+};
+
+const handleLoadLiveMoreFailed = (state, action) => {
+    return Object.assign({}, state, {liveRefreshState: RefreshState.Idle});
+};
+
+const handleLoadLiveMoreSucceed = (state, action) => {
+    return Object.assign({}, state, {});
 };

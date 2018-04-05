@@ -82,7 +82,7 @@ class RefreshFlatList extends PureComponent {
         log('[RefreshFlatList]  shouldStartFooterRefreshing');
 
         let {refreshState, data} = this.props;
-        return refreshState === RefreshState.Idle && data.length > 3;
+        return refreshState === RefreshState.Idle && data && data.length > 3;
     };
 
     render() {

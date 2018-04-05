@@ -39,7 +39,7 @@ export default class DiscoveryVideoDynamicCell extends Component {
                     source={{uri: item.indexImage}}/>
                 <View style={styles.videoOverlayContainer}>
                     < TouchableOpacity>
-                        < Image source={require('../../images/jshop_video_play.png')}/>
+                        < Image source={require('../../images/pd_commentVideoPlay.png')}/>
                     </TouchableOpacity>
                 </View>
             </View>
@@ -84,7 +84,7 @@ export default class DiscoveryVideoDynamicCell extends Component {
                         require('../../images/jshop_dynamic_liked.png') :
                         require('../../images/jshop_dynamic_like.png')}/>
                 <Text style={{
-                    fontSize: 12,
+                    fontSize: 13,
                     marginLeft: 3,
                     color: item.hasLiked ? '#fd9d2e' : Colors.text_gray_light
                 }}>{item.likeNumStr}</Text>
@@ -122,7 +122,8 @@ const styles = StyleSheet.create({
     },
     authorName: {
         fontSize: 15,
-        color: Colors.text_gray_dark
+        color: Colors.text_gray,
+        marginLeft: 10,
     },
     showTime: {
         flex: 1,
@@ -140,12 +141,12 @@ const styles = StyleSheet.create({
         color: '#dc0124',
     },
     videoContainer: {
-        height: 200,
+        height: 180,
         marginTop: 15,
         flexDirection: 'row'
     },
     video: {
-        height: 200,
+        height: 180,
         flex: 1,
     },
     videoOverlayContainer: {
@@ -168,7 +169,7 @@ const styles = StyleSheet.create({
         color: Colors.text_gray_light,
     },
     comment: {
-        fontSize: 12,
+        fontSize: 13,
         marginLeft: 3,
         color: Colors.text_gray_light
     }

@@ -10,7 +10,7 @@ export default class TabBarItem extends Component {
                 source={this.props.focused
                     ? selectedImage
                     : normalImage}
-                style={{tintColor: this.props.tintColor, width: 45, height: 45}}
+                style={{tintColor: this.props.tintColor, width: 48, height: 48}}
             />
         );
     }
