@@ -40,7 +40,7 @@ export default class DiscoveryLiveCell extends Component {
                 <View style={styles.infoContainer}>
                     <Image
                         style={styles.authorAvatar}
-                        resizeMode={'contain'}
+                        resizeMode={'cover'}
                         source={{uri: parseWebp(item.userPic)}}/>
                     <Text
                         style={styles.authorName}

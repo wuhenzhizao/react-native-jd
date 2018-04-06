@@ -17,7 +17,7 @@ export default class DiscoveryVideoDynamicCell extends Component {
             <View style={styles.authorContainer}>
                 <Image
                     style={styles.authorAvatar}
-                    resizeMode={'contain'}
+                    resizeMode={'cover'}
                     source={{uri: parseWebp(item.authorPic)}}/>
                 <View style={styles.authorInfoContainer}>
                     <Text

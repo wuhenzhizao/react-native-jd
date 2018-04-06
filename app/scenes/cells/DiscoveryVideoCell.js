@@ -32,7 +32,7 @@ export default class DiscoveryVideoCell extends Component {
             <View style={styles.bottomContainer}>
                 <Image
                     style={styles.authorAvatar}
-                    resizeMode={'contain'}
+                    resizeMode={'cover'}
                     source={{uri: parseWebp(item.authorPic)}}/>
                 <Text
                     style={styles.authorName}
@@ -50,7 +50,7 @@ export default class DiscoveryVideoCell extends Component {
                 <Text style={styles.comment}>{item.commentNum}</Text>
                 <Image
                     style={styles.smallIcon}
-                    resizeMode={'contain'}
+                    resizeMode={'cover'}
                     source={item.hasLiked ?
                         require('../../images/jshop_dynamic_liked.png') :
                         require('../../images/jshop_dynamic_like.png')}/>}

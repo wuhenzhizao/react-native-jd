@@ -159,7 +159,28 @@ const handleLoadChoiceRefreshFailed = (state, action) => {
 };
 
 const handleLoadChoiceRefreshSucceed = (state, action) => {
-    return Object.assign({}, state, {});
+    let {bannerConfig, list} = action.payload;
+    let choiceList = [];
+    choiceList.push({
+        type: 'banner',
+        item: bannerConfig
+    });
+    list.forEach((item) => {
+        let type;
+        if (item.appearance === 0) {
+            type = 'image';
+        } else if (item.appearance === 1) {
+            type = 'multiImage';
+        } else {
+            type = 'video';
+        }
+        choiceList.push({type, item});
+    });
+    return Object.assign({}, state, {
+        choiceCurrentPage: 1,
+        choiceRefreshState: RefreshState.Idle,
+        choiceList
+    });
 };
 
 const handleLoadChoiceMoreStart = (state, action) => {
@@ -171,7 +192,24 @@ const handleLoadChoiceMoreFailed = (state, action) => {
 };
 
 const handleLoadChoiceMoreSucceed = (state, action) => {
-    return Object.assign({}, state, {});
+    let {choiceCurrentPage, list} = action.payload;
+    let choiceList = [];
+    list.forEach((item) => {
+        let type;
+        if (item.appearance === 0) {
+            type = 'image';
+        } else if (item.appearance === 1) {
+            type = 'multiImage';
+        } else {
+            type = 'video';
+        }
+        choiceList.push({type, item});
+    });
+    return Object.assign({}, state, {
+        choiceCurrentPage,
+        choiceRefreshState: choiceCurrentPage === 3 ? RefreshState.NoMoreData : RefreshState.Idle,
+        choiceList: [...state.choiceList, ...choiceList]
+    });
 };
 
 

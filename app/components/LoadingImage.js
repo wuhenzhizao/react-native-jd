@@ -99,8 +99,6 @@ const styles = {
         alignItems: 'center'
     },
     imagePlaceholderStyles: {
-        width: 100,
-        height: 100,
         resizeMode: 'contain',
         justifyContent: 'center',
         alignItems: 'center'
