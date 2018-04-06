@@ -6,7 +6,7 @@ import Colors from '../constants/Colors';
 import DiscoveryAttentionTab from './DiscoveryAttentionTab';
 import DiscoveryChoiceTab from './DiscoveryChoiceTab';
 import DiscoveryVideoTab from './DiscoveryVideoTab';
-import DiscoveryLiveStreamingTab from './DiscoveryLiveStreamingTab';
+import DiscoveryLiveStreamingTab from './DiscoveryLiveTab';
 import CustomTabBar from '../components/DiscoveryTabBar';
 
 export default class MainDiscovery extends Component<Props> {

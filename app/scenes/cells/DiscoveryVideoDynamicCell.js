@@ -33,9 +33,9 @@ export default class DiscoveryVideoDynamicCell extends Component {
                 </View>
             </View>
             <Text style={styles.title}>{this.renderTopics(item)}{item.summary}</Text>
-            <View style={styles.videoContainer}>
+            <View style={styles.liveContainer}>
                 <LoadingImage
-                    style={styles.video}
+                    style={styles.live}
                     source={{uri: item.indexImage}}/>
                 <View style={styles.videoOverlayContainer}>
                     < TouchableOpacity>
@@ -140,12 +140,12 @@ const styles = StyleSheet.create({
         fontSize: 17,
         color: '#dc0124',
     },
-    videoContainer: {
+    liveContainer: {
         height: 180,
         marginTop: 15,
         flexDirection: 'row'
     },
-    video: {
+    live: {
         height: 180,
         flex: 1,
     },

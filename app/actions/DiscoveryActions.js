@@ -159,7 +159,7 @@ export const loadLiveMore = (liveCurrentPage) => {
                 type: ActionTypes.GET_DISCOVERY_LIVE_MORE_SUCCEED,
                 payload: {
                     liveCurrentPage,
-                    contentList: list
+                    list
                 }
             });
         }, 1000);

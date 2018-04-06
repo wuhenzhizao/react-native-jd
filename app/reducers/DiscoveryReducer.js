@@ -3,19 +3,21 @@ import ActionTypes from '../constants/ActionTypes';
 
 const initialState = {
     attentionList: [],
-
     attentionCurrentPage: 1,
     attentionRefreshState: RefreshState.Idle,
     attentionHasMore: true,
 
+    choiceList: [],
     choiceCurrentPage: 1,
     choiceRefreshState: RefreshState.Idle,
     choiceHasMore: true,
 
+    videoList: [],
     videoCurrentPage: 1,
     videoRefreshState: RefreshState.Idle,
     videoHasMore: true,
 
+    liveList: [],
     liveCurrentPage: 1,
     liveRefreshState: RefreshState.Idle,
     liveHasMore: true,
@@ -229,7 +231,12 @@ const handleLoadLiveRefreshFailed = (state, action) => {
 };
 
 const handleLoadLiveRefreshSucceed = (state, action) => {
-    return Object.assign({}, state, {});
+    let {list} = action.payload;
+    return Object.assign({}, state, {
+        liveCurrentPage: 1,
+        liveRefreshState: RefreshState.Idle,
+        liveList: [...list]
+    });
 };
 
 const handleLoadLiveMoreStart = (state, action) => {
@@ -241,5 +248,10 @@ const handleLoadLiveMoreFailed = (state, action) => {
 };
 
 const handleLoadLiveMoreSucceed = (state, action) => {
-    return Object.assign({}, state, {});
+    let {list, liveCurrentPage} = action.payload;
+    return Object.assign({}, state, {
+        liveCurrentPage,
+        liveRefreshState: liveCurrentPage === 3 ? RefreshState.NoMoreData : RefreshState.Idle,
+        liveList: [...state.liveList, ...list]
+    });
 };

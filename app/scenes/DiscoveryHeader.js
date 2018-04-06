@@ -53,8 +53,8 @@ const styles = StyleSheet.create({
     },
     search: {
         marginRight: 15,
-        width: 33,
-        height: 33,
+        width: 31,
+        height: 31,
     },
     message: {
         marginRight: 15,

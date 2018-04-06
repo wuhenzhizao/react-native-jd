@@ -14,9 +14,9 @@ export default class DiscoveryVideoCell extends Component {
     render() {
         let item = this.props.item;
         return <View style={styles.container}>
-            <View style={styles.videoContainer}>
+            <View style={styles.liveContainer}>
                 <LoadingImage
-                    style={styles.video}
+                    style={styles.live}
                     source={{uri: item.indexImage}}/>
                 <View style={styles.infoContainer}>
                     <Text style={styles.title}>{item.title}</Text>
@@ -67,12 +67,12 @@ const styles = StyleSheet.create({
         alignItems: 'stretch',
         backgroundColor: Colors.white
     },
-    videoContainer: {
-        height: 220,
+    liveContainer: {
+        height: 200,
         flexDirection: 'row'
     },
-    video: {
-        height: 220,
+    live: {
+        height: 200,
         flex: 1,
     },
     videoOverlayContainer: {
