@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {Image, Platform, StyleSheet, View} from 'react-native';
 import Styles from '../constants/Styles';
 
-export default class CategoryHeader extends Component {
+export default class ShoppingCartBottom extends Component {
 
     constructor(props) {
         super(props);
