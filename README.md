@@ -7,7 +7,6 @@
 |:---:|:---:|:---:|
 |<img src="screenshots/screenshots_jd_launch.png" alt="启动页"  width="250">|<img src="screenshots/screenshots_jd_category.png" alt="分类页"  width="250">|<img src="screenshots/screenshots_jd_discovery_attention.png" alt="发现页-关注"  width="250">|
 |发现页-精选|发现页-视频|发现页-直播|
-|:---:|:---:|:---:|
 |<img src="screenshots/screenshots_jd_discovery_choice.png" alt="发现页-精选"  width="250">|<img src="screenshots/screenshots_jd_discovery_video.png" alt="发现页-视频"  width="250">|<img src="screenshots/screenshots_jd_discovery_live.png" alt="发现页-直播"  width="250">|
 
 页面完成进度  
