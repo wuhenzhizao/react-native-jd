@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
-import {Text, StyleSheet} from 'react-native';
+import {StyleSheet, Text} from 'react-native';
 
 export default class ShoppingCartNoticeCell extends Component {
 
@@ -18,6 +18,6 @@ const styles = StyleSheet.create({
         marginLeft: 10,
         marginTop: 15,
         marginBottom: 10,
-        fontSize: 13
+        fontSize: 13,
     }
 });
