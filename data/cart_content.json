@@ -1,0 +1,1903 @@
+{
+	"imageDomain": "https://m.360buyimg.com/mobilecms/s234x234_",
+	"resultCode": 0,
+	"code": "0",
+	"cartInfo": {
+		"vendors": [{
+			"vendorId": 57467,
+			"vendorType": 0,
+			"shopId": 53379,
+			"shopName": "MO\u0026Co.官方旗舰店",
+			"vendorPrice": 1798.0,
+			"specialId": 0,
+			"sorted": [{
+				"itemType": 1,
+				"item": {
+					"Tags": [],
+					"Discount": 0.0,
+					"IdForOldVersion": 10479328454,
+					"Point": 0,
+					"PriceImg": "",
+					"RePrice": 0.0,
+					"AwardType": 0,
+					"targetId": 0,
+					"isBook": false,
+					"isYb": false,
+					"Gifts": [],
+					"stockState": "有货",
+					"remainNum": "",
+					"remainNumInt": -1,
+					"canSelectPromotions": [],
+					"propertyTags": {
+						"b": "尺码:XS",
+						"a": "颜色:W08黑色"
+					},
+					"cid": 9719,
+					"stockCode": 0,
+					"maxNum": 200,
+					"cardSpecialId": 0,
+					"isProvideService": 0,
+					"overseaPurchase": 0,
+					"canSelectPrices": [],
+					"Id": "10479328454",
+					"Name": "MO\u0026Co.字母圆领中袖连衣裙套装欧美A字形修身短裙口袋MA161SKT10 moco W08黑色 XS",
+					"Num": 1,
+					"Price": 399.0,
+					"PriceShow": "￥399.00",
+					"ImgUrl": "jfs/t19006/235/1441238549/130217/f777a89/5ac97077Nce7b908c.jpg!q70.jpg",
+					"CheckType": 1,
+					"isNoCheck": 0
+				}
+			}, {
+				"itemType": 1,
+				"item": {
+					"Tags": [],
+					"Discount": 0.0,
+					"IdForOldVersion": 11229407797,
+					"Point": 0,
+					"PriceImg": "",
+					"RePrice": 0.0,
+					"AwardType": 0,
+					"targetId": 0,
+					"isBook": false,
+					"isYb": false,
+					"Gifts": [],
+					"stockState": "有货",
+					"remainNum": "仅剩5件",
+					"remainNumInt": 5,
+					"canSelectPromotions": [],
+					"propertyTags": {
+						"b": "尺码:M",
+						"a": "颜色:W08黑色"
+					},
+					"cid": 9719,
+					"stockCode": 0,
+					"maxNum": 200,
+					"cardSpecialId": 0,
+					"isProvideService": 0,
+					"overseaPurchase": 0,
+					"canSelectPrices": [],
+					"Id": "11229407797",
+					"Name": "MO\u0026Co.2017春季新品中袖立领刺绣雪纺连衣裙MA171DRS125 moco W08黑色 M",
+					"Num": 1,
+					"Price": 1399.0,
+					"PriceShow": "￥1,399.00",
+					"ImgUrl": "jfs/t18352/227/1392211700/125341/d174323f/5ac96e95N802d1b8a.jpg!q70.jpg",
+					"CheckType": 1,
+					"isNoCheck": 0
+				}
+			}],
+			"vendorLabels": {
+				"vendorHead": [{
+					"u": "cart_005"
+				}]
+			},
+			"checkType": 1,
+			"isNoCheck": 0
+		}, {
+			"vendorId": 48655,
+			"vendorType": 0,
+			"shopId": 45528,
+			"shopName": "子牧棉麻旗舰店",
+			"vendorPrice": 254.4,
+			"specialId": 0,
+			"sorted": [{
+				"itemType": 9,
+				"item": {
+					"items": [{
+						"itemType": 1,
+						"item": {
+							"Tags": [],
+							"Discount": 0.0,
+							"IdForOldVersion": 26840549160,
+							"Point": 0,
+							"PriceImg": "",
+							"RePrice": 0.0,
+							"AwardType": 0,
+							"targetId": 0,
+							"isBook": false,
+							"isYb": false,
+							"Gifts": [],
+							"stockState": "有货",
+							"remainNum": "",
+							"remainNumInt": -1,
+							"canSelectPromotions": [{
+								"id": 7581075093,
+								"title": "满2件总价8.0折，满3件总价7.0折",
+								"type": 10,
+								"checkType": 1
+							}],
+							"propertyTags": {
+								"b": "尺码:L",
+								"a": "颜色:3008红黄花"
+							},
+							"cid": 9719,
+							"stockCode": 0,
+							"maxNum": 200,
+							"cardSpecialId": 0,
+							"isProvideService": 0,
+							"overseaPurchase": 0,
+							"canSelectPrices": [],
+							"Id": "26840549160",
+							"Name": "子牧棉麻2018春季新款长袖长款复古盘扣连衣裙8068 3008红黄花 L",
+							"Num": 1,
+							"Price": 159.0,
+							"PriceShow": "￥159.00",
+							"ImgUrl": "jfs/t17221/355/1392295186/363022/1c177d6b/5ac88d4cNa45a3880.jpg!q70.jpg",
+							"CheckType": 1,
+							"isNoCheck": 0
+						}
+					}, {
+						"itemType": 1,
+						"item": {
+							"Tags": [],
+							"Discount": 0.0,
+							"IdForOldVersion": 26840549158,
+							"Point": 0,
+							"PriceImg": "",
+							"RePrice": 0.0,
+							"AwardType": 0,
+							"targetId": 0,
+							"isBook": false,
+							"isYb": false,
+							"Gifts": [],
+							"stockState": "有货",
+							"remainNum": "",
+							"remainNumInt": -1,
+							"canSelectPromotions": [{
+								"id": 7581075093,
+								"title": "满2件总价8.0折，满3件总价7.0折",
+								"type": 10,
+								"checkType": 1
+							}],
+							"propertyTags": {
+								"b": "尺码:L",
+								"a": "颜色:3008蓝黄花"
+							},
+							"cid": 9719,
+							"stockCode": 0,
+							"maxNum": 200,
+							"cardSpecialId": 0,
+							"isProvideService": 0,
+							"overseaPurchase": 0,
+							"canSelectPrices": [],
+							"Id": "26840549158",
+							"Name": "子牧棉麻2018春季新款长袖长款复古盘扣连衣裙8068 3008蓝黄花 L",
+							"Num": 1,
+							"Price": 159.0,
+							"PriceShow": "￥159.00",
+							"ImgUrl": "jfs/t18490/309/1410393795/362274/66820027/5ac88d4eNe69f5ccd.jpg!q70.jpg",
+							"CheckType": 1,
+							"isNoCheck": 0
+						}
+					}],
+					"NeedMoney": 0.0,
+					"Num": 1,
+					"Skus": [],
+					"Gifts": [],
+					"RePrice": 63.6,
+					"Price": 318.0,
+					"Discount": 0.0,
+					"Id": 7581075093,
+					"PriceShow": "￥318.00",
+					"Point": 0,
+					"STip": "已购满2件，已减63.6元",
+					"SType": 11,
+					"CheckType": 1,
+					"CanSelectGifts": [],
+					"suitType": 10,
+					"promotionId": "7581075093",
+					"specialId": "0",
+					"isReachCondition": true,
+					"suitLabel": "满减",
+					"entryLabel": "再逛逛",
+					"stillNeed": "0"
+				}
+			}],
+			"vendorLabels": {
+				"vendorHead": [{
+					"u": "cart_002"
+				}]
+			},
+			"checkType": 1,
+			"isNoCheck": 0
+		}, {
+			"vendorId": 30869,
+			"vendorType": 0,
+			"shopId": 29869,
+			"shopName": "烟花烫官方旗舰店",
+			"vendorPrice": 238.0,
+			"specialId": 0,
+			"sorted": [{
+				"itemType": 9,
+				"item": {
+					"items": [{
+						"itemType": 1,
+						"item": {
+							"Tags": [],
+							"Discount": 228.0,
+							"IdForOldVersion": 26160433656,
+							"Point": 0,
+							"PriceImg": "",
+							"RePrice": 0.0,
+							"AwardType": 0,
+							"targetId": 0,
+							"isBook": false,
+							"isYb": false,
+							"Gifts": [],
+							"stockState": "有货",
+							"remainNum": "",
+							"remainNumInt": -1,
+							"canSelectPromotions": [{
+								"id": 7603342505,
+								"title": "满2件总价9.0折，满3件总价8.5折",
+								"type": 10,
+								"checkType": 1
+							}],
+							"propertyTags": {
+								"b": "尺码:L",
+								"a": "颜色:白色"
+							},
+							"cid": 9719,
+							"stockCode": 0,
+							"maxNum": 200,
+							"cardSpecialId": 0,
+							"isProvideService": 0,
+							"overseaPurchase": 0,
+							"canSelectPrices": [],
+							"Id": "26160433656",
+							"Name": "烟花烫尔叙2018春夏新款绣花修身显瘦收腰简约白色淑女中长无袖连衣裙 心曲 白色 L",
+							"Num": 1,
+							"Price": 466.0,
+							"PriceShow": "￥238.00",
+							"ImgUrl": "jfs/t19426/291/935147597/248769/3f5944ef/5ab1b7e9N1c3b25de.jpg!q70.jpg",
+							"CheckType": 1,
+							"isNoCheck": 0
+						}
+					}],
+					"NeedMoney": 0.0,
+					"Num": 1,
+					"Skus": [],
+					"Gifts": [],
+					"RePrice": 0.0,
+					"Price": 238.0,
+					"Discount": 0.0,
+					"Id": 7603342505,
+					"PriceShow": "￥238.00",
+					"Point": 0,
+					"STip": "购满2件，总价可打9折",
+					"SType": 11,
+					"CheckType": 1,
+					"CanSelectGifts": [],
+					"suitType": 10,
+					"promotionId": "7603342505",
+					"specialId": "0",
+					"isReachCondition": false,
+					"suitLabel": "满减",
+					"entryLabel": "去凑单",
+					"stillNeed": "0"
+				}
+			}],
+			"vendorLabels": {
+				"vendorHead": [{
+					"u": "cart_005"
+				}]
+			},
+			"checkType": 1,
+			"isNoCheck": 0
+		}, {
+			"vendorId": 37335,
+			"vendorType": 0,
+			"shopId": 35324,
+			"shopName": "茵曼官方旗舰店",
+			"vendorPrice": 718.0,
+			"specialId": 0,
+			"sorted": [{
+				"itemType": 1,
+				"item": {
+					"Tags": [],
+					"Discount": 0.0,
+					"IdForOldVersion": 23315061487,
+					"Point": 0,
+					"PriceImg": "",
+					"RePrice": 0.0,
+					"AwardType": 0,
+					"targetId": 0,
+					"isBook": false,
+					"isYb": false,
+					"Gifts": [],
+					"stockState": "有货",
+					"remainNum": "",
+					"remainNumInt": -1,
+					"canSelectPromotions": [],
+					"propertyTags": {
+						"b": "尺码:L",
+						"a": "颜色:青绿色(预售4月20号发货)"
+					},
+					"cid": 9719,
+					"stockCode": 0,
+					"maxNum": 200,
+					"cardSpecialId": 0,
+					"isProvideService": 0,
+					"overseaPurchase": 0,
+					"canSelectPrices": [],
+					"Id": "23315061487",
+					"Name": "茵曼2018春装新款立领印花长款绣花显瘦长袖连衣裙女【18811VP01396】 青绿色(预售4月20号发货) L",
+					"Num": 1,
+					"Price": 359.0,
+					"PriceShow": "￥359.00",
+					"ImgUrl": "jfs/t15001/212/1605738842/384968/b348d910/5a52d711N2b4a4621.jpg!q70.jpg",
+					"CheckType": 1,
+					"isNoCheck": 0
+				}
+			}, {
+				"itemType": 1,
+				"item": {
+					"Tags": [],
+					"Discount": 0.0,
+					"IdForOldVersion": 23315061486,
+					"Point": 0,
+					"PriceImg": "",
+					"RePrice": 0.0,
+					"AwardType": 0,
+					"targetId": 0,
+					"isBook": false,
+					"isYb": false,
+					"Gifts": [],
+					"stockState": "有货",
+					"remainNum": "",
+					"remainNumInt": -1,
+					"canSelectPromotions": [],
+					"propertyTags": {
+						"b": "尺码:M",
+						"a": "颜色:青绿色(预售4月20号发货)"
+					},
+					"cid": 9719,
+					"stockCode": 0,
+					"maxNum": 200,
+					"cardSpecialId": 0,
+					"isProvideService": 0,
+					"overseaPurchase": 0,
+					"canSelectPrices": [],
+					"Id": "23315061486",
+					"Name": "茵曼2018春装新款立领印花长款绣花显瘦长袖连衣裙女【18811VP01396】 青绿色(预售4月20号发货) M",
+					"Num": 1,
+					"Price": 359.0,
+					"PriceShow": "￥359.00",
+					"ImgUrl": "jfs/t15001/212/1605738842/384968/b348d910/5a52d711N2b4a4621.jpg!q70.jpg",
+					"CheckType": 1,
+					"isNoCheck": 0
+				}
+			}],
+			"vendorLabels": {
+				"vendorHead": [{
+					"u": "cart_002"
+				}]
+			},
+			"checkType": 1,
+			"isNoCheck": 0
+		}, {
+			"vendorId": 8888,
+			"vendorType": 99,
+			"shopId": -1,
+			"shopName": "京东自营",
+			"vendorPrice": 0.0,
+			"specialId": 1,
+			"sorted": [{
+				"itemType": 12,
+				"item": {
+					"items": [{
+						"itemType": 1,
+						"item": {
+							"Tags": [],
+							"Discount": 26.1,
+							"IdForOldVersion": 2355356,
+							"Point": 0,
+							"PriceImg": "",
+							"RePrice": 0.0,
+							"AwardType": 0,
+							"targetId": 0,
+							"isBook": false,
+							"isYb": false,
+							"Gifts": [],
+							"specialId": "524288",
+							"stockState": "有货",
+							"remainNum": "",
+							"remainNumInt": -1,
+							"canSelectPromotions": [{
+								"id": 216215503,
+								"title": "满29.9元加19.9元可换购商品",
+								"type": 10,
+								"checkType": 1
+							}],
+							"propertyTags": {},
+							"cid": 10975,
+							"stockCode": 0,
+							"weight": "重量:6.08kg",
+							"maxNum": 200,
+							"skuLabels": {
+								"skuHead": [{
+									"u": "tab_101"
+								}]
+							},
+							"cardSpecialId": 0,
+							"isProvideService": 0,
+							"overseaPurchase": 0,
+							"canSelectPrices": [],
+							"Id": "2355356",
+							"Name": "依能 苏打水 青柠味 350ml*15瓶/箱 无糖 无汽 饮料",
+							"Num": 1,
+							"Price": 49.0,
+							"PriceShow": "￥22.90",
+							"ImgUrl": "jfs/t16951/48/1244508157/78648/4744424b/5ac2f3e1Nbeb97bb8.jpg!q70.jpg",
+							"CheckType": 0,
+							"isNoCheck": 0
+						}
+					}],
+					"NeedMoney": 29.9,
+					"Num": 1,
+					"Skus": [],
+					"Gifts": [],
+					"RePrice": 0.0,
+					"Price": 22.9,
+					"Discount": 0.0,
+					"Id": 216215503,
+					"PriceShow": "￥0.00",
+					"Point": 0,
+					"AddMoney": 19.9,
+					"STip": "购满29.9元，即可换购商品",
+					"SType": 16,
+					"CheckType": 0,
+					"CanSelectGifts": [],
+					"suitType": 10,
+					"promotionId": "216215503",
+					"specialId": "0",
+					"isReachCondition": false,
+					"suitLabel": "加价购",
+					"entryLabel": "去凑单",
+					"stillNeed": "0"
+				}
+			}, {
+				"itemType": 12,
+				"item": {
+					"items": [{
+						"itemType": 1,
+						"item": {
+							"Tags": [],
+							"Discount": 109.0,
+							"IdForOldVersion": 782353,
+							"Point": 0,
+							"PriceImg": "",
+							"RePrice": 0.0,
+							"AwardType": 0,
+							"targetId": 0,
+							"isBook": false,
+							"isYb": false,
+							"Gifts": [],
+							"stockState": "有货",
+							"remainNum": "",
+							"remainNumInt": -1,
+							"canSelectPromotions": [{
+								"id": 215694239,
+								"title": "满10、20、30元可换购商品",
+								"type": 10,
+								"checkType": 1
+							}, {
+								"id": 214767819,
+								"title": "满49、79、99元可换购商品",
+								"type": 10,
+								"checkType": 0
+							}],
+							"propertyTags": {
+								"a": "颜色:黑色经典款RQ311"
+							},
+							"cid": 739,
+							"stockCode": 0,
+							"weight": "重量:0.27kg",
+							"maxNum": 200,
+							"cardSpecialId": 0,
+							"isProvideService": 0,
+							"overseaPurchase": 0,
+							"canSelectPrices": [],
+							"Id": "782353",
+							"Name": "飞利浦（PHILIPS）电动剃须刀 全身水洗 刮胡刀 RQ311",
+							"Num": 1,
+							"Price": 328.0,
+							"PriceShow": "￥219.00",
+							"ImgUrl": "g9/M01/10/1D/rBEHaVDO6-wIAAAAAACozjmUP4AAADTmQOorpcAAKjm919.jpg!q70.jpg",
+							"CheckType": 0,
+							"isNoCheck": 0
+						}
+					}],
+					"NeedMoney": 30.0,
+					"Num": 1,
+					"Skus": [],
+					"Gifts": [],
+					"RePrice": 0.0,
+					"Price": 219.0,
+					"Discount": 0.0,
+					"Id": 215694239,
+					"PriceShow": "￥0.00",
+					"Point": 0,
+					"AddMoney": 39.9,
+					"STip": "购满30元，即可换购商品",
+					"SType": 16,
+					"CheckType": 0,
+					"CanSelectGifts": [],
+					"suitType": 10,
+					"promotionId": "215694239",
+					"specialId": "0",
+					"isReachCondition": true,
+					"suitLabel": "加价购",
+					"entryLabel": "去凑单",
+					"stillNeed": "0"
+				}
+			}, {
+				"itemType": 1,
+				"item": {
+					"Tags": [],
+					"Discount": 700.0,
+					"IdForOldVersion": 1361949,
+					"Point": 0,
+					"PriceImg": "",
+					"RePrice": 0.0,
+					"AwardType": 0,
+					"targetId": 0,
+					"isBook": false,
+					"isYb": false,
+					"Gifts": [],
+					"specialId": "65536",
+					"stockState": "有货",
+					"remainNum": "",
+					"remainNumInt": -1,
+					"canSelectPromotions": [],
+					"propertyTags": {
+						"b": "系列:Q铂变频柜机",
+						"a": "匹数:2匹"
+					},
+					"cid": 870,
+					"affixes": [{
+						"Tags": [],
+						"Discount": 0.0,
+						"IdForOldVersion": 1361945,
+						"Point": 0,
+						"PriceImg": "",
+						"RePrice": 0.0,
+						"AwardType": 1,
+						"targetId": 0,
+						"isBook": false,
+						"isYb": false,
+						"Gifts": [],
+						"stockState": "有货",
+						"remainNum": "",
+						"remainNumInt": -1,
+						"canSelectPromotions": [],
+						"propertyTags": {},
+						"cid": 1259,
+						"stockCode": 0,
+						"weight": "不计重量",
+						"maxNum": 200,
+						"cardSpecialId": 0,
+						"isProvideService": 0,
+						"overseaPurchase": 0,
+						"canSelectPrices": [],
+						"Id": "1361945",
+						"Name": "格力（GREE）KFR-50W/FNF01-A3 室外机（对应室内机：KFR-50LW/(50596)FNAa-A3）",
+						"Num": 1,
+						"Price": 0.0,
+						"PriceShow": "￥0.00",
+						"ImgUrl": "null!q70.jpg",
+						"CheckType": 0
+					}],
+					"stockCode": 0,
+					"weight": "不计重量",
+					"maxNum": 200,
+					"skuLabels": {
+						"priceTop": [{
+							"u": "tab_var_071",
+							"t": "白条3期免息"
+						}]
+					},
+					"cardSpecialId": 4,
+					"isProvideService": 0,
+					"overseaPurchase": 0,
+					"canSelectPrices": [],
+					"Id": "1361949",
+					"Name": "格力(GREE) 2匹 变频 Q铂 立柜式冷暖空调 KFR-50LW/(50596)FNAa-A3",
+					"Num": 1,
+					"Price": 6399.0,
+					"PriceShow": "￥5,699.00",
+					"ImgUrl": "jfs/t19354/122/1073986127/69053/ea577d09/5abb1105N93de4e88.jpg!q70.jpg",
+					"CheckType": 0,
+					"isNoCheck": 0
+				}
+			}, {
+				"itemType": 1,
+				"item": {
+					"Tags": [],
+					"Discount": 1400.0,
+					"IdForOldVersion": 1361956,
+					"Point": 0,
+					"PriceImg": "",
+					"RePrice": 0.0,
+					"AwardType": 0,
+					"targetId": 0,
+					"isBook": false,
+					"isYb": false,
+					"Gifts": [],
+					"specialId": "65536",
+					"stockState": "有货",
+					"remainNum": "",
+					"remainNumInt": -1,
+					"canSelectPromotions": [],
+					"propertyTags": {
+						"b": "系列:Q铂变频柜机",
+						"a": "匹数:3匹"
+					},
+					"cid": 870,
+					"affixes": [{
+						"Tags": [],
+						"Discount": 0.0,
+						"IdForOldVersion": 1361942,
+						"Point": 0,
+						"PriceImg": "",
+						"RePrice": 0.0,
+						"AwardType": 1,
+						"targetId": 0,
+						"isBook": false,
+						"isYb": false,
+						"Gifts": [],
+						"stockState": "有货",
+						"remainNum": "",
+						"remainNumInt": -1,
+						"canSelectPromotions": [],
+						"propertyTags": {},
+						"cid": 1259,
+						"stockCode": 0,
+						"weight": "不计重量",
+						"maxNum": 200,
+						"cardSpecialId": 0,
+						"isProvideService": 0,
+						"overseaPurchase": 0,
+						"canSelectPrices": [],
+						"Id": "1361942",
+						"Name": "格力（GREE）KFR-72/FNI04-A3 室外机（对应室内机：KFR-72LW/(72596)FNAa-A3）",
+						"Num": 1,
+						"Price": 0.0,
+						"PriceShow": "￥0.00",
+						"ImgUrl": "null!q70.jpg",
+						"CheckType": 0
+					}],
+					"stockCode": 0,
+					"weight": "不计重量",
+					"maxNum": 200,
+					"skuLabels": {
+						"priceTop": [{
+							"u": "tab_var_071",
+							"t": "白条3期免息"
+						}]
+					},
+					"cardSpecialId": 4,
+					"isProvideService": 0,
+					"overseaPurchase": 0,
+					"canSelectPrices": [],
+					"Id": "1361956",
+					"Name": "格力(GREE) 3匹 变频 Q铂 立柜式冷暖空调 KFR-72LW/(72596)FNAa-A3",
+					"Num": 1,
+					"Price": 8099.0,
+					"PriceShow": "￥6,699.00",
+					"ImgUrl": "jfs/t16333/320/2466663322/69053/ea577d09/5abb112eNaf3a9762.jpg!q70.jpg",
+					"CheckType": 0,
+					"isNoCheck": 0
+				}
+			}, {
+				"itemType": 1,
+				"item": {
+					"Tags": [],
+					"Discount": 19.0,
+					"IdForOldVersion": 2586467,
+					"Point": 0,
+					"PriceImg": "",
+					"RePrice": 0.0,
+					"AwardType": 0,
+					"targetId": 0,
+					"isBook": false,
+					"isYb": false,
+					"Gifts": [],
+					"specialId": "524288",
+					"stockState": "有货",
+					"remainNum": "",
+					"remainNumInt": -1,
+					"canSelectPromotions": [],
+					"propertyTags": {
+						"b": "规格:基础款"
+					},
+					"cid": 12591,
+					"stockCode": 0,
+					"weight": "重量:0.36kg",
+					"maxNum": 200,
+					"skuLabels": {
+						"skuHead": [{
+							"u": "tab_101"
+						}]
+					},
+					"cardSpecialId": 0,
+					"isProvideService": 0,
+					"overseaPurchase": 0,
+					"canSelectPrices": [],
+					"Id": "2586467",
+					"Name": "诺泰眼部按摩器 眼保仪护眼仪 眼睛按摩仪",
+					"Num": 1,
+					"Price": 68.0,
+					"PriceShow": "￥49.00",
+					"ImgUrl": "jfs/t19582/273/470299737/406749/223f6e29/5a7eb493N52735de8.jpg!q70.jpg",
+					"CheckType": 0,
+					"isNoCheck": 0
+				}
+			}, {
+				"itemType": 1,
+				"item": {
+					"Tags": [],
+					"Discount": 0.0,
+					"IdForOldVersion": 6051133,
+					"Point": 0,
+					"PriceImg": "",
+					"RePrice": 0.0,
+					"AwardType": 0,
+					"targetId": 0,
+					"isBook": false,
+					"isYb": false,
+					"Gifts": [],
+					"stockState": "有货",
+					"remainNum": "",
+					"remainNumInt": -1,
+					"canSelectPromotions": [],
+					"propertyTags": {
+						"b": "版本:双网通版",
+						"a": "颜色:金色"
+					},
+					"cid": 655,
+					"stockCode": 0,
+					"weight": "重量:0.48kg",
+					"maxNum": 200,
+					"cardSpecialId": 0,
+					"isProvideService": 0,
+					"overseaPurchase": 0,
+					"canSelectPrices": [],
+					"Id": "6051133",
+					"Name": "Apple iPhone 8 Plus (A1899) 64GB 金色 移动联通4G手机",
+					"Num": 1,
+					"Price": 5499.0,
+					"PriceShow": "￥5,499.00",
+					"ImgUrl": "jfs/t8284/363/1326459580/71585/6d3e8013/59b857f2N6ca75622.jpg!q70.jpg",
+					"CheckType": 0,
+					"isNoCheck": 0
+				}
+			}, {
+				"itemType": 12,
+				"item": {
+					"items": [{
+						"itemType": 1,
+						"item": {
+							"Tags": [],
+							"Discount": 0.0,
+							"IdForOldVersion": 4515563,
+							"Point": 0,
+							"PriceImg": "",
+							"RePrice": 0.0,
+							"AwardType": 0,
+							"targetId": 0,
+							"isBook": false,
+							"isYb": false,
+							"Gifts": [],
+							"specialId": "131072",
+							"stockState": "有货",
+							"remainNum": "",
+							"remainNumInt": -1,
+							"canSelectPromotions": [{
+								"id": 216031432,
+								"title": "满19元得赠品，赠完即止",
+								"type": 10,
+								"checkType": 1
+							}, {
+								"id": 202618131,
+								"title": "购买1件可优惠换购热销商品",
+								"type": 10,
+								"checkType": 0
+							}],
+							"cutPriceT": "比加入时降300元",
+							"propertyTags": {
+								"b": "版本:公开版",
+								"a": "颜色:深空灰"
+							},
+							"cid": 655,
+							"stockCode": 0,
+							"weight": "重量:0.4kg",
+							"maxNum": 200,
+							"skuLabels": {
+								"priceTop": [{
+									"u": "tab_var_071",
+									"t": "比加入时降300元"
+								}]
+							},
+							"cardSpecialId": 2,
+							"isProvideService": 0,
+							"overseaPurchase": 0,
+							"canSelectPrices": [],
+							"Id": "4515563",
+							"Name": "Apple iPhone 6 32GB 深空灰色 移动联通电信4G手机",
+							"Num": 1,
+							"Price": 2299.0,
+							"PriceShow": "￥2,299.00",
+							"ImgUrl": "jfs/t1903/66/943905202/95939/75496fa6/56374d4eNc40c1c00.jpg!q70.jpg",
+							"CheckType": 0,
+							"isNoCheck": 0
+						}
+					}, {
+						"itemType": 1,
+						"item": {
+							"Tags": [],
+							"Discount": 100.0,
+							"IdForOldVersion": 4586850,
+							"Point": 0,
+							"PriceImg": "",
+							"RePrice": 0.0,
+							"AwardType": 0,
+							"targetId": 0,
+							"isBook": false,
+							"isYb": false,
+							"Gifts": [],
+							"specialId": "131072",
+							"stockState": "有货",
+							"remainNum": "",
+							"remainNumInt": -1,
+							"canSelectPromotions": [{
+								"id": 216031432,
+								"title": "满19元得赠品，赠完即止",
+								"type": 10,
+								"checkType": 1
+							}, {
+								"id": 202618131,
+								"title": "购买1件可优惠换购热销商品",
+								"type": 10,
+								"checkType": 0
+							}, {
+								"id": 201582164,
+								"title": "购买1件可优惠换购热销商品",
+								"type": 10,
+								"checkType": 0
+							}],
+							"cutPriceT": "比加入时降300元",
+							"propertyTags": {
+								"b": "版本:公开版",
+								"a": "颜色:金色"
+							},
+							"cid": 655,
+							"stockCode": 0,
+							"weight": "重量:0.39kg",
+							"maxNum": 200,
+							"skuLabels": {
+								"priceTop": [{
+									"u": "tab_var_071",
+									"t": "比加入时降300元"
+								}]
+							},
+							"cardSpecialId": 2,
+							"isProvideService": 0,
+							"overseaPurchase": 0,
+							"canSelectPrices": [],
+							"Id": "4586850",
+							"Name": "Apple iPhone 6 32GB 金色 移动联通电信4G手机",
+							"Num": 1,
+							"Price": 2199.0,
+							"PriceShow": "￥2,099.00",
+							"ImgUrl": "jfs/t277/193/1005339798/768456/29136988/542d0798N19d42ce3.jpg!q70.jpg",
+							"CheckType": 0,
+							"isNoCheck": 0
+						}
+					}],
+					"NeedMoney": 19.0,
+					"Num": 1,
+					"Skus": [],
+					"Gifts": [],
+					"RePrice": 0.0,
+					"Price": 4398.0,
+					"Discount": 0.0,
+					"Id": 216031432,
+					"PriceShow": "￥0.00",
+					"Point": 0,
+					"AddMoney": 0.0,
+					"STip": "购满19元，即可领取赠品",
+					"SType": 16,
+					"CheckType": 0,
+					"CanSelectGifts": [],
+					"suitType": 10,
+					"promotionId": "216031432",
+					"specialId": "0",
+					"isReachCondition": true,
+					"suitLabel": "满赠",
+					"entryLabel": "去凑单",
+					"stillNeed": "0"
+				}
+			}, {
+				"itemType": 1,
+				"item": {
+					"Tags": [],
+					"Discount": 2.0,
+					"IdForOldVersion": 1192475,
+					"Point": 0,
+					"PriceImg": "",
+					"RePrice": 0.0,
+					"AwardType": 0,
+					"targetId": 0,
+					"isBook": false,
+					"isYb": false,
+					"Gifts": [],
+					"specialId": "66560",
+					"stockState": "有货",
+					"remainNum": "",
+					"remainNumInt": -1,
+					"canSelectPromotions": [],
+					"propertyTags": {
+						"a": "产品:3支装"
+					},
+					"cid": 1391,
+					"stockCode": 0,
+					"weight": "重量:0.18kg",
+					"maxNum": 200,
+					"skuLabels": {
+						"priceTop": [{
+							"u": "tab_var_071",
+							"t": "白条3期免息"
+						}],
+						"skuHead": [{
+							"u": "tab_006"
+						}]
+					},
+					"cardSpecialId": 4,
+					"isProvideService": 0,
+					"overseaPurchase": 0,
+					"canSelectPrices": [],
+					"Id": "1192475",
+					"Name": "完美芦荟胶40g 3支装",
+					"Num": 3,
+					"Price": 90.0,
+					"PriceShow": "￥88.00",
+					"ImgUrl": "jfs/t595/197/509204436/102860/1bd3c1b/546e9e81N8f2d62eb.jpg!q70.jpg",
+					"CheckType": 0,
+					"isNoCheck": 0
+				}
+			}, {
+				"itemType": 1,
+				"item": {
+					"Tags": [],
+					"Discount": 589.0,
+					"IdForOldVersion": 4335139,
+					"Point": 0,
+					"PriceImg": "",
+					"RePrice": 0.0,
+					"AwardType": 0,
+					"targetId": 0,
+					"isBook": false,
+					"isYb": false,
+					"Gifts": [],
+					"specialId": "131072",
+					"stockState": "有货",
+					"remainNum": "",
+					"remainNumInt": -1,
+					"canSelectPromotions": [],
+					"cutPriceT": "比加入时降200元",
+					"propertyTags": {
+						"b": "版本:2017新 i5升级版",
+						"a": "颜色:银色"
+					},
+					"cid": 672,
+					"stockCode": 0,
+					"weight": "重量:2.98kg",
+					"maxNum": 200,
+					"skuLabels": {
+						"priceTop": [{
+							"u": "tab_var_071",
+							"t": "比加入时降200元"
+						}]
+					},
+					"cardSpecialId": 2,
+					"isProvideService": 0,
+					"overseaPurchase": 0,
+					"canSelectPrices": [],
+					"Id": "4335139",
+					"Name": "Apple MacBook Air 13.3英寸笔记本电脑 银色(2017新款Core i5 处理器/8GB内存/256GB闪存 MQD42CH/A)",
+					"Num": 1,
+					"Price": 8488.0,
+					"PriceShow": "￥7,899.00",
+					"ImgUrl": "jfs/t17278/112/289194901/93902/e5883831/5a6947f0Nd79371e9.jpg!q70.jpg",
+					"CheckType": 0,
+					"isNoCheck": 0
+				}
+			}, {
+				"itemType": 1,
+				"item": {
+					"Tags": [],
+					"Discount": 489.0,
+					"IdForOldVersion": 5225346,
+					"Point": 0,
+					"PriceImg": "",
+					"RePrice": 0.0,
+					"AwardType": 0,
+					"targetId": 0,
+					"isBook": false,
+					"isYb": false,
+					"Gifts": [],
+					"stockState": "有货",
+					"remainNum": "",
+					"remainNumInt": -1,
+					"canSelectPromotions": [],
+					"propertyTags": {
+						"b": "版本:2017新 i5升级版",
+						"a": "颜色:银色"
+					},
+					"cid": 672,
+					"stockCode": 0,
+					"weight": "重量:2.96kg",
+					"maxNum": 200,
+					"cardSpecialId": 0,
+					"isProvideService": 0,
+					"overseaPurchase": 0,
+					"canSelectPrices": [],
+					"Id": "5225346",
+					"Name": "Apple MacBook Air 13.3英寸笔记本电脑 银色(2017新款Core i5 处理器/8GB内存/128GB闪存 MQD32CH/A)",
+					"Num": 1,
+					"Price": 6988.0,
+					"PriceShow": "￥6,499.00",
+					"ImgUrl": "jfs/t14848/365/2076510540/93902/e5883831/5a6947e5N39e16ed8.jpg!q70.jpg",
+					"CheckType": 0,
+					"isNoCheck": 0
+				}
+			}, {
+				"itemType": 1,
+				"item": {
+					"Tags": [],
+					"Discount": 0.0,
+					"IdForOldVersion": 2823884,
+					"Point": 0,
+					"PriceImg": "",
+					"RePrice": 0.0,
+					"AwardType": 0,
+					"targetId": 0,
+					"isBook": false,
+					"isYb": false,
+					"Gifts": [],
+					"stockState": "无货",
+					"remainNum": "",
+					"remainNumInt": -1,
+					"canSelectPromotions": [],
+					"propertyTags": {
+						"a": "颜色:C5 无风扇版"
+					},
+					"cid": 682,
+					"stockCode": 1,
+					"weight": "重量:0.6kg",
+					"maxNum": 200,
+					"cardSpecialId": 0,
+					"isProvideService": 0,
+					"overseaPurchase": 0,
+					"canSelectPrices": [],
+					"Id": "2823884",
+					"Name": "首席玩家（1st player）黑泽氏C5无风扇版 笔记本散热器 （笔记本/ 平板/手机/纳凉等多用途）",
+					"Num": 1,
+					"Price": 99.9,
+					"PriceShow": "￥99.90",
+					"ImgUrl": "jfs/t2599/365/678080709/60215/fb70f53b/572052a0N12894ea9.jpg!q70.jpg",
+					"CheckType": 0,
+					"isNoCheck": 0
+				}
+			}, {
+				"itemType": 12,
+				"item": {
+					"items": [{
+						"itemType": 1,
+						"item": {
+							"Tags": [],
+							"Discount": 500.0,
+							"IdForOldVersion": 2554856,
+							"Point": 0,
+							"PriceImg": "",
+							"RePrice": 0.0,
+							"AwardType": 0,
+							"targetId": 0,
+							"isBook": false,
+							"isYb": false,
+							"Gifts": [{
+								"Tags": [],
+								"Discount": 0.0,
+								"IdForOldVersion": 6969489,
+								"Point": 0,
+								"PriceImg": "",
+								"RePrice": 0.0,
+								"AwardType": 2,
+								"targetId": 0,
+								"isBook": false,
+								"isYb": false,
+								"Gifts": [],
+								"stockState": "有货",
+								"remainNum": "",
+								"remainNumInt": -1,
+								"canSelectPromotions": [],
+								"propertyTags": {},
+								"cid": 847,
+								"stockCode": 0,
+								"weight": "重量:0.5kg",
+								"maxNum": 200,
+								"cardSpecialId": 0,
+								"isProvideService": 0,
+								"overseaPurchase": 0,
+								"canSelectPrices": [],
+								"Id": "6969489",
+								"Name": "佳能 Canon\u0026ARMANI JEANS手提包（赠品）",
+								"Num": 3,
+								"Price": 0.0,
+								"PriceShow": "￥0.00",
+								"ImgUrl": "null!q70.jpg",
+								"CheckType": 0
+							}],
+							"giftsType": 0,
+							"stockState": "有货",
+							"remainNum": "",
+							"remainNumInt": -1,
+							"canSelectPromotions": [{
+								"id": 204247565,
+								"title": "购买1件可优惠换购热销商品",
+								"type": 10,
+								"checkType": 1
+							}],
+							"propertyTags": {
+								"b": "版本:【更大焦段性价典范】配18-200"
+							},
+							"cid": 832,
+							"stockCode": 0,
+							"weight": "重量:2.14kg",
+							"maxNum": 200,
+							"cardSpecialId": 0,
+							"isProvideService": 0,
+							"overseaPurchase": 0,
+							"canSelectPrices": [],
+							"Id": "2554856",
+							"Name": "佳能（Canon）EOS 80D 单反套机（EF-S 18-200mm f/3.5-5.6 IS） 2420万有效像素 45点十字对焦 WIFI/NFC",
+							"Num": 3,
+							"Price": 9399.0,
+							"PriceShow": "￥8,899.00",
+							"ImgUrl": "jfs/t2656/295/34058120/362134/d92995e5/56fc835dNe349b797.jpg!q70.jpg",
+							"CheckType": 0,
+							"isNoCheck": 0
+						}
+					}],
+					"NeedMoney": 0.0,
+					"Num": 1,
+					"Skus": [],
+					"Gifts": [],
+					"RePrice": 0.0,
+					"Price": 26697.0,
+					"Discount": 0.0,
+					"Id": 204247565,
+					"PriceShow": "￥0.00",
+					"Point": 0,
+					"AddMoney": 0.0,
+					"STip": "购满1件,即可享受换购优惠",
+					"SType": 16,
+					"CheckType": 0,
+					"CanSelectGifts": [],
+					"suitType": 10,
+					"promotionId": "204247565",
+					"specialId": "0",
+					"isReachCondition": true,
+					"suitLabel": "换购",
+					"fullRefundType": 24,
+					"entryLabel": "去换购",
+					"stillNeed": "0"
+				}
+			}],
+			"fareType": 0,
+			"vendorLabels": {
+				"vendorHead": [{
+					"u": "cart_001"
+				}]
+			},
+			"checkType": 0,
+			"isNoCheck": 0
+		}, {
+			"vendorId": 113135,
+			"vendorType": 0,
+			"shopId": 110731,
+			"shopName": "闪魔旗舰店",
+			"vendorPrice": 0.0,
+			"specialId": 0,
+			"sorted": [{
+				"itemType": 9,
+				"item": {
+					"items": [{
+						"itemType": 1,
+						"item": {
+							"Tags": [],
+							"Discount": 11.1,
+							"IdForOldVersion": 12393863749,
+							"Point": 0,
+							"PriceImg": "",
+							"RePrice": 0.0,
+							"AwardType": 0,
+							"targetId": 0,
+							"isBook": false,
+							"isYb": false,
+							"Gifts": [],
+							"specialId": "65536",
+							"stockState": "有货",
+							"remainNum": "",
+							"remainNumInt": -1,
+							"canSelectPromotions": [{
+								"id": 7412808168,
+								"title": "满2件总价9.5折，满3件总价9.0折",
+								"type": 10,
+								"checkType": 1
+							}],
+							"propertyTags": {
+								"a": "颜色:京配*小米6【滕森二代抗蓝光】送神器*1片装"
+							},
+							"cid": 867,
+							"stockCode": 0,
+							"maxNum": 200,
+							"skuLabels": {
+								"priceTop": [{
+									"u": "tab_var_071",
+									"t": "白条3期免息"
+								}]
+							},
+							"cardSpecialId": 4,
+							"isProvideService": 0,
+							"overseaPurchase": 0,
+							"canSelectPrices": [],
+							"Id": "12393863749",
+							"Name": "闪魔 小米6钢化膜 小米六手机高清玻璃膜 mi6抗蓝光膜防爆抗指纹 适用于小米6 京配*小米6【滕森二代抗蓝光】送神器*1片装",
+							"Num": 1,
+							"Price": 29.9,
+							"PriceShow": "￥18.80",
+							"ImgUrl": "jfs/t10663/275/949869340/318638/56b7f605/59db142eN4b3c3d9b.jpg!q70.jpg",
+							"CheckType": 0,
+							"isNoCheck": 0
+						}
+					}],
+					"NeedMoney": 0.0,
+					"Num": 1,
+					"Skus": [],
+					"Gifts": [],
+					"RePrice": 0.0,
+					"Price": 18.8,
+					"Discount": 0.0,
+					"Id": 7412808168,
+					"PriceShow": "￥0.00",
+					"Point": 0,
+					"STip": "购满2件，总价可打9.5折",
+					"SType": 11,
+					"CheckType": 0,
+					"CanSelectGifts": [],
+					"suitType": 10,
+					"promotionId": "7412808168",
+					"specialId": "0",
+					"isReachCondition": false,
+					"suitLabel": "满减",
+					"entryLabel": "去凑单",
+					"stillNeed": "0"
+				}
+			}],
+			"vendorLabels": {
+				"vendorHead": [{
+					"u": "cart_005"
+				}]
+			},
+			"checkType": 0,
+			"isNoCheck": 0
+		}, {
+			"vendorId": 76732,
+			"vendorType": 0,
+			"shopId": 73559,
+			"shopName": "诺泰旗舰店",
+			"vendorPrice": 0.0,
+			"specialId": 0,
+			"sorted": [{
+				"itemType": 9,
+				"item": {
+					"items": [{
+						"itemType": 1,
+						"item": {
+							"Tags": [],
+							"Discount": 640.0,
+							"IdForOldVersion": 10093229723,
+							"Point": 0,
+							"PriceImg": "",
+							"RePrice": 0.0,
+							"AwardType": 0,
+							"targetId": 0,
+							"isBook": false,
+							"isYb": false,
+							"Gifts": [{
+								"Tags": [],
+								"Discount": 0.0,
+								"IdForOldVersion": 10271380077,
+								"Point": 0,
+								"PriceImg": "",
+								"RePrice": 0.0,
+								"AwardType": 2,
+								"targetId": 0,
+								"isBook": false,
+								"isYb": false,
+								"Gifts": [],
+								"stockState": "有货",
+								"remainNum": "",
+								"remainNumInt": -1,
+								"canSelectPromotions": [],
+								"propertyTags": {
+									"a": "五年质保"
+								},
+								"cid": 1290,
+								"stockCode": 0,
+								"weight": "重量:0.4kg",
+								"maxNum": 200,
+								"cardSpecialId": 0,
+								"isProvideService": 0,
+								"overseaPurchase": 0,
+								"canSelectPrices": [],
+								"Id": "10271380077",
+								"Name": "诺泰（Nuotai） 【此赠品为电子凭证 不随货发出】【五年质保】半年免费换新五年保修 五年质保",
+								"Num": 2,
+								"Price": 0.0,
+								"PriceShow": "￥0.00",
+								"ImgUrl": "jfs/t17884/203/531391143/303189/60ee40b7/5a93950eN8c2dac5b.jpg!q70.jpg",
+								"CheckType": 0
+							}],
+							"giftsType": 0,
+							"specialId": "524288",
+							"stockState": "有货",
+							"remainNum": "",
+							"remainNumInt": -1,
+							"canSelectPromotions": [{
+								"id": 7564709837,
+								"title": "满359元减30元",
+								"type": 10,
+								"checkType": 1
+							}, {
+								"id": 7319894537,
+								"title": "满200元加89元可换购商品",
+								"type": 10,
+								"checkType": 0
+							}],
+							"propertyTags": {
+								"a": "颜色:无线升级款"
+							},
+							"cid": 967,
+							"stockCode": 0,
+							"maxNum": 200,
+							"skuLabels": {
+								"skuHead": [{
+									"u": "tab_101"
+								}]
+							},
+							"cardSpecialId": 0,
+							"isProvideService": 0,
+							"overseaPurchase": 0,
+							"canSelectPrices": [],
+							"Id": "10093229723",
+							"Name": "诺泰（Nuotai） 诺泰眼部按摩器护眼仪近视力眼保仪眼睛按摩仪眼镜疲劳热敷眼罩黑眼圈眼袋 无线升级款",
+							"Num": 2,
+							"Price": 999.0,
+							"PriceShow": "￥359.00",
+							"ImgUrl": "jfs/t18499/363/1281500287/269235/c001b3b8/5ac46924Nfe559fa2.jpg!q70.jpg",
+							"CheckType": 0,
+							"isNoCheck": 0
+						}
+					}],
+					"NeedMoney": 359.0,
+					"Num": 1,
+					"Skus": [],
+					"Gifts": [],
+					"RePrice": 0.0,
+					"Price": 718.0,
+					"Discount": 0.0,
+					"Id": 7564709837,
+					"PriceShow": "￥0.00",
+					"Point": 0,
+					"STip": "购满359元，可减30元",
+					"SType": 11,
+					"CheckType": 0,
+					"CanSelectGifts": [],
+					"suitType": 10,
+					"promotionId": "7564709837",
+					"specialId": "0",
+					"isReachCondition": true,
+					"suitLabel": "满减",
+					"entryLabel": "去凑单",
+					"stillNeed": "0"
+				}
+			}],
+			"vendorLabels": {
+				"vendorHead": [{
+					"u": "cart_005"
+				}]
+			},
+			"checkType": 0,
+			"isNoCheck": 0
+		}, {
+			"vendorId": 136639,
+			"vendorType": 0,
+			"shopId": 133219,
+			"shopName": "驰晋胜影音设备专营店",
+			"vendorPrice": 0.0,
+			"specialId": 0,
+			"sorted": [{
+				"itemType": 12,
+				"item": {
+					"items": [{
+						"itemType": 1,
+						"item": {
+							"Tags": [],
+							"Discount": 0.0,
+							"IdForOldVersion": 1584984834,
+							"Point": 0,
+							"PriceImg": "",
+							"RePrice": 0.0,
+							"AwardType": 0,
+							"targetId": 0,
+							"isBook": false,
+							"isYb": false,
+							"Gifts": [],
+							"specialId": "65536",
+							"stockState": "有货",
+							"remainNum": "",
+							"remainNumInt": -1,
+							"canSelectPromotions": [{
+								"id": 7562455795,
+								"title": "满388元加60元可换购商品",
+								"type": 10,
+								"checkType": 1
+							}],
+							"propertyTags": {
+								"a": "颜色:灰色（赠送铝箱）"
+							},
+							"cid": 869,
+							"stockCode": 0,
+							"maxNum": 200,
+							"skuLabels": {
+								"priceTop": [{
+									"u": "tab_var_071",
+									"t": "白条12期免息"
+								}]
+							},
+							"cardSpecialId": 4,
+							"isProvideService": 0,
+							"overseaPurchase": 0,
+							"canSelectPrices": [],
+							"Id": "1584984834",
+							"Name": "魅声T6-2 外置声卡电容麦克风套装 手机电脑快手专用K歌主播麦克风话筒 手机直播录音设备 灰色（赠送铝箱）",
+							"Num": 1,
+							"Price": 528.0,
+							"PriceShow": "￥528.00",
+							"ImgUrl": "jfs/t11137/250/1285770738/289824/5ed66104/59ffd4dbN26bcc063.jpg!q70.jpg",
+							"CheckType": 0,
+							"isNoCheck": 0
+						}
+					}],
+					"NeedMoney": 388.0,
+					"Num": 1,
+					"Skus": [],
+					"Gifts": [],
+					"RePrice": 0.0,
+					"Price": 528.0,
+					"Discount": 0.0,
+					"Id": 7562455795,
+					"PriceShow": "￥0.00",
+					"Point": 0,
+					"AddMoney": 60.0,
+					"STip": "购满388元，即可换购商品",
+					"SType": 16,
+					"CheckType": 0,
+					"CanSelectGifts": [],
+					"suitType": 10,
+					"promotionId": "7562455795",
+					"specialId": "0",
+					"isReachCondition": true,
+					"suitLabel": "加价购",
+					"entryLabel": "去凑单",
+					"stillNeed": "0"
+				}
+			}],
+			"vendorLabels": {
+				"vendorHead": [{
+					"u": "cart_005"
+				}]
+			},
+			"checkType": 0,
+			"isNoCheck": 0
+		}, {
+			"vendorId": 176674,
+			"vendorType": 0,
+			"shopId": 170855,
+			"shopName": "UEU旗舰店",
+			"hasCoupon": 1,
+			"vendorPrice": 0.0,
+			"specialId": 0,
+			"sorted": [{
+				"itemType": 9,
+				"item": {
+					"items": [{
+						"itemType": 1,
+						"item": {
+							"Tags": [],
+							"Discount": 50.0,
+							"IdForOldVersion": 16378114888,
+							"Point": 0,
+							"PriceImg": "",
+							"RePrice": 0.0,
+							"AwardType": 0,
+							"targetId": 0,
+							"isBook": false,
+							"isYb": false,
+							"Gifts": [{
+								"Tags": [],
+								"Discount": 0.0,
+								"IdForOldVersion": 16843933392,
+								"Point": 0,
+								"PriceImg": "",
+								"RePrice": 0.0,
+								"AwardType": 2,
+								"targetId": 0,
+								"isBook": false,
+								"isYb": false,
+								"Gifts": [],
+								"stockState": "有货",
+								"remainNum": "",
+								"remainNumInt": -1,
+								"canSelectPromotions": [],
+								"propertyTags": {
+									"b": "1",
+									"a": "透明软壳"
+								},
+								"cid": 866,
+								"stockCode": 0,
+								"weight": "重量:0.1kg",
+								"maxNum": 200,
+								"cardSpecialId": 0,
+								"isProvideService": 0,
+								"overseaPurchase": 0,
+								"canSelectPrices": [],
+								"Id": "16843933392",
+								"Name": "UEU 小米mix2手机壳保护套全包硅胶磨砂软壳 透明软壳 1",
+								"Num": 1,
+								"Price": 0.0,
+								"PriceShow": "￥0.00",
+								"ImgUrl": "jfs/t9022/227/1921958582/133808/7291f18b/59c0d0c7N5ec63629.jpg!q70.jpg",
+								"CheckType": 0
+							}],
+							"giftsType": 0,
+							"specialId": "65536",
+							"stockState": "有货",
+							"remainNum": "",
+							"remainNumInt": -1,
+							"canSelectPromotions": [{
+								"id": 7455850344,
+								"title": "满3件，价格最低1件免费",
+								"type": 10,
+								"checkType": 1
+							}],
+							"propertyTags": {
+								"a": "颜色:全屏纳米水凝膜（前膜两张）-送手机壳"
+							},
+							"cid": 867,
+							"stockCode": 0,
+							"maxNum": 200,
+							"skuLabels": {
+								"priceTop": [{
+									"u": "tab_var_071",
+									"t": "白条3期免息"
+								}]
+							},
+							"cardSpecialId": 4,
+							"isProvideService": 0,
+							"overseaPurchase": 0,
+							"canSelectPrices": [],
+							"Id": "16378114888",
+							"Name": "UEU 【2张装，送手机壳】 小米mix2钢化软膜全屏覆盖水凝膜软玻璃全包覆盖透明膜 全屏纳米水凝膜（前膜两张）-送手机壳",
+							"Num": 1,
+							"Price": 98.0,
+							"PriceShow": "￥48.00",
+							"ImgUrl": "jfs/t19741/183/488176645/309382/b8405408/5a8b9475N52f10906.jpg!q70.jpg",
+							"CheckType": 0,
+							"isNoCheck": 0
+						}
+					}, {
+						"itemType": 1,
+						"item": {
+							"Tags": [],
+							"Discount": 20.0,
+							"IdForOldVersion": 18540063468,
+							"Point": 0,
+							"PriceImg": "",
+							"RePrice": 0.0,
+							"AwardType": 0,
+							"targetId": 0,
+							"isBook": false,
+							"isYb": false,
+							"Gifts": [{
+								"Tags": [],
+								"Discount": 0.0,
+								"IdForOldVersion": 200100123903,
+								"Point": 0,
+								"PriceImg": "",
+								"RePrice": 0.0,
+								"AwardType": 2,
+								"targetId": 0,
+								"isBook": false,
+								"isYb": false,
+								"Gifts": [],
+								"stockState": "有货",
+								"remainNum": "",
+								"remainNumInt": -1,
+								"canSelectPromotions": [],
+								"propertyTags": {
+									"b": "1M"
+								},
+								"cid": 13663,
+								"stockCode": 0,
+								"weight": "重量:1kg",
+								"maxNum": 200,
+								"cardSpecialId": 0,
+								"isProvideService": 0,
+								"overseaPurchase": 0,
+								"canSelectPrices": [],
+								"Id": "200100123903",
+								"Name": "流量（支持移动联通电信手机号提取） 1M",
+								"Num": 15,
+								"Price": 0.0,
+								"PriceShow": "￥0.00",
+								"ImgUrl": "jfs/t2641/282/3753348824/40591/83ca7566/57984f4eN88b49eed.jpg!q70.jpg",
+								"CheckType": 0
+							}],
+							"giftsType": 0,
+							"specialId": "65536",
+							"stockState": "有货",
+							"remainNum": "",
+							"remainNumInt": -1,
+							"canSelectPromotions": [{
+								"id": 7455850344,
+								"title": "满3件，价格最低1件免费",
+								"type": 10,
+								"checkType": 1
+							}],
+							"propertyTags": {
+								"a": "颜色:石墨黑（不露logo）"
+							},
+							"cid": 866,
+							"stockCode": 0,
+							"maxNum": 200,
+							"skuLabels": {
+								"priceTop": [{
+									"u": "tab_var_071",
+									"t": "白条3期免息"
+								}]
+							},
+							"cardSpecialId": 4,
+							"isProvideService": 0,
+							"overseaPurchase": 0,
+							"canSelectPrices": [],
+							"Id": "18540063468",
+							"Name": "UEU 【送钢化膜】苹果X手机壳iPhoneX保护套苹果10防摔全包磨砂硅胶软壳 石墨黑（不露logo）",
+							"Num": 1,
+							"Price": 48.0,
+							"PriceShow": "￥28.00",
+							"ImgUrl": "jfs/t16825/184/1221822182/265534/85a9f5d2/5ac180dcN95dcf182.jpg!q70.jpg",
+							"CheckType": 0,
+							"isNoCheck": 0
+						}
+					}],
+					"NeedMoney": 0.0,
+					"Num": 1,
+					"Skus": [],
+					"Gifts": [],
+					"RePrice": 0.0,
+					"Price": 76.0,
+					"Discount": 0.0,
+					"Id": 7455850344,
+					"PriceShow": "￥0.00",
+					"Point": 0,
+					"STip": "购满3件，即享优惠",
+					"SType": 11,
+					"CheckType": 0,
+					"CanSelectGifts": [],
+					"suitType": 10,
+					"promotionId": "7455850344",
+					"specialId": "0",
+					"isReachCondition": false,
+					"suitLabel": "满减",
+					"entryLabel": "去凑单",
+					"stillNeed": "0"
+				}
+			}],
+			"vendorLabels": {
+				"vendorHead": [{
+					"u": "cart_002"
+				}]
+			},
+			"checkType": 0,
+			"isNoCheck": 0
+		}, {
+			"vendorId": 161850,
+			"vendorType": 0,
+			"shopId": 156398,
+			"shopName": "钰沛精密工具专营店",
+			"vendorPrice": 0.0,
+			"specialId": 0,
+			"sorted": [{
+				"itemType": 1,
+				"item": {
+					"Tags": [],
+					"Discount": 8.0,
+					"IdForOldVersion": 1714818586,
+					"Point": 0,
+					"PriceImg": "",
+					"RePrice": 0.0,
+					"AwardType": 0,
+					"targetId": 0,
+					"isBook": false,
+					"isYb": false,
+					"Gifts": [],
+					"stockState": "有货",
+					"remainNum": "",
+					"remainNumInt": -1,
+					"canSelectPromotions": [],
+					"propertyTags": {},
+					"cid": 9921,
+					"stockCode": 0,
+					"maxNum": 200,
+					"cardSpecialId": 0,
+					"isProvideService": 0,
+					"overseaPurchase": 0,
+					"canSelectPrices": [],
+					"Id": "1714818586",
+					"Name": "南旗(NANCH) 进口S2钢螺丝刀套装手机笔记本电脑数码iphone6 5维修拆机工具",
+					"Num": 3,
+					"Price": 118.0,
+					"PriceShow": "￥110.00",
+					"ImgUrl": "jfs/t1711/72/1283833340/298543/c46e7ccc/55e33a2fN3959c0ce.jpg!q70.jpg",
+					"CheckType": 0,
+					"isNoCheck": 0
+				}
+			}],
+			"vendorLabels": {
+				"vendorHead": [{
+					"u": "cart_002"
+				}]
+			},
+			"checkType": 0,
+			"isNoCheck": 0
+		}, {
+			"vendorId": 42625,
+			"vendorType": 0,
+			"shopId": 40054,
+			"shopName": "京岛精工五金工具专营店",
+			"hasCoupon": 1,
+			"vendorPrice": 0.0,
+			"specialId": 0,
+			"sorted": [{
+				"itemType": 1,
+				"item": {
+					"Tags": [],
+					"Discount": 0.0,
+					"IdForOldVersion": 1027260369,
+					"Point": 0,
+					"PriceImg": "",
+					"RePrice": 0.0,
+					"AwardType": 0,
+					"targetId": 0,
+					"isBook": false,
+					"isYb": false,
+					"Gifts": [],
+					"stockState": "有货",
+					"remainNum": "",
+					"remainNumInt": -1,
+					"canSelectPromotions": [],
+					"propertyTags": {},
+					"cid": 9921,
+					"stockCode": 0,
+					"maxNum": 200,
+					"cardSpecialId": 0,
+					"isProvideService": 0,
+					"overseaPurchase": 0,
+					"canSelectPrices": [],
+					"Id": "1027260369",
+					"Name": "釰  手机螺丝刀套装组合 苹果5 6iphone4S 笔记本电脑维修工具 拆机",
+					"Num": 1,
+					"Price": 58.0,
+					"PriceShow": "￥58.00",
+					"ImgUrl": "jfs/t265/87/33551525/390767/5b300a56/53e381afN45398613.jpg!q70.jpg",
+					"CheckType": 0,
+					"isNoCheck": 0
+				}
+			}],
+			"vendorLabels": {
+				"vendorHead": [{
+					"u": "cart_002"
+				}]
+			},
+			"checkType": 0,
+			"isNoCheck": 0
+		}],
+		"specialId": 19,
+		"checkType": 0,
+		"isNoCheck": 0,
+		"Num": 34,
+		"cartNum": 27,
+		"checkedWareNum": 7,
+		"limitCartNum": 50,
+		"limitWareNum": 1000,
+		"limitBookNum": 1000,
+		"limitNotBookNum": 200,
+		"RePrice": 63.6,
+		"Price": 3072.0,
+		"IsEmpty": false,
+		"PriceShow": "￥3,008.40",
+		"Skus": [],
+		"Suits": [],
+		"Gifts": [],
+		"tip_1": "",
+		"tip_2": "",
+		"configVersion": "122",
+		"abCards": {
+			"3": "A",
+			"2": "B",
+			"10": "B",
+			"1": "B",
+			"7": "B",
+			"5": "A",
+			"4": "B",
+			"9": "B",
+			"8": "B",
+			"11": "A",
+			"12": "A"
+		},
+		"promotionSwitch": 0,
+		"promotionSavePrice": 0,
+		"cartClearGuide": 0
+	},
+	"notice": {
+		"value": "购物车中有3件商品已降价，快去看看",
+		"specialId": 0
+	},
+	"configCards": {
+		"cardsNotice": [{
+			"cardId": "1",
+			"elems": [{
+				"elemType": 1,
+				"imgUrl": "https://m.360buyimg.com/mobilecms/jfs/t3109/58/7616258500/454/41016427/58b7d4ecN66d287e8.png"
+			}, {
+				"elemType": 0,
+				"text": "购物车中有3件商品已降价，快去看看"
+			}]
+		}]
+	}
+}
