@@ -7,7 +7,7 @@
 			"vendorId": 57467,
 			"vendorType": 0,
 			"shopId": 53379,
-			"shopName": "MO\u0026Co.官方旗舰店",
+			"skuName": "MO\u0026Co.官方旗舰店",
 			"vendorPrice": 1798.0,
 			"specialId": 0,
 			"sorted": [{
@@ -98,7 +98,7 @@
 			"vendorId": 48655,
 			"vendorType": 0,
 			"shopId": 45528,
-			"shopName": "子牧棉麻旗舰店",
+			"skuName": "子牧棉麻旗舰店",
 			"vendorPrice": 254.4,
 			"specialId": 0,
 			"sorted": [{
@@ -225,7 +225,7 @@
 			"vendorId": 30869,
 			"vendorType": 0,
 			"shopId": 29869,
-			"shopName": "烟花烫官方旗舰店",
+			"skuName": "烟花烫官方旗舰店",
 			"vendorPrice": 238.0,
 			"specialId": 0,
 			"sorted": [{
@@ -309,7 +309,7 @@
 			"vendorId": 37335,
 			"vendorType": 0,
 			"shopId": 35324,
-			"shopName": "茵曼官方旗舰店",
+			"skuName": "茵曼官方旗舰店",
 			"vendorPrice": 718.0,
 			"specialId": 0,
 			"sorted": [{
@@ -400,7 +400,7 @@
 			"vendorId": 8888,
 			"vendorType": 99,
 			"shopId": -1,
-			"shopName": "京东自营",
+			"skuName": "京东自营",
 			"vendorPrice": 0.0,
 			"specialId": 1,
 			"sorted": [{
@@ -1228,7 +1228,7 @@
 			"vendorId": 113135,
 			"vendorType": 0,
 			"shopId": 110731,
-			"shopName": "闪魔旗舰店",
+			"skuName": "闪魔旗舰店",
 			"vendorPrice": 0.0,
 			"specialId": 0,
 			"sorted": [{
@@ -1318,7 +1318,7 @@
 			"vendorId": 76732,
 			"vendorType": 0,
 			"shopId": 73559,
-			"shopName": "诺泰旗舰店",
+			"skuName": "诺泰旗舰店",
 			"vendorPrice": 0.0,
 			"specialId": 0,
 			"sorted": [{
@@ -1447,7 +1447,7 @@
 			"vendorId": 136639,
 			"vendorType": 0,
 			"shopId": 133219,
-			"shopName": "驰晋胜影音设备专营店",
+			"skuName": "驰晋胜影音设备专营店",
 			"vendorPrice": 0.0,
 			"specialId": 0,
 			"sorted": [{
@@ -1538,7 +1538,7 @@
 			"vendorId": 176674,
 			"vendorType": 0,
 			"shopId": 170855,
-			"shopName": "UEU旗舰店",
+			"skuName": "UEU旗舰店",
 			"hasCoupon": 1,
 			"vendorPrice": 0.0,
 			"specialId": 0,
@@ -1749,7 +1749,7 @@
 			"vendorId": 161850,
 			"vendorType": 0,
 			"shopId": 156398,
-			"shopName": "钰沛精密工具专营店",
+			"skuName": "钰沛精密工具专营店",
 			"vendorPrice": 0.0,
 			"specialId": 0,
 			"sorted": [{
@@ -1799,7 +1799,7 @@
 			"vendorId": 42625,
 			"vendorType": 0,
 			"shopId": 40054,
-			"shopName": "京岛精工五金工具专营店",
+			"skuName": "京岛精工五金工具专营店",
 			"hasCoupon": 1,
 			"vendorPrice": 0.0,
 			"specialId": 0,

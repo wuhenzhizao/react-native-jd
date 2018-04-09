@@ -4,6 +4,7 @@ import ShoppingCartHeader from '../scenes/cart/ShoppingCartHeader';
 import ShoppingCartNoticeCell from '../scenes/cart/ShoppingCartNoticeCell';
 import ShoppingCartShopCell from '../scenes/cart/ShoppingCartShopCell';
 import ShoppingCartBottom from '../scenes/cart/ShoppingCartBottom';
+import ShoppingCartSkuCell from '../scenes/cart/ShoppingCartSkuCell';
 
 export default class MainShoppingCart extends Component<Props> {
 
@@ -20,6 +21,7 @@ export default class MainShoppingCart extends Component<Props> {
                 networkActivityIndicatorVisible={true}/>
             <ShoppingCartNoticeCell item={{}}/>
             <ShoppingCartShopCell item={{}}/>
+            <ShoppingCartSkuCell item={{}}/>
             <View style={{flex: 1}}/>
             <View style={styles.bottomLine}/>
             <ShoppingCartBottom item={{}}/>

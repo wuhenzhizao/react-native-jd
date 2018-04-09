@@ -8,7 +8,7 @@
 		"jump": {
 			"des": "jshopMain",
 			"params": {
-				"shopName": "vivo京东自营官方旗舰店",
+				"skuName": "vivo京东自营官方旗舰店",
 				"shopId": "1000085868",
 				"venderId": "1000085868"
 			},
@@ -24,7 +24,7 @@
 		"jump": {
 			"des": "jshopMain",
 			"params": {
-				"shopName": "联合利华自营旗舰店",
+				"skuName": "联合利华自营旗舰店",
 				"shopId": "1000003663",
 				"venderId": "1000003663"
 			},
@@ -40,7 +40,7 @@
 		"jump": {
 			"des": "jshopMain",
 			"params": {
-				"shopName": "魅族京东自营官方旗舰店",
+				"skuName": "魅族京东自营官方旗舰店",
 				"shopId": "1000001952",
 				"venderId": "1000001952"
 			},
@@ -56,7 +56,7 @@
 		"jump": {
 			"des": "jshopMain",
 			"params": {
-				"shopName": "飞利浦官方旗舰店",
+				"skuName": "飞利浦官方旗舰店",
 				"shopId": "1000003691",
 				"venderId": "1000003691"
 			},
@@ -72,7 +72,7 @@
 		"jump": {
 			"des": "jshopMain",
 			"params": {
-				"shopName": "美的空调自营旗舰店",
+				"skuName": "美的空调自营旗舰店",
 				"shopId": "1000001452",
 				"venderId": "1000001452"
 			},
@@ -88,7 +88,7 @@
 		"jump": {
 			"des": "jshopMain",
 			"params": {
-				"shopName": "JBL官方旗舰店",
+				"skuName": "JBL官方旗舰店",
 				"shopId": "1000000307",
 				"venderId": "1000000307"
 			},
@@ -104,7 +104,7 @@
 		"jump": {
 			"des": "jshopMain",
 			"params": {
-				"shopName": "全友家居官方旗舰店",
+				"skuName": "全友家居官方旗舰店",
 				"shopId": "147490",
 				"venderId": "152498"
 			},
@@ -120,7 +120,7 @@
 		"jump": {
 			"des": "jshopMain",
 			"params": {
-				"shopName": "美的冰箱自营旗舰店",
+				"skuName": "美的冰箱自营旗舰店",
 				"shopId": "1000001091",
 				"venderId": "1000001091"
 			},
@@ -136,7 +136,7 @@
 		"jump": {
 			"des": "jshopMain",
 			"params": {
-				"shopName": "美赞臣官方旗舰店",
+				"skuName": "美赞臣官方旗舰店",
 				"shopId": "1000003179",
 				"venderId": "1000003179"
 			},
@@ -152,7 +152,7 @@
 		"jump": {
 			"des": "jshopMain",
 			"params": {
-				"shopName": "作木坊旗舰店",
+				"skuName": "作木坊旗舰店",
 				"shopId": "56654",
 				"venderId": "60843"
 			},
@@ -168,7 +168,7 @@
 		"jump": {
 			"des": "jshopMain",
 			"params": {
-				"shopName": "欧芮儿旗舰店",
+				"skuName": "欧芮儿旗舰店",
 				"shopId": "86385",
 				"venderId": "89186"
 			},
@@ -184,7 +184,7 @@
 		"jump": {
 			"des": "jshopMain",
 			"params": {
-				"shopName": "美的生活电器自营官方旗舰店",
+				"skuName": "美的生活电器自营官方旗舰店",
 				"shopId": "1000001281",
 				"venderId": "1000001281"
 			},
@@ -200,7 +200,7 @@
 		"jump": {
 			"des": "jshopMain",
 			"params": {
-				"shopName": "奥克斯空调自营旗舰店",
+				"skuName": "奥克斯空调自营旗舰店",
 				"shopId": "1000001314",
 				"venderId": "1000001314"
 			},
@@ -216,7 +216,7 @@
 		"jump": {
 			"des": "jshopMain",
 			"params": {
-				"shopName": "蓝月亮京东自营店",
+				"skuName": "蓝月亮京东自营店",
 				"shopId": "1000001195",
 				"venderId": "1000001195"
 			},
@@ -232,7 +232,7 @@
 		"jump": {
 			"des": "jshopMain",
 			"params": {
-				"shopName": "飞利浦电视自营旗舰店",
+				"skuName": "飞利浦电视自营旗舰店",
 				"shopId": "1000001095",
 				"venderId": "1000001095"
 			},
@@ -248,7 +248,7 @@
 		"jump": {
 			"des": "jshopMain",
 			"params": {
-				"shopName": "Clarks官方旗舰店",
+				"skuName": "Clarks官方旗舰店",
 				"shopId": "57840",
 				"venderId": "61596"
 			},
@@ -264,7 +264,7 @@
 		"jump": {
 			"des": "jshopMain",
 			"params": {
-				"shopName": "方太官方旗舰店",
+				"skuName": "方太官方旗舰店",
 				"shopId": "29323",
 				"venderId": "30185"
 			},
@@ -280,7 +280,7 @@
 		"jump": {
 			"des": "jshopMain",
 			"params": {
-				"shopName": "兴城多宝鱼京东自营旗舰店",
+				"skuName": "兴城多宝鱼京东自营旗舰店",
 				"shopId": "1000083685",
 				"venderId": "1000083685"
 			},
@@ -296,7 +296,7 @@
 		"jump": {
 			"des": "jshopMain",
 			"params": {
-				"shopName": "A21官方旗舰店",
+				"skuName": "A21官方旗舰店",
 				"shopId": "38360",
 				"venderId": "40716"
 			},
@@ -312,7 +312,7 @@
 		"jump": {
 			"des": "jshopMain",
 			"params": {
-				"shopName": "妮维雅（NIVEA）京东官方旗舰店",
+				"skuName": "妮维雅（NIVEA）京东官方旗舰店",
 				"shopId": "1000003747",
 				"venderId": "1000003747"
 			},
@@ -328,7 +328,7 @@
 		"jump": {
 			"des": "jshopMain",
 			"params": {
-				"shopName": "得力京东自营官方旗舰店",
+				"skuName": "得力京东自营官方旗舰店",
 				"shopId": "1000001132",
 				"venderId": "1000001132"
 			},
@@ -344,7 +344,7 @@
 		"jump": {
 			"des": "jshopMain",
 			"params": {
-				"shopName": "帮宝适京东自营官方旗舰店",
+				"skuName": "帮宝适京东自营官方旗舰店",
 				"shopId": "1000001933",
 				"venderId": "1000001933"
 			},
@@ -360,7 +360,7 @@
 		"jump": {
 			"des": "jshopMain",
 			"params": {
-				"shopName": "正泰电器旗舰店",
+				"skuName": "正泰电器旗舰店",
 				"shopId": "95513",
 				"venderId": "97788"
 			},
@@ -376,7 +376,7 @@
 		"jump": {
 			"des": "jshopMain",
 			"params": {
-				"shopName": "双立人旗舰店",
+				"skuName": "双立人旗舰店",
 				"shopId": "12888",
 				"venderId": "13358"
 			},
@@ -392,7 +392,7 @@
 		"jump": {
 			"des": "jshopMain",
 			"params": {
-				"shopName": "三都港京东自营旗舰店",
+				"skuName": "三都港京东自营旗舰店",
 				"shopId": "1000014745",
 				"venderId": "1000014745"
 			},
@@ -408,7 +408,7 @@
 		"jump": {
 			"des": "jshopMain",
 			"params": {
-				"shopName": "小熊京东自营旗舰店",
+				"skuName": "小熊京东自营旗舰店",
 				"shopId": "1000002467",
 				"venderId": "1000002467"
 			},
@@ -424,7 +424,7 @@
 		"jump": {
 			"des": "jshopMain",
 			"params": {
-				"shopName": "三只松鼠旗舰店",
+				"skuName": "三只松鼠旗舰店",
 				"shopId": "29859",
 				"venderId": "30871"
 			},
@@ -440,7 +440,7 @@
 		"jump": {
 			"des": "jshopMain",
 			"params": {
-				"shopName": "周大福京东旗舰店",
+				"skuName": "周大福京东旗舰店",
 				"shopId": "15096",
 				"venderId": "16067"
 			},
@@ -456,7 +456,7 @@
 		"jump": {
 			"des": "jshopMain",
 			"params": {
-				"shopName": "美的热水器官方旗舰店",
+				"skuName": "美的热水器官方旗舰店",
 				"shopId": "1000001202",
 				"venderId": "1000001202"
 			},
@@ -472,7 +472,7 @@
 		"jump": {
 			"des": "jshopMain",
 			"params": {
-				"shopName": "金士顿京东自营旗舰店",
+				"skuName": "金士顿京东自营旗舰店",
 				"shopId": "1000000192",
 				"venderId": "1000000192"
 			},
@@ -488,7 +488,7 @@
 		"jump": {
 			"des": "jshopMain",
 			"params": {
-				"shopName": "OPPO手机京东自营官方旗舰店",
+				"skuName": "OPPO手机京东自营官方旗舰店",
 				"shopId": "1000004065",
 				"venderId": "1000004065"
 			},
@@ -504,7 +504,7 @@
 		"jump": {
 			"des": "jshopMain",
 			"params": {
-				"shopName": "华纳斯官方旗舰店",
+				"skuName": "华纳斯官方旗舰店",
 				"shopId": "41801",
 				"venderId": "44351"
 			},
@@ -520,7 +520,7 @@
 		"jump": {
 			"des": "jshopMain",
 			"params": {
-				"shopName": "Dickies官方旗舰店",
+				"skuName": "Dickies官方旗舰店",
 				"shopId": "37571",
 				"venderId": "39798"
 			},
@@ -536,7 +536,7 @@
 		"jump": {
 			"des": "jshopMain",
 			"params": {
-				"shopName": "muscletech旗舰店",
+				"skuName": "muscletech旗舰店",
 				"shopId": "149340",
 				"venderId": "154202"
 			},
@@ -552,7 +552,7 @@
 		"jump": {
 			"des": "jshopMain",
 			"params": {
-				"shopName": "有车以后官方旗舰店",
+				"skuName": "有车以后官方旗舰店",
 				"shopId": "609661",
 				"venderId": "617151"
 			},
@@ -568,7 +568,7 @@
 		"jump": {
 			"des": "jshopMain",
 			"params": {
-				"shopName": "容声冰洗品牌旗舰店",
+				"skuName": "容声冰洗品牌旗舰店",
 				"shopId": "1000002241",
 				"venderId": "1000002241"
 			},
@@ -584,7 +584,7 @@
 		"jump": {
 			"des": "jshopMain",
 			"params": {
-				"shopName": "贝坦达官方旗舰店",
+				"skuName": "贝坦达官方旗舰店",
 				"shopId": "121294",
 				"venderId": "124769"
 			},
@@ -600,7 +600,7 @@
 		"jump": {
 			"des": "jshopMain",
 			"params": {
-				"shopName": "全棉时代官方旗舰店",
+				"skuName": "全棉时代官方旗舰店",
 				"shopId": "20739",
 				"venderId": "21304"
 			},
@@ -616,7 +616,7 @@
 		"jump": {
 			"des": "jshopMain",
 			"params": {
-				"shopName": "古往今来旗舰店",
+				"skuName": "古往今来旗舰店",
 				"shopId": "46083",
 				"venderId": "49289"
 			},
@@ -632,7 +632,7 @@
 		"jump": {
 			"des": "jshopMain",
 			"params": {
-				"shopName": "杜蕾斯旗舰店",
+				"skuName": "杜蕾斯旗舰店",
 				"shopId": "124989",
 				"venderId": "128712"
 			},
@@ -648,7 +648,7 @@
 		"jump": {
 			"des": "jshopMain",
 			"params": {
-				"shopName": "roseonly旗舰店",
+				"skuName": "roseonly旗舰店",
 				"shopId": "77229",
 				"venderId": "80457"
 			},
@@ -664,7 +664,7 @@
 		"jump": {
 			"des": "jshopMain",
 			"params": {
-				"shopName": "海信冰洗旗舰店",
+				"skuName": "海信冰洗旗舰店",
 				"shopId": "1000002261",
 				"venderId": "1000002261"
 			},
@@ -680,7 +680,7 @@
 		"jump": {
 			"des": "jshopMain",
 			"params": {
-				"shopName": "TCL空调自营旗舰店",
+				"skuName": "TCL空调自营旗舰店",
 				"shopId": "1000001335",
 				"venderId": "1000001335"
 			},
@@ -696,7 +696,7 @@
 		"jump": {
 			"des": "jshopMain",
 			"params": {
-				"shopName": "skechers斯凯奇旗舰店",
+				"skuName": "skechers斯凯奇旗舰店",
 				"shopId": "56083",
 				"venderId": "60254"
 			},
@@ -712,7 +712,7 @@
 		"jump": {
 			"des": "jshopMain",
 			"params": {
-				"shopName": "水星家纺",
+				"skuName": "水星家纺",
 				"shopId": "68620",
 				"venderId": "72230"
 			},
@@ -728,7 +728,7 @@
 		"jump": {
 			"des": "jshopMain",
 			"params": {
-				"shopName": "SONY京东自营官方旗舰店",
+				"skuName": "SONY京东自营官方旗舰店",
 				"shopId": "1000000921",
 				"venderId": "1000000921"
 			},
@@ -744,7 +744,7 @@
 		"jump": {
 			"des": "jshopMain",
 			"params": {
-				"shopName": "御泥坊官方旗舰店",
+				"skuName": "御泥坊官方旗舰店",
 				"shopId": "55036",
 				"venderId": "59158"
 			},
@@ -760,7 +760,7 @@
 		"jump": {
 			"des": "jshopMain",
 			"params": {
-				"shopName": "京东Apple产品专营店",
+				"skuName": "京东Apple产品专营店",
 				"shopId": "1000000127",
 				"venderId": "1000000127"
 			},
@@ -776,7 +776,7 @@
 		"jump": {
 			"des": "jshopMain",
 			"params": {
-				"shopName": "滔搏运动官方旗舰店",
+				"skuName": "滔搏运动官方旗舰店",
 				"shopId": "607805",
 				"venderId": "615222"
 			},
@@ -792,7 +792,7 @@
 		"jump": {
 			"des": "jshopMain",
 			"params": {
-				"shopName": "UR旗舰店",
+				"skuName": "UR旗舰店",
 				"shopId": "138089",
 				"venderId": "142607"
 			},
