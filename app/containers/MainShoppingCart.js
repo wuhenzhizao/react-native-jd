@@ -1,13 +1,14 @@
 import React, {Component} from 'react';
-import {StatusBar, StyleSheet, View} from 'react-native';
-import Styles from '../constants/Styles';
+import {StatusBar, StyleSheet, View, PixelRatio} from 'react-native';
+import ShoppingCartHeader from '../scenes/cart/ShoppingCartHeader';
+import ShoppingCartNoticeCell from '../scenes/cart/ShoppingCartNoticeCell';
+import ShoppingCartShopCell from '../scenes/cart/ShoppingCartShopCell';
+import ShoppingCartBottom from '../scenes/cart/ShoppingCartBottom';
 
 export default class MainShoppingCart extends Component<Props> {
 
     static navigationOptions = ({navigation}) => ({
-        headerTitle: '购物车',
-        headerTitleStyle: Styles.titleStyle,
-        headerStyle: Styles.titleBarStyle,
+        header: <ShoppingCartHeader/>,
         gesturesEnabled: true
     });
 
@@ -17,12 +18,30 @@ export default class MainShoppingCart extends Component<Props> {
                 translucent={false}
                 barStyle={'dark-content'}
                 networkActivityIndicatorVisible={true}/>
-        </View>
+            <ShoppingCartNoticeCell item={{}}/>
+            <ShoppingCartShopCell item={{}}/>
+            <View style={{flex: 1}}/>
+            <View style={styles.bottomLine}/>
+            <ShoppingCartBottom item={{}}/>
+        </View>;
     }
+
+    renderItemSeparatorComponent = ({item, index}) => {
+        return <View style={{
+            flex: 1,
+            height: 10,
+            backgroundColor: '#f0f2f5'
+        }}/>;
+    };
 }
 
 const styles = StyleSheet.create({
     container: {
-        flex: 1
+        flex: 1,
+        flexDirection: 'column',
+    },
+    bottomLine: {
+        height: 1 / PixelRatio.get(),
+        backgroundColor: '#dedede'
     }
 });

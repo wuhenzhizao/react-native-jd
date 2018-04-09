@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Image, View, StyleSheet, Platform, PixelRatio} from 'react-native';
-import Styles from '../constants/Styles';
+import Styles from '../../constants/Styles';
 
 export default class DiscoveryHeader extends Component {
 
@@ -21,7 +21,7 @@ export default class DiscoveryHeader extends Component {
                 <Image
                     style={styles.scan}
                     resizeMode={'center'}
-                    source={require('../images/category_camera_7_gray.png')}/>
+                    source={require('../../images/category_camera_7_gray.png')}/>
             </View>
             <Image
                 style={styles.title}
@@ -29,10 +29,10 @@ export default class DiscoveryHeader extends Component {
             <View style={styles.rightContainer}>
                 <Image
                     style={styles.search}
-                    source={require('../images/QuickActions_productList.png')}/>
+                    source={require('../../images/QuickActions_productList.png')}/>
                 <Image
                     style={styles.message}
-                    source={require('../images/category_message_btn_n.png')}/>
+                    source={require('../../images/category_message_btn_n.png')}/>
             </View>
         </View>;
     }

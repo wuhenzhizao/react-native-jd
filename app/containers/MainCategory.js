@@ -1,17 +1,17 @@
 import React, {Component} from 'react';
 import {FlatList, PixelRatio, StatusBar, StyleSheet, View} from 'react-native';
 import Styles from '../constants/Styles';
-import CategoryRootCell from '../scenes/cells/CategoryRootCell';
+import CategoryRootCell from '../scenes/category/CategoryRootCell';
 import Colors from '../constants/Colors';
 import * as categoryActions from '../actions/CategoryActions';
 import {connect} from 'react-redux';
-import CategoryHeader from '../scenes/CategoryHeader';
+import CategoryHeader from '../scenes/category/CategoryHeader';
 import {bindActionCreators} from 'redux';
-import CategoryPromotionCell from '../scenes/cells/CategoryPromotionCell';
-import CategoryNormalHeaderCell from '../scenes/cells/CategoryNormalHeaderCell';
-import CategoryRankingHeaderCell from '../scenes/cells/CategoryRankingHeaderCell';
-import CategoryNormalUiCell from '../scenes/cells/CategoryNormalUiCell';
-import CategorySpecialUiCell from '../scenes/cells/CategorySpecialUiCell';
+import CategoryPromotionCell from '../scenes/category/CategoryPromotionCell';
+import CategoryNormalHeaderCell from '../scenes/category/CategoryNormalHeaderCell';
+import CategoryRankingHeaderCell from '../scenes/category/CategoryRankingHeaderCell';
+import CategoryNormalUiCell from '../scenes/category/CategoryNormalUiCell';
+import CategorySpecialUiCell from '../scenes/category/CategorySpecialUiCell';
 
 class MainCategory extends Component {
 

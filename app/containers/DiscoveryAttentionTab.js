@@ -4,9 +4,9 @@ import RefreshFlatList from '../components/RefreshFlatList';
 import * as discoveryActions from '../actions/DiscoveryActions';
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
-import DiscoveryMineFollowCell from '../scenes/cells/DiscoveryMineFollowCell';
-import DiscoveryVideoDynamicCell from '../scenes/cells/DiscoveryVideoDynamicCell';
-import DiscoveryImageDynamicCell from '../scenes/cells/DiscoveryImageDynamicCell';
+import DiscoveryMineFollowCell from '../scenes/discovery/DiscoveryMineFollowCell';
+import DiscoveryVideoDynamicCell from '../scenes/discovery/DiscoveryVideoDynamicCell';
+import DiscoveryImageDynamicCell from '../scenes/discovery/DiscoveryImageDynamicCell';
 
 export class DiscoveryAttentionTab extends Component {
 

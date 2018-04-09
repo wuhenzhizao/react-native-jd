@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Image, Platform, StyleSheet, View} from 'react-native';
-import Styles from '../constants/Styles';
+import Styles from '../../constants/Styles';
 
 export default class CategoryHeader extends Component {
 
@@ -18,18 +18,18 @@ export default class CategoryHeader extends Component {
         }]}>
             <Image
                 style={styles.titleLeft}
-                source={require('../images/category_camera_7_gray.png')}/>
+                source={require('../../images/category_camera_7_gray.png')}/>
             <View style={styles.titleSearchContainer}>
                 <Image
                     style={{marginLeft: 10, marginRight: 10}}
-                    source={require('../images/category_search_bar_icon.png')}/>
+                    source={require('../../images/category_search_bar_icon.png')}/>
                 <Image
                     style={{marginLeft: 10, marginRight: 10, width: 17, height: 17}}
                     source={{uri: 'https://m.360buyimg.com/mobilecms/jfs/t5410/348/1865705786/7246/2c7b98cf/59152012Na4a00f6d.png'}}/>
             </View>
             <Image
                 style={styles.titleRight}
-                source={require('../images/category_message_btn_n.png')}/>
+                source={require('../../images/category_message_btn_n.png')}/>
         </View>;
     }
 }

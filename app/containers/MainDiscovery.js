@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {StatusBar, StyleSheet, View, PixelRatio} from 'react-native';
-import DiscoveryHeader from '../scenes/DiscoveryHeader';
+import DiscoveryHeader from '../scenes/discovery/DiscoveryHeader';
 import ScrollableTabView, {ScrollableTabBar} from 'react-native-scrollable-tab-view';
 import Colors from '../constants/Colors';
 import DiscoveryAttentionTab from './DiscoveryAttentionTab';

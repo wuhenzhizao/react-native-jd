@@ -4,7 +4,7 @@ import RefreshFlatList from '../components/RefreshFlatList';
 import * as discoveryActions from '../actions/DiscoveryActions';
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
-import DiscoveryLiveCell from '../scenes/cells/DiscoveryLiveCell';
+import DiscoveryLiveCell from '../scenes/discovery/DiscoveryLiveCell';
 
 export class DiscoveryLiveTab extends Component {
 

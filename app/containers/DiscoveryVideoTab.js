@@ -4,7 +4,7 @@ import RefreshFlatList from '../components/RefreshFlatList';
 import * as discoveryActions from '../actions/DiscoveryActions';
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
-import DiscoveryVideoCell from '../scenes/cells/DiscoveryVideoCell';
+import DiscoveryVideoCell from '../scenes/discovery/DiscoveryVideoCell';
 
 export class DiscoveryVideoTab extends Component {
 

@@ -4,10 +4,10 @@ import RefreshFlatList from '../components/RefreshFlatList';
 import * as discoveryActions from '../actions/DiscoveryActions';
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
-import DiscoveryChoiceBannerCell from '../scenes/cells/DiscoveryChoiceBannerCell';
-import DiscoveryChoiceImageCell from '../scenes/cells/DiscoveryChoiceImageCell';
-import DiscoveryChoiceMultiImageCell from '../scenes/cells/DiscoveryChoiceMultiImageCell';
-import DiscoveryChoiceVideoCell from '../scenes/cells/DiscoveryChoiceVideoCell';
+import DiscoveryChoiceBannerCell from '../scenes/discovery/DiscoveryChoiceBannerCell';
+import DiscoveryChoiceImageCell from '../scenes/discovery/DiscoveryChoiceImageCell';
+import DiscoveryChoiceMultiImageCell from '../scenes/discovery/DiscoveryChoiceMultiImageCell';
+import DiscoveryChoiceVideoCell from '../scenes/discovery/DiscoveryChoiceVideoCell';
 
 export class DiscoveryChoiceTab extends Component {
 
