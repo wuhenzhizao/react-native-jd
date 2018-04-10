@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
-import {Dimensions, Image, PixelRatio, StyleSheet, Text, View} from 'react-native';
+import {Dimensions, Image, StyleSheet, Text, View} from 'react-native';
 import Colors from '../../constants/Colors';
-import {parseWebp} from '../../utils/DataParser';
 import LoadingImage from '../../components/LoadingImage';
 
 let screenWidth = Dimensions.get('window').width;
@@ -20,7 +19,7 @@ export default class DiscoveryImageDynamicCell extends Component {
                 <Image
                     style={styles.authorAvatar}
                     resizeMode={'cover'}
-                    source={{uri: parseWebp(item.authorPic)}}/>
+                    source={{uri: item.authorPic}}/>
                 <View style={styles.authorInfoContainer}>
                     <Text
                         style={styles.authorName}

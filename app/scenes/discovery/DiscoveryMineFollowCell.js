@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import {Image, PixelRatio, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 import Colors from '../../constants/Colors';
-import {parseWebp} from '../../utils/DataParser';
 
 export default class DiscoveryMineFollowCell extends Component {
 
@@ -32,7 +31,7 @@ export default class DiscoveryMineFollowCell extends Component {
             key={`key${index}`}
             style={styles.authorAvatar}
             resizeMode={'contain'}
-            source={{uri: parseWebp(item.authorPic)}}/>;
+            source={{uri: item.authorPic}}/>;
     };
 }
 

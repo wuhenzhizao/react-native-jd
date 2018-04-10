@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import {Image, PixelRatio, StyleSheet, Text, View} from 'react-native';
 import Colors from '../../constants/Colors';
-import {parseWebp} from '../../utils/DataParser';
 import LoadingImage from '../../components/LoadingImage';
 import Icon from 'react-native-vector-icons/Ionicons';
 
@@ -41,7 +40,7 @@ export default class DiscoveryLiveCell extends Component {
                     <Image
                         style={styles.authorAvatar}
                         resizeMode={'cover'}
-                        source={{uri: parseWebp(item.userPic)}}/>
+                        source={{uri: item.userPic}}/>
                     <Text
                         style={styles.authorName}
                         numberOfLines={1}

@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import {Image, PixelRatio, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 import Colors from '../../constants/Colors';
-import {parseWebp} from '../../utils/DataParser';
 import LoadingImage from '../../components/LoadingImage';
 
 export default class DiscoveryVideoCell extends Component {
@@ -33,7 +32,7 @@ export default class DiscoveryVideoCell extends Component {
                 <Image
                     style={styles.authorAvatar}
                     resizeMode={'cover'}
-                    source={{uri: parseWebp(item.authorPic)}}/>
+                    source={{uri: item.authorPic}}/>
                 <Text
                     style={styles.authorName}
                     numberOfLines={1}

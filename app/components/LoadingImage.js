@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import {ActivityIndicator, Image, ImageBackground, View} from 'react-native';
-import {parseWebp} from '../utils/DataParser';
 
 class LoadingImage extends Component {
 
@@ -44,7 +43,7 @@ class LoadingImage extends Component {
                 onLoadEnd={this.onLoadEnd.bind(this)}
                 onError={this.onError.bind(this)}
                 style={[styles.backgroundImage, style]}
-                source={{uri: parseWebp(source.uri)}}
+                source={{uri: source.uri}}
                 resizeMode={resizeMode}
                 borderRadius={borderRadius}
             >

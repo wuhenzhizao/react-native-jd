@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
-import {Image, StyleSheet, Text, View, Dimensions} from 'react-native';
+import {Dimensions, Image, StyleSheet, Text, View} from 'react-native';
 import Colors from '../../constants/Colors';
-import {parseWebp} from '../../utils/DataParser';
 import LoadingImage from '../../components/LoadingImage';
 
 let screenWidth = Dimensions.get('window').width;
@@ -26,7 +25,7 @@ export default class DiscoveryChoiceMultiImageCell extends Component {
                 <Image
                     style={styles.avatar}
                     resizeMode={'cover'}
-                    source={{uri: parseWebp(item.authorPic)}}/>
+                    source={{uri: item.authorPic}}/>
                 <Text style={styles.bottomInfo}>{
                     `${item.authorName} · ${item.pageViewStr}`
                 }</Text>

@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import {Image, StyleSheet, Text, View} from 'react-native';
 import Colors from '../../constants/Colors';
 import LoadingImage from '../../components/LoadingImage';
-import {parseWebp} from '../../utils/DataParser';
 
 export default class DiscoveryChoiceImageCell extends Component {
 
@@ -20,7 +19,7 @@ export default class DiscoveryChoiceImageCell extends Component {
                     <Image
                         style={styles.avatar}
                         resizeMode={'cover'}
-                        source={{uri: parseWebp(item.authorPic)}}/>
+                        source={{uri: item.authorPic}}/>
                     <Text style={styles.bottomInfo}>{
                         `${item.authorName} · ${item.pageViewStr}`
                     }</Text>

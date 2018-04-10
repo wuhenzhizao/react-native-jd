@@ -28,7 +28,10 @@
 		88AEC3F6206E194F0058551B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 88AEC3F4206E194F0058551B /* Info.plist */; };
 		88AEC3F7206E194F0058551B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AEC3F5206E194F0058551B /* main.m */; };
 		88AEC3FA206E19650058551B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88AEC3F8206E19650058551B /* LaunchScreen.xib */; };
+		88DAFB1B207CFBC200BC4DDB /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88DAFB19207CFBC200BC4DDB /* WebP.framework */; };
+		88DAFB1C207CFBC200BC4DDB /* WebPDemux.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88DAFB1A207CFBC200BC4DDB /* WebPDemux.framework */; };
 		906C63CD9A924CB8B5E62E58 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58EB7A7FB20C4B559487911C /* Zocial.ttf */; };
+		A26B2A9F88D5452AB1677005 /* libReactNativeWebp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3EAEBEEBCC453CAEA2DEAD /* libReactNativeWebp.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		AFE06F24BFF649019D8C69E8 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D7CE5BA7F5942748217A9F9 /* Ionicons.ttf */; };
 		BBCDDD55BC234539B5B867F3 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7F873981590C40D5B8A5B05F /* Octicons.ttf */; };
@@ -306,6 +309,13 @@
 			remoteGlobalIDString = 9936F32F1F5F2E5B0010BF04;
 			remoteInfo = "privatedata-tvOS";
 		};
+		88DAFB17207CFBA000BC4DDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8384562D4CE4A9A802CFA3E /* ReactNativeWebp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = ReactNativeWebp;
+		};
 		ADBDB9261DFEBF0700ED6528 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */;
@@ -349,6 +359,8 @@
 		88AEC3F4206E194F0058551B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = react_native_jd/Info.plist; sourceTree = "<group>"; };
 		88AEC3F5206E194F0058551B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = react_native_jd/main.m; sourceTree = "<group>"; };
 		88AEC3F9206E19650058551B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = react_native_jd/Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		88DAFB19207CFBC200BC4DDB /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebP.framework; sourceTree = "<group>"; };
+		88DAFB1A207CFBC200BC4DDB /* WebPDemux.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebPDemux.framework; sourceTree = "<group>"; };
 		8C36BE25141B4A208FA68E9E /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
 		9D7CE5BA7F5942748217A9F9 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		A6E633EC794E4C5B986C8016 /* libRNVectorIcons.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNVectorIcons.a; sourceTree = "<group>"; };
@@ -356,6 +368,8 @@
 		CB20B43324C14936B59C1B9C /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 		E73C053F629141958DF81DC6 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		E84406BC59334EA68E4A0D70 /* SplashScreen.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = SplashScreen.xcodeproj; path = "../node_modules/react-native-splash-screen/ios/SplashScreen.xcodeproj"; sourceTree = "<group>"; };
+		EA3EAEBEEBCC453CAEA2DEAD /* libReactNativeWebp.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libReactNativeWebp.a; sourceTree = "<group>"; };
+		F8384562D4CE4A9A802CFA3E /* ReactNativeWebp.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = ReactNativeWebp.xcodeproj; path = "../node_modules/react-native-webp/ReactNativeWebp.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -369,15 +383,18 @@
 				5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */,
 				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
 				00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */,
+				88DAFB1C207CFBC200BC4DDB /* WebPDemux.framework in Frameworks */,
 				00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */,
 				133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */,
 				00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */,
 				139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */,
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
+				88DAFB1B207CFBC200BC4DDB /* WebP.framework in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
 				E2B34C9D48B74222A7936C63 /* libSplashScreen.a in Frameworks */,
 				6B4D5B3D5A6746DDA6AD67C4 /* libRNVectorIcons.a in Frameworks */,
+				A26B2A9F88D5452AB1677005 /* libReactNativeWebp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -545,6 +562,7 @@
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
 				E84406BC59334EA68E4A0D70 /* SplashScreen.xcodeproj */,
 				814DE56B182F4AC593AFD24E /* RNVectorIcons.xcodeproj */,
+				F8384562D4CE4A9A802CFA3E /* ReactNativeWebp.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -561,6 +579,8 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				88DAFB19207CFBC200BC4DDB /* WebP.framework */,
+				88DAFB1A207CFBC200BC4DDB /* WebPDemux.framework */,
 				13B07FAE1A68108700A75B9A /* react_native_jd */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* react_native_jdTests */,
@@ -587,6 +607,7 @@
 			children = (
 				0097326B922944E3B13E278F /* libSplashScreen.a */,
 				A6E633EC794E4C5B986C8016 /* libRNVectorIcons.a */,
+				EA3EAEBEEBCC453CAEA2DEAD /* libReactNativeWebp.a */,
 			);
 			name = "Recovered References";
 			sourceTree = "<group>";
@@ -603,6 +624,14 @@
 			isa = PBXGroup;
 			children = (
 				88A6618F2077413600A2AA57 /* libRNVectorIcons.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88DAFB14207CFBA000BC4DDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88DAFB18207CFBA000BC4DDB /* libReactNativeWebp.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -729,6 +758,10 @@
 				{
 					ProductGroup = 146834001AC3E56700842450 /* Products */;
 					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+				},
+				{
+					ProductGroup = 88DAFB14207CFBA000BC4DDB /* Products */;
+					ProjectRef = F8384562D4CE4A9A802CFA3E /* ReactNativeWebp.xcodeproj */;
 				},
 				{
 					ProductGroup = 88A6618B2077413600A2AA57 /* Products */;
@@ -1013,6 +1046,13 @@
 			remoteRef = 88AEC37F206E15D20058551B /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		88DAFB18207CFBA000BC4DDB /* libReactNativeWebp.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReactNativeWebp.a;
+			remoteRef = 88DAFB17207CFBA000BC4DDB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1097,17 +1137,23 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = HSP9Z7CKL4;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(SRCROOT)/../node_modules/react-native-webp",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-splash-screen/ios",
 					"$(SRCROOT)/../node_modules/react-native-webp/**",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+					"$(SRCROOT)/../node_modules/react-native-webp/**",
 				);
 				INFOPLIST_FILE = react_native_jd/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/react_native_jd\"",
 					"\"$(SRCROOT)/react_native_jd\"",
 				);
 				OTHER_LDFLAGS = (
@@ -1131,17 +1177,23 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HSP9Z7CKL4;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(SRCROOT)/../node_modules/react-native-webp",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-splash-screen/ios",
 					"$(SRCROOT)/../node_modules/react-native-webp/**",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+					"$(SRCROOT)/../node_modules/react-native-webp/**",
 				);
 				INFOPLIST_FILE = react_native_jd/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/react_native_jd\"",
 					"\"$(SRCROOT)/react_native_jd\"",
 				);
 				OTHER_LDFLAGS = (

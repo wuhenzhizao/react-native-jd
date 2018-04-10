@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
-import {Dimensions, Image, PixelRatio, StyleSheet, View} from 'react-native';
+import {Dimensions, PixelRatio, StyleSheet, View} from 'react-native';
 import PropTypes from 'prop-types';
 import Colors from '../../constants/Colors';
-import {parseWebp} from '../../utils/DataParser';
 import LoadingImage from '../../components/LoadingImage';
 
 const width = Dimensions.get('window').width;
