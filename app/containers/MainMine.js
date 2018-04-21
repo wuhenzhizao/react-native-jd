@@ -58,31 +58,68 @@ export default class MainMine extends Component<Props> {
             </ImageBackground>
 
             <View style={styles.orderContainer}>
-                <View>
+                <View style={styles.orderItem}>
                     <Image/>
                     <Text>{'待付款'}</Text>
                 </View>
-                <View>
+                <View style={styles.orderItem}>
                     <Image/>
                     <Text>{'待收货'}</Text>
                 </View>
 
-                <View>
+                <View style={styles.orderItem}>
                     <Image/>
                     <Text>{'待评价'}</Text>
                 </View>
 
-                <View>
+                <View style={styles.orderItem}>
                     <Image/>
                     <Text>{'退换/售后'}</Text>
                 </View>
-                <View>
+                <View style={styles.orderItem}>
                     <Image/>
                     <Text>{'我的订单'}</Text>
                 </View>
 
             </View>
+            <View style={styles.line}/>
+            <View style={styles.accountContainer}>
+                <View style={styles.accountItem}>
+                    <Text style={styles.accountItemText}>{'847'}</Text>
+                    <View style={{justifyContent:'center',alignItems:'center'}}>
+                        <Text style={styles.accountItemText}>{'京豆'}</Text>
+                        <Text style={{fontSize: 10, color: '#a5a5a5'}}>{'签到领京豆'}</Text>
+                    </View>
+                </View>
+                <View style={styles.accountItem}>
+                    <Text style={styles.accountItemText}>{'9'}</Text>
+                    <View style={{justifyContent:'center',alignItems:'center'}}>
+                        <Text style={styles.accountItemText}>{'优惠卷'}</Text>
+                        <Text style={{fontSize: 10, color: '#a5a5a5'}}>{'  '}</Text>
+                    </View>
+                </View>
 
+                <View style={styles.accountItem}>
+                    <Text style={styles.accountItemText} t>{'0.00'}</Text>
+                    <View style={{justifyContent:'center',alignItems:'center'}}>
+                        <Text style={styles.accountItemText}>{'白条'}</Text>
+                        <Text style={{fontSize: 10, color: '#a5a5a5'}}>{'本月待还'}</Text>
+                    </View>
+                </View>
+
+                <View style={styles.accountItem}>
+                    <Text style={styles.accountItemText}>{'0.00'}</Text>
+                    <View style={{justifyContent:'center',alignItems:'center'}}>
+                        <Text style={styles.accountItemText}>{'京东小金库'}</Text>
+                        <Text style={{fontSize: 10, color: '#a5a5a5'}}>{'免费抽红包'}</Text>
+                    </View>
+                </View>
+                <View style={styles.accountItem}>
+                    <Image/>
+                    <Text style={styles.accountItemText}>{'我的钱包'}</Text>
+                </View>
+
+            </View>
         </View>;
     }
 }
@@ -153,11 +190,34 @@ const styles = StyleSheet.create({
         top: 120,
 
     },
-    orderContainer:{
-        backgroundColor:'#FFF',
-        flexDirection:'row',
-        flex:1,
-        justifyContent:'space-around',
+    orderContainer: {
+        height: 90,
+        width: Styles.screen.width,
+        backgroundColor: '#FFF',
+        flexDirection: 'row',
+        justifyContent: 'space-around',
+    },
+    orderItem: {
+        justifyContent: 'space-around',
+    },
+    line: {
+        backgroundColor: '#E3E5E9',
+        width: Styles.screen.width,
+        height: 2
+    },
+    accountContainer: {
+        height: 90,
+        width: Styles.screen.width,
+        backgroundColor: '#FFF',
+        flexDirection: 'row',
+        justifyContent: 'space-around',
+    },
+    accountItem: {
+        alignItems: 'center',
+        justifyContent: 'space-around',
+    },
+    accountItemText: {
+        fontSize: 14
     }
 
 });
