@@ -1,7 +1,12 @@
-import {PixelRatio} from 'react-native';
+import {PixelRatio,Dimensions} from 'react-native';
 import Colors from './Colors';
 
 export default {
+    screen: {
+        width: Dimensions.get('window').width,
+        height: Dimensions.get('window').height,
+        scale: Dimensions.get('window').scale
+    },
     titleBarStyle: {
         backgroundColor: Colors.white,
         height: 45,
