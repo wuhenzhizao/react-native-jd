@@ -16,6 +16,7 @@ export default class MainHome extends Component {
             <StatusBar
                 translucent={false}
                 barStyle={'dark-content'}
+                backgroundColor={'#FFFFFF'}
                 networkActivityIndicatorVisible={true}/>
         </View>;
     }

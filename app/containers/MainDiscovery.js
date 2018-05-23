@@ -19,8 +19,9 @@ export default class MainDiscovery extends Component<Props> {
     render() {
         return <View style={styles.container}>
             <StatusBar
-                translucent={false}
+                translucent={true}
                 barStyle={'dark-content'}
+                backgroundColor={'#FFFFFF'}
                 networkActivityIndicatorVisible={true}/>
             <ScrollableTabView
                 tabBarPosition='top'

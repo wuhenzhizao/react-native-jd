@@ -5,11 +5,6 @@ import LoadingImage from '../../components/LoadingImage';
 
 export default class CategoryPromotionCell extends Component {
 
-    // static propTypes: {
-    //     item: PropTypes.object.isRequired,
-    //     onPromotionClick: PropTypes.func.isRequired
-    // };
-
     render() {
         return <TouchableOpacity>
             <LoadingImage

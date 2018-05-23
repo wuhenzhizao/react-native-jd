@@ -26,6 +26,7 @@ class MainCategory extends Component {
             <StatusBar
                 translucent={false}
                 barStyle={'dark-content'}
+                backgroundColor={'#FFFFFF'}
                 networkActivityIndicatorVisible={true}/>
             <View style={styles.categoryContainer}>
                 <View style={styles.rootCategoryList}>
@@ -95,10 +96,8 @@ class MainCategory extends Component {
     }
 
     onRootCategoryItemClick = (index) => {
-        // 更改一级分类
         let {changeRootCategory, clearCategoryDetail, loadCategoryDetail} = this.props;
         changeRootCategory(index);
-        // 二级分类，滑动到最顶端
         this.secondCategoryList.scrollToIndex({
             animated: true,
             index: 0,

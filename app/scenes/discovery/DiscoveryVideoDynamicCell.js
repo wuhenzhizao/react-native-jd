@@ -68,7 +68,7 @@ export default class DiscoveryVideoDynamicCell extends Component {
                 <Image
                     style={{width: 13, height: 13}}
                     resizeMode={'contain'}
-                    source={require('../../images/shop_dynamic_detail_comment.png')}/>}
+                    source={require('../../images/shop_dynamic_detail_comment.png')}/>
                 <Text style={styles.comment}>{item.commentNumStr}</Text>
             </View>;
         }

@@ -40,19 +40,19 @@ export default class DiscoveryVideoCell extends Component {
                 <Image
                     style={styles.smallIcon}
                     resizeMode={'contain'}
-                    source={require('../../images/rankhome-dresser-bag.png')}/>}
+                    source={require('../../images/rankhome-dresser-bag.png')}/>
                 <Text style={styles.comment}>{item.skuNumStr}</Text>
                 <Image
                     style={styles.smallIcon}
                     resizeMode={'contain'}
-                    source={require('../../images/shop_dynamic_detail_comment.png')}/>}
+                    source={require('../../images/shop_dynamic_detail_comment.png')}/>
                 <Text style={styles.comment}>{item.commentNum}</Text>
                 <Image
                     style={styles.smallIcon}
                     resizeMode={'cover'}
                     source={item.hasLiked ?
                         require('../../images/jshop_dynamic_liked.png') :
-                        require('../../images/jshop_dynamic_like.png')}/>}
+                        require('../../images/jshop_dynamic_like.png')}/>
                 <Text style={styles.comment}>{item.likeNumStr}</Text>
             </View>
         </View>;

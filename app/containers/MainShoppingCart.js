@@ -18,6 +18,7 @@ export default class MainShoppingCart extends Component<Props> {
             <StatusBar
                 translucent={false}
                 barStyle={'dark-content'}
+                backgroundColor={'#FFFFFF'}
                 networkActivityIndicatorVisible={true}/>
             <ShoppingCartNoticeCell item={{}}/>
             <ShoppingCartShopCell item={{}}/>

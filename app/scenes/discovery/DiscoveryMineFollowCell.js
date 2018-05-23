@@ -26,7 +26,6 @@ export default class DiscoveryMineFollowCell extends Component {
     }
 
     renderFollowAvatar = (item, index) => {
-        // 暂未做数量限制
         return <Image
             key={`key${index}`}
             style={styles.authorAvatar}

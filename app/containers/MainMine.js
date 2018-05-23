@@ -15,6 +15,7 @@ export default class MainMine extends Component<Props> {
             <StatusBar
                 translucent={false}
                 barStyle={'dark-content'}
+                backgroundColor={'#FFFFFF'}
                 networkActivityIndicatorVisible={true}/>
             <ImageBackground style={styles.header}
                              source={{uri: 'https://m.360buyimg.com/mobilecms/jfs/t8911/241/2013760918/26346/ae0d7afb/59c21e2bNf90f3513.png'}}>
@@ -128,7 +129,6 @@ const styles = StyleSheet.create({
     container: {
         flex: 1
     },
-    // 头像的样式
     headerImg: {
         width: 75,
         height: 75,
