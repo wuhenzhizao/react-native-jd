@@ -28,6 +28,65 @@
 		88AEC3F6206E194F0058551B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 88AEC3F4206E194F0058551B /* Info.plist */; };
 		88AEC3F7206E194F0058551B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AEC3F5206E194F0058551B /* main.m */; };
 		88AEC3FA206E19650058551B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88AEC3F8206E19650058551B /* LaunchScreen.xib */; };
+		88D97F2220B5195200425349 /* category_ranking@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97EE220B5195200425349 /* category_ranking@2x.png */; };
+		88D97F2320B5195200425349 /* category_search_bar_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97EE320B5195200425349 /* category_search_bar_icon@3x.png */; };
+		88D97F2420B5195200425349 /* tabBar_category_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97EE420B5195200425349 /* tabBar_category_press@2x.png */; };
+		88D97F2520B5195200425349 /* jdshopsearch_arrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97EE520B5195200425349 /* jdshopsearch_arrow@3x.png */; };
+		88D97F2620B5195200425349 /* img_placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97EE620B5195200425349 /* img_placeholder.png */; };
+		88D97F2720B5195200425349 /* tabBar_cart_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97EE720B5195200425349 /* tabBar_cart_normal@3x.png */; };
+		88D97F2820B5195200425349 /* rankhome-dresser-bag@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97EE820B5195200425349 /* rankhome-dresser-bag@2x.png */; };
+		88D97F2920B5195200425349 /* discovery_rightArrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97EE920B5195200425349 /* discovery_rightArrow@3x.png */; };
+		88D97F2A20B5195200425349 /* discovery_rightArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97EEA20B5195200425349 /* discovery_rightArrow@2x.png */; };
+		88D97F2B20B5195200425349 /* rankhome-dresser-bag@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97EEB20B5195200425349 /* rankhome-dresser-bag@3x.png */; };
+		88D97F2C20B5195200425349 /* tabBar_cart_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97EEC20B5195200425349 /* tabBar_cart_normal@2x.png */; };
+		88D97F2D20B5195200425349 /* jdshopsearch_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97EED20B5195200425349 /* jdshopsearch_arrow@2x.png */; };
+		88D97F2E20B5195200425349 /* category_search_bar_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97EEE20B5195200425349 /* category_search_bar_icon@2x.png */; };
+		88D97F2F20B5195200425349 /* tabBar_category_press@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97EEF20B5195200425349 /* tabBar_category_press@3x.png */; };
+		88D97F3020B5195200425349 /* category_ranking@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97EF020B5195200425349 /* category_ranking@3x.png */; };
+		88D97F3120B5195200425349 /* QuickActions_productList@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97EF120B5195200425349 /* QuickActions_productList@2x.png */; };
+		88D97F3220B5195200425349 /* jshop_dynamic_like@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97EF220B5195200425349 /* jshop_dynamic_like@2x.png */; };
+		88D97F3320B5195200425349 /* flight_check_box_unselected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97EF320B5195200425349 /* flight_check_box_unselected@3x.png */; };
+		88D97F3420B5195200425349 /* syncart_more_btn_enable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97EF420B5195200425349 /* syncart_more_btn_enable@2x.png */; };
+		88D97F3520B5195200425349 /* tabBar_me_press@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97EF520B5195200425349 /* tabBar_me_press@3x.png */; };
+		88D97F3620B5195200425349 /* tabBar_category_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97EF620B5195200425349 /* tabBar_category_normal@2x.png */; };
+		88D97F3720B5195200425349 /* shop_dynamic_detail_comment@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97EF720B5195200425349 /* shop_dynamic_detail_comment@3x.png */; };
+		88D97F3820B5195200425349 /* shop_dynamic_detail_comment@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97EF820B5195200425349 /* shop_dynamic_detail_comment@2x.png */; };
+		88D97F3920B5195200425349 /* tabBar_category_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97EF920B5195200425349 /* tabBar_category_normal@3x.png */; };
+		88D97F3A20B5195200425349 /* tabBar_me_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97EFA20B5195200425349 /* tabBar_me_press@2x.png */; };
+		88D97F3B20B5195200425349 /* flight_check_box_unselected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97EFB20B5195200425349 /* flight_check_box_unselected@2x.png */; };
+		88D97F3C20B5195200425349 /* jshop_dynamic_like@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97EFC20B5195200425349 /* jshop_dynamic_like@3x.png */; };
+		88D97F3D20B5195200425349 /* QuickActions_productList@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97EFD20B5195200425349 /* QuickActions_productList@3x.png */; };
+		88D97F3E20B5195200425349 /* syncart_less_btn_enable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97EFE20B5195200425349 /* syncart_less_btn_enable@2x.png */; };
+		88D97F3F20B5195200425349 /* order_address_suggestion_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97EFF20B5195200425349 /* order_address_suggestion_icon@3x.png */; };
+		88D97F4020B5195200425349 /* jshop_dynamic_liked@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97F0020B5195200425349 /* jshop_dynamic_liked@3x.png */; };
+		88D97F4120B5195200425349 /* tabBar_cart_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97F0120B5195200425349 /* tabBar_cart_press@2x.png */; };
+		88D97F4220B5195200425349 /* category_message_btn_n@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97F0220B5195200425349 /* category_message_btn_n@2x.png */; };
+		88D97F4320B5195200425349 /* tabBar_myJD_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97F0320B5195200425349 /* tabBar_myJD_press@2x.png */; };
+		88D97F4420B5195200425349 /* tabBar_myJD_press@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97F0420B5195200425349 /* tabBar_myJD_press@3x.png */; };
+		88D97F4520B5195200425349 /* tabBar_cart_press@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97F0520B5195200425349 /* tabBar_cart_press@3x.png */; };
+		88D97F4620B5195200425349 /* jshop_dynamic_liked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97F0620B5195200425349 /* jshop_dynamic_liked@2x.png */; };
+		88D97F4720B5195200425349 /* order_address_suggestion_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97F0720B5195200425349 /* order_address_suggestion_icon@2x.png */; };
+		88D97F4820B5195200425349 /* tabBar_home_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97F0820B5195200425349 /* tabBar_home_normal@3x.png */; };
+		88D97F4920B5195200425349 /* tabBar_home_press@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97F0920B5195200425349 /* tabBar_home_press@3x.png */; };
+		88D97F4A20B5195200425349 /* syn_cart_closeBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97F0A20B5195200425349 /* syn_cart_closeBtn@2x.png */; };
+		88D97F4B20B5195200425349 /* flight_check_box_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97F0B20B5195200425349 /* flight_check_box_selected@3x.png */; };
+		88D97F4C20B5195200425349 /* category_camera_7_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97F0C20B5195200425349 /* category_camera_7_gray@2x.png */; };
+		88D97F4D20B5195200425349 /* tabBar_myJD_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97F0D20B5195200425349 /* tabBar_myJD_normal@2x.png */; };
+		88D97F4E20B5195200425349 /* pd_commentVideoPlay@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97F0E20B5195200425349 /* pd_commentVideoPlay@3x.png */; };
+		88D97F4F20B5195200425349 /* tabBar_me_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97F0F20B5195200425349 /* tabBar_me_normal@3x.png */; };
+		88D97F5020B5195200425349 /* tabBar_me_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97F1020B5195200425349 /* tabBar_me_normal@2x.png */; };
+		88D97F5120B5195200425349 /* pd_commentVideoPlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97F1120B5195200425349 /* pd_commentVideoPlay@2x.png */; };
+		88D97F5220B5195200425349 /* tabBar_myJD_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97F1220B5195200425349 /* tabBar_myJD_normal@3x.png */; };
+		88D97F5320B5195200425349 /* category_camera_7_gray@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97F1320B5195200425349 /* category_camera_7_gray@3x.png */; };
+		88D97F5420B5195200425349 /* flight_check_box_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97F1420B5195200425349 /* flight_check_box_selected@2x.png */; };
+		88D97F5520B5195200425349 /* tabBar_home_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97F1520B5195200425349 /* tabBar_home_press@2x.png */; };
+		88D97F5620B5195200425349 /* syn_cart_closeBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97F1620B5195200425349 /* syn_cart_closeBtn@3x.png */; };
+		88D97F5720B5195200425349 /* tabBar_home_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97F1720B5195200425349 /* tabBar_home_normal@2x.png */; };
+		88D97F5820B5195200425349 /* back-icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97F1D20B5195200425349 /* back-icon@3x.png */; };
+		88D97F5920B5195200425349 /* back-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97F1E20B5195200425349 /* back-icon@2x.png */; };
+		88D97F5A20B5195200425349 /* back-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97F1F20B5195200425349 /* back-icon.png */; };
+		88D97F5B20B5195200425349 /* back-icon-mask.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D97F2020B5195200425349 /* back-icon-mask.png */; };
+		88D97F5C20B5195200425349 /* index.ios.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 88D97F2120B5195200425349 /* index.ios.jsbundle */; };
 		88DAFB1B207CFBC200BC4DDB /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88DAFB19207CFBC200BC4DDB /* WebP.framework */; };
 		88DAFB1C207CFBC200BC4DDB /* WebPDemux.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88DAFB1A207CFBC200BC4DDB /* WebPDemux.framework */; };
 		906C63CD9A924CB8B5E62E58 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58EB7A7FB20C4B559487911C /* Zocial.ttf */; };
@@ -359,6 +418,65 @@
 		88AEC3F4206E194F0058551B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = react_native_jd/Info.plist; sourceTree = "<group>"; };
 		88AEC3F5206E194F0058551B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = react_native_jd/main.m; sourceTree = "<group>"; };
 		88AEC3F9206E19650058551B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = react_native_jd/Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		88D97EE220B5195200425349 /* category_ranking@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "category_ranking@2x.png"; sourceTree = "<group>"; };
+		88D97EE320B5195200425349 /* category_search_bar_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "category_search_bar_icon@3x.png"; sourceTree = "<group>"; };
+		88D97EE420B5195200425349 /* tabBar_category_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBar_category_press@2x.png"; sourceTree = "<group>"; };
+		88D97EE520B5195200425349 /* jdshopsearch_arrow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jdshopsearch_arrow@3x.png"; sourceTree = "<group>"; };
+		88D97EE620B5195200425349 /* img_placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_placeholder.png; sourceTree = "<group>"; };
+		88D97EE720B5195200425349 /* tabBar_cart_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBar_cart_normal@3x.png"; sourceTree = "<group>"; };
+		88D97EE820B5195200425349 /* rankhome-dresser-bag@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rankhome-dresser-bag@2x.png"; sourceTree = "<group>"; };
+		88D97EE920B5195200425349 /* discovery_rightArrow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "discovery_rightArrow@3x.png"; sourceTree = "<group>"; };
+		88D97EEA20B5195200425349 /* discovery_rightArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "discovery_rightArrow@2x.png"; sourceTree = "<group>"; };
+		88D97EEB20B5195200425349 /* rankhome-dresser-bag@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rankhome-dresser-bag@3x.png"; sourceTree = "<group>"; };
+		88D97EEC20B5195200425349 /* tabBar_cart_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBar_cart_normal@2x.png"; sourceTree = "<group>"; };
+		88D97EED20B5195200425349 /* jdshopsearch_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jdshopsearch_arrow@2x.png"; sourceTree = "<group>"; };
+		88D97EEE20B5195200425349 /* category_search_bar_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "category_search_bar_icon@2x.png"; sourceTree = "<group>"; };
+		88D97EEF20B5195200425349 /* tabBar_category_press@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBar_category_press@3x.png"; sourceTree = "<group>"; };
+		88D97EF020B5195200425349 /* category_ranking@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "category_ranking@3x.png"; sourceTree = "<group>"; };
+		88D97EF120B5195200425349 /* QuickActions_productList@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QuickActions_productList@2x.png"; sourceTree = "<group>"; };
+		88D97EF220B5195200425349 /* jshop_dynamic_like@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jshop_dynamic_like@2x.png"; sourceTree = "<group>"; };
+		88D97EF320B5195200425349 /* flight_check_box_unselected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flight_check_box_unselected@3x.png"; sourceTree = "<group>"; };
+		88D97EF420B5195200425349 /* syncart_more_btn_enable@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "syncart_more_btn_enable@2x.png"; sourceTree = "<group>"; };
+		88D97EF520B5195200425349 /* tabBar_me_press@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBar_me_press@3x.png"; sourceTree = "<group>"; };
+		88D97EF620B5195200425349 /* tabBar_category_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBar_category_normal@2x.png"; sourceTree = "<group>"; };
+		88D97EF720B5195200425349 /* shop_dynamic_detail_comment@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shop_dynamic_detail_comment@3x.png"; sourceTree = "<group>"; };
+		88D97EF820B5195200425349 /* shop_dynamic_detail_comment@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shop_dynamic_detail_comment@2x.png"; sourceTree = "<group>"; };
+		88D97EF920B5195200425349 /* tabBar_category_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBar_category_normal@3x.png"; sourceTree = "<group>"; };
+		88D97EFA20B5195200425349 /* tabBar_me_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBar_me_press@2x.png"; sourceTree = "<group>"; };
+		88D97EFB20B5195200425349 /* flight_check_box_unselected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flight_check_box_unselected@2x.png"; sourceTree = "<group>"; };
+		88D97EFC20B5195200425349 /* jshop_dynamic_like@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jshop_dynamic_like@3x.png"; sourceTree = "<group>"; };
+		88D97EFD20B5195200425349 /* QuickActions_productList@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QuickActions_productList@3x.png"; sourceTree = "<group>"; };
+		88D97EFE20B5195200425349 /* syncart_less_btn_enable@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "syncart_less_btn_enable@2x.png"; sourceTree = "<group>"; };
+		88D97EFF20B5195200425349 /* order_address_suggestion_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "order_address_suggestion_icon@3x.png"; sourceTree = "<group>"; };
+		88D97F0020B5195200425349 /* jshop_dynamic_liked@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jshop_dynamic_liked@3x.png"; sourceTree = "<group>"; };
+		88D97F0120B5195200425349 /* tabBar_cart_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBar_cart_press@2x.png"; sourceTree = "<group>"; };
+		88D97F0220B5195200425349 /* category_message_btn_n@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "category_message_btn_n@2x.png"; sourceTree = "<group>"; };
+		88D97F0320B5195200425349 /* tabBar_myJD_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBar_myJD_press@2x.png"; sourceTree = "<group>"; };
+		88D97F0420B5195200425349 /* tabBar_myJD_press@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBar_myJD_press@3x.png"; sourceTree = "<group>"; };
+		88D97F0520B5195200425349 /* tabBar_cart_press@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBar_cart_press@3x.png"; sourceTree = "<group>"; };
+		88D97F0620B5195200425349 /* jshop_dynamic_liked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jshop_dynamic_liked@2x.png"; sourceTree = "<group>"; };
+		88D97F0720B5195200425349 /* order_address_suggestion_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "order_address_suggestion_icon@2x.png"; sourceTree = "<group>"; };
+		88D97F0820B5195200425349 /* tabBar_home_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBar_home_normal@3x.png"; sourceTree = "<group>"; };
+		88D97F0920B5195200425349 /* tabBar_home_press@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBar_home_press@3x.png"; sourceTree = "<group>"; };
+		88D97F0A20B5195200425349 /* syn_cart_closeBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "syn_cart_closeBtn@2x.png"; sourceTree = "<group>"; };
+		88D97F0B20B5195200425349 /* flight_check_box_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flight_check_box_selected@3x.png"; sourceTree = "<group>"; };
+		88D97F0C20B5195200425349 /* category_camera_7_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "category_camera_7_gray@2x.png"; sourceTree = "<group>"; };
+		88D97F0D20B5195200425349 /* tabBar_myJD_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBar_myJD_normal@2x.png"; sourceTree = "<group>"; };
+		88D97F0E20B5195200425349 /* pd_commentVideoPlay@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pd_commentVideoPlay@3x.png"; sourceTree = "<group>"; };
+		88D97F0F20B5195200425349 /* tabBar_me_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBar_me_normal@3x.png"; sourceTree = "<group>"; };
+		88D97F1020B5195200425349 /* tabBar_me_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBar_me_normal@2x.png"; sourceTree = "<group>"; };
+		88D97F1120B5195200425349 /* pd_commentVideoPlay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pd_commentVideoPlay@2x.png"; sourceTree = "<group>"; };
+		88D97F1220B5195200425349 /* tabBar_myJD_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBar_myJD_normal@3x.png"; sourceTree = "<group>"; };
+		88D97F1320B5195200425349 /* category_camera_7_gray@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "category_camera_7_gray@3x.png"; sourceTree = "<group>"; };
+		88D97F1420B5195200425349 /* flight_check_box_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flight_check_box_selected@2x.png"; sourceTree = "<group>"; };
+		88D97F1520B5195200425349 /* tabBar_home_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBar_home_press@2x.png"; sourceTree = "<group>"; };
+		88D97F1620B5195200425349 /* syn_cart_closeBtn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "syn_cart_closeBtn@3x.png"; sourceTree = "<group>"; };
+		88D97F1720B5195200425349 /* tabBar_home_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBar_home_normal@2x.png"; sourceTree = "<group>"; };
+		88D97F1D20B5195200425349 /* back-icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-icon@3x.png"; sourceTree = "<group>"; };
+		88D97F1E20B5195200425349 /* back-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-icon@2x.png"; sourceTree = "<group>"; };
+		88D97F1F20B5195200425349 /* back-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-icon.png"; sourceTree = "<group>"; };
+		88D97F2020B5195200425349 /* back-icon-mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-icon-mask.png"; sourceTree = "<group>"; };
+		88D97F2120B5195200425349 /* index.ios.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = index.ios.jsbundle; path = bundle/index.ios.jsbundle; sourceTree = "<group>"; };
 		88DAFB19207CFBC200BC4DDB /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebP.framework; sourceTree = "<group>"; };
 		88DAFB1A207CFBC200BC4DDB /* WebPDemux.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebPDemux.framework; sourceTree = "<group>"; };
 		8C36BE25141B4A208FA68E9E /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
@@ -483,6 +601,8 @@
 		13B07FAE1A68108700A75B9A /* react_native_jd */ = {
 			isa = PBXGroup;
 			children = (
+				88D97EDF20B5195200425349 /* assets */,
+				88D97F2120B5195200425349 /* index.ios.jsbundle */,
 				88AEC3F4206E194F0058551B /* Info.plist */,
 				88AEC3F5206E194F0058551B /* main.m */,
 				88AEC3F2206E193A0058551B /* AppDelegate.h */,
@@ -628,6 +748,128 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		88D97EDF20B5195200425349 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				88D97EE020B5195200425349 /* app */,
+				88D97F1820B5195200425349 /* node_modules */,
+			);
+			name = assets;
+			path = bundle/assets;
+			sourceTree = "<group>";
+		};
+		88D97EE020B5195200425349 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				88D97EE120B5195200425349 /* images */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		88D97EE120B5195200425349 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				88D97EE220B5195200425349 /* category_ranking@2x.png */,
+				88D97EE320B5195200425349 /* category_search_bar_icon@3x.png */,
+				88D97EE420B5195200425349 /* tabBar_category_press@2x.png */,
+				88D97EE520B5195200425349 /* jdshopsearch_arrow@3x.png */,
+				88D97EE620B5195200425349 /* img_placeholder.png */,
+				88D97EE720B5195200425349 /* tabBar_cart_normal@3x.png */,
+				88D97EE820B5195200425349 /* rankhome-dresser-bag@2x.png */,
+				88D97EE920B5195200425349 /* discovery_rightArrow@3x.png */,
+				88D97EEA20B5195200425349 /* discovery_rightArrow@2x.png */,
+				88D97EEB20B5195200425349 /* rankhome-dresser-bag@3x.png */,
+				88D97EEC20B5195200425349 /* tabBar_cart_normal@2x.png */,
+				88D97EED20B5195200425349 /* jdshopsearch_arrow@2x.png */,
+				88D97EEE20B5195200425349 /* category_search_bar_icon@2x.png */,
+				88D97EEF20B5195200425349 /* tabBar_category_press@3x.png */,
+				88D97EF020B5195200425349 /* category_ranking@3x.png */,
+				88D97EF120B5195200425349 /* QuickActions_productList@2x.png */,
+				88D97EF220B5195200425349 /* jshop_dynamic_like@2x.png */,
+				88D97EF320B5195200425349 /* flight_check_box_unselected@3x.png */,
+				88D97EF420B5195200425349 /* syncart_more_btn_enable@2x.png */,
+				88D97EF520B5195200425349 /* tabBar_me_press@3x.png */,
+				88D97EF620B5195200425349 /* tabBar_category_normal@2x.png */,
+				88D97EF720B5195200425349 /* shop_dynamic_detail_comment@3x.png */,
+				88D97EF820B5195200425349 /* shop_dynamic_detail_comment@2x.png */,
+				88D97EF920B5195200425349 /* tabBar_category_normal@3x.png */,
+				88D97EFA20B5195200425349 /* tabBar_me_press@2x.png */,
+				88D97EFB20B5195200425349 /* flight_check_box_unselected@2x.png */,
+				88D97EFC20B5195200425349 /* jshop_dynamic_like@3x.png */,
+				88D97EFD20B5195200425349 /* QuickActions_productList@3x.png */,
+				88D97EFE20B5195200425349 /* syncart_less_btn_enable@2x.png */,
+				88D97EFF20B5195200425349 /* order_address_suggestion_icon@3x.png */,
+				88D97F0020B5195200425349 /* jshop_dynamic_liked@3x.png */,
+				88D97F0120B5195200425349 /* tabBar_cart_press@2x.png */,
+				88D97F0220B5195200425349 /* category_message_btn_n@2x.png */,
+				88D97F0320B5195200425349 /* tabBar_myJD_press@2x.png */,
+				88D97F0420B5195200425349 /* tabBar_myJD_press@3x.png */,
+				88D97F0520B5195200425349 /* tabBar_cart_press@3x.png */,
+				88D97F0620B5195200425349 /* jshop_dynamic_liked@2x.png */,
+				88D97F0720B5195200425349 /* order_address_suggestion_icon@2x.png */,
+				88D97F0820B5195200425349 /* tabBar_home_normal@3x.png */,
+				88D97F0920B5195200425349 /* tabBar_home_press@3x.png */,
+				88D97F0A20B5195200425349 /* syn_cart_closeBtn@2x.png */,
+				88D97F0B20B5195200425349 /* flight_check_box_selected@3x.png */,
+				88D97F0C20B5195200425349 /* category_camera_7_gray@2x.png */,
+				88D97F0D20B5195200425349 /* tabBar_myJD_normal@2x.png */,
+				88D97F0E20B5195200425349 /* pd_commentVideoPlay@3x.png */,
+				88D97F0F20B5195200425349 /* tabBar_me_normal@3x.png */,
+				88D97F1020B5195200425349 /* tabBar_me_normal@2x.png */,
+				88D97F1120B5195200425349 /* pd_commentVideoPlay@2x.png */,
+				88D97F1220B5195200425349 /* tabBar_myJD_normal@3x.png */,
+				88D97F1320B5195200425349 /* category_camera_7_gray@3x.png */,
+				88D97F1420B5195200425349 /* flight_check_box_selected@2x.png */,
+				88D97F1520B5195200425349 /* tabBar_home_press@2x.png */,
+				88D97F1620B5195200425349 /* syn_cart_closeBtn@3x.png */,
+				88D97F1720B5195200425349 /* tabBar_home_normal@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		88D97F1820B5195200425349 /* node_modules */ = {
+			isa = PBXGroup;
+			children = (
+				88D97F1920B5195200425349 /* react-navigation */,
+			);
+			path = node_modules;
+			sourceTree = "<group>";
+		};
+		88D97F1920B5195200425349 /* react-navigation */ = {
+			isa = PBXGroup;
+			children = (
+				88D97F1A20B5195200425349 /* src */,
+			);
+			path = "react-navigation";
+			sourceTree = "<group>";
+		};
+		88D97F1A20B5195200425349 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				88D97F1B20B5195200425349 /* views */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		88D97F1B20B5195200425349 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				88D97F1C20B5195200425349 /* assets */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		88D97F1C20B5195200425349 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				88D97F1D20B5195200425349 /* back-icon@3x.png */,
+				88D97F1E20B5195200425349 /* back-icon@2x.png */,
+				88D97F1F20B5195200425349 /* back-icon.png */,
+				88D97F2020B5195200425349 /* back-icon-mask.png */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
 		88DAFB14207CFBA000BC4DDB /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -694,7 +936,7 @@
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = HSP9Z7CKL4;
+						DevelopmentTeam = 4XRJZH674H;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -1067,20 +1309,79 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88D97F4020B5195200425349 /* jshop_dynamic_liked@3x.png in Resources */,
+				88D97F2720B5195200425349 /* tabBar_cart_normal@3x.png in Resources */,
 				88AEC3F0206E19200058551B /* Images.xcassets in Resources */,
+				88D97F3120B5195200425349 /* QuickActions_productList@2x.png in Resources */,
+				88D97F5920B5195200425349 /* back-icon@2x.png in Resources */,
+				88D97F2B20B5195200425349 /* rankhome-dresser-bag@3x.png in Resources */,
 				88AEC3FA206E19650058551B /* LaunchScreen.xib in Resources */,
+				88D97F3E20B5195200425349 /* syncart_less_btn_enable@2x.png in Resources */,
 				88AEC3F6206E194F0058551B /* Info.plist in Resources */,
+				88D97F3920B5195200425349 /* tabBar_category_normal@3x.png in Resources */,
+				88D97F5320B5195200425349 /* category_camera_7_gray@3x.png in Resources */,
+				88D97F3320B5195200425349 /* flight_check_box_unselected@3x.png in Resources */,
+				88D97F5020B5195200425349 /* tabBar_me_normal@2x.png in Resources */,
+				88D97F4B20B5195200425349 /* flight_check_box_selected@3x.png in Resources */,
+				88D97F3820B5195200425349 /* shop_dynamic_detail_comment@2x.png in Resources */,
+				88D97F5720B5195200425349 /* tabBar_home_normal@2x.png in Resources */,
+				88D97F4220B5195200425349 /* category_message_btn_n@2x.png in Resources */,
+				88D97F4920B5195200425349 /* tabBar_home_press@3x.png in Resources */,
+				88D97F4F20B5195200425349 /* tabBar_me_normal@3x.png in Resources */,
+				88D97F3F20B5195200425349 /* order_address_suggestion_icon@3x.png in Resources */,
+				88D97F3B20B5195200425349 /* flight_check_box_unselected@2x.png in Resources */,
+				88D97F3020B5195200425349 /* category_ranking@3x.png in Resources */,
 				12E54134224A4484ADC83453 /* Entypo.ttf in Resources */,
+				88D97F4320B5195200425349 /* tabBar_myJD_press@2x.png in Resources */,
 				D81B87D0E9DD493DA460A045 /* EvilIcons.ttf in Resources */,
 				F1780657DA54471AAC3C75DE /* Feather.ttf in Resources */,
+				88D97F3C20B5195200425349 /* jshop_dynamic_like@3x.png in Resources */,
+				88D97F4A20B5195200425349 /* syn_cart_closeBtn@2x.png in Resources */,
+				88D97F2820B5195200425349 /* rankhome-dresser-bag@2x.png in Resources */,
+				88D97F3420B5195200425349 /* syncart_more_btn_enable@2x.png in Resources */,
+				88D97F5A20B5195200425349 /* back-icon.png in Resources */,
+				88D97F2620B5195200425349 /* img_placeholder.png in Resources */,
+				88D97F3720B5195200425349 /* shop_dynamic_detail_comment@3x.png in Resources */,
+				88D97F4E20B5195200425349 /* pd_commentVideoPlay@3x.png in Resources */,
+				88D97F4D20B5195200425349 /* tabBar_myJD_normal@2x.png in Resources */,
 				15DB3763463248CDBAAD8B28 /* FontAwesome.ttf in Resources */,
+				88D97F2420B5195200425349 /* tabBar_category_press@2x.png in Resources */,
 				4EEB0AB266E04C5C928C204B /* Foundation.ttf in Resources */,
+				88D97F4C20B5195200425349 /* category_camera_7_gray@2x.png in Resources */,
+				88D97F5220B5195200425349 /* tabBar_myJD_normal@3x.png in Resources */,
+				88D97F5620B5195200425349 /* syn_cart_closeBtn@3x.png in Resources */,
+				88D97F2520B5195200425349 /* jdshopsearch_arrow@3x.png in Resources */,
+				88D97F2920B5195200425349 /* discovery_rightArrow@3x.png in Resources */,
+				88D97F2F20B5195200425349 /* tabBar_category_press@3x.png in Resources */,
 				AFE06F24BFF649019D8C69E8 /* Ionicons.ttf in Resources */,
+				88D97F2E20B5195200425349 /* category_search_bar_icon@2x.png in Resources */,
+				88D97F5820B5195200425349 /* back-icon@3x.png in Resources */,
+				88D97F3220B5195200425349 /* jshop_dynamic_like@2x.png in Resources */,
+				88D97F5C20B5195200425349 /* index.ios.jsbundle in Resources */,
+				88D97F4520B5195200425349 /* tabBar_cart_press@3x.png in Resources */,
+				88D97F5120B5195200425349 /* pd_commentVideoPlay@2x.png in Resources */,
+				88D97F5520B5195200425349 /* tabBar_home_press@2x.png in Resources */,
 				2A4276021FEB469EA0266350 /* MaterialCommunityIcons.ttf in Resources */,
+				88D97F2A20B5195200425349 /* discovery_rightArrow@2x.png in Resources */,
+				88D97F4620B5195200425349 /* jshop_dynamic_liked@2x.png in Resources */,
 				D1AF7D8B83CF444F9730F48A /* MaterialIcons.ttf in Resources */,
+				88D97F3620B5195200425349 /* tabBar_category_normal@2x.png in Resources */,
 				BBCDDD55BC234539B5B867F3 /* Octicons.ttf in Resources */,
+				88D97F2D20B5195200425349 /* jdshopsearch_arrow@2x.png in Resources */,
+				88D97F2C20B5195200425349 /* tabBar_cart_normal@2x.png in Resources */,
+				88D97F4820B5195200425349 /* tabBar_home_normal@3x.png in Resources */,
+				88D97F3520B5195200425349 /* tabBar_me_press@3x.png in Resources */,
+				88D97F5B20B5195200425349 /* back-icon-mask.png in Resources */,
+				88D97F2320B5195200425349 /* category_search_bar_icon@3x.png in Resources */,
+				88D97F4120B5195200425349 /* tabBar_cart_press@2x.png in Resources */,
+				88D97F5420B5195200425349 /* flight_check_box_selected@2x.png in Resources */,
 				EEADFAC5200949BD83D300A3 /* SimpleLineIcons.ttf in Resources */,
 				906C63CD9A924CB8B5E62E58 /* Zocial.ttf in Resources */,
+				88D97F3D20B5195200425349 /* QuickActions_productList@3x.png in Resources */,
+				88D97F4420B5195200425349 /* tabBar_myJD_press@3x.png in Resources */,
+				88D97F4720B5195200425349 /* order_address_suggestion_icon@2x.png in Resources */,
+				88D97F3A20B5195200425349 /* tabBar_me_press@2x.png in Resources */,
+				88D97F2220B5195200425349 /* category_ranking@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1136,7 +1437,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = HSP9Z7CKL4;
+				DEVELOPMENT_TEAM = 4XRJZH674H;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -1161,7 +1462,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wuhenzhizao.jd;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wuhenzhizao.jd.ios;
 				PRODUCT_NAME = react_native_jd;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1176,7 +1477,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = HSP9Z7CKL4;
+				DEVELOPMENT_TEAM = 4XRJZH674H;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -1201,7 +1502,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wuhenzhizao.jd;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wuhenzhizao.jd.ios;
 				PRODUCT_NAME = react_native_jd;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				VERSIONING_SYSTEM = "apple-generic";
